@@ -1,0 +1,138 @@
+\title{Décroissance radioactive}
+\author{Raoul, HATTERER}
+\comment{source :Benoit Markey}
+\email{hatterer.raoul@gmail.com}
+
+\range{-5..5}
+
+\computeanswer{yes}
+\format{html}
+\precision{100}
+
+<!-- nombre de noyaux -->
+\integer{N01=randint(2..9)}
+\integer{N02=randint(1..20)}
+\real{N0=\N01*10^(\N02)}
+<!--  demi-vie = td*ln2 -->
+\integer{t01=randint(1..9)}
+\integer{t02=randint(1..5)}
+\real{td=\t01*10^(\t02)}
+\real{tmax=5*\td}
+\integer{t1=\tmax/randint(2..4)}
+<!-- courbe de décroissance  -->
+\text{N=\N0*e^(-x/\td)}
+\text{B=slib(graphpaper/func_milli ,,0,,\tmax max t(s),\N0 max noyaux,,,,\N)}
+\text{A=draw(300,300
+
+\B)}
+\text{graph=<img src="\A">}
+\real{marge=10/100}
+<!--  calcul demi-vie = td*ln2 -->
+\integer{rep1=ln(2)*\td}
+\real{rep1min=\rep1*(1-\marge)}
+\real{rep1max=\rep1*(1+\marge)}
+<!-- calcul de lambda -->
+\real{rep2=1/\td}
+\real{rep2min=\rep2*(1-\marge)}
+\real{rep2max=\rep2*(1+\marge)}
+<!-- calcul de l'activité initiale -->
+\real{rep3=\rep2*\N0}
+\real{rep3min=\rep3*(1-\marge)}
+\real{rep3max=\rep3*(1+\marge)}
+
+
+
+  <!-- STYLE CSS -->
+  \css{
+  <style type="text/css">
+    h1{
+    background-color: white;
+    color: #2584AB; margin: 1% 1%; padding : 1%;}
+    .enonce{
+    background-color: #E7F7FF;
+    color: black; margin: 1% 1%; padding : 1%;}
+    .questions{
+    background-color: #CCF0FF;
+    color: black; margin: 1% 1%; padding : 1%;}
+    .solution{ background-color: #D6E4C1;
+    color : green  ;margin: 0; padding : 1% 5% 5% 5%;}
+    .définition{ background-color: #FFBF7F;
+    color : black  ;margin: 0 10% 0 10%; padding : 1% 1% 1% 1%;}
+    h1.solution{ background-color: #C5E0A2;
+    color: green; margin: 5% 0 1% -5pt; padding : 1%;}
+    .formule{
+    border:2px solid black;
+    padding:3px;
+    }
+  </style>
+  }
+
+
+
+  
+  \statement{
+  <div class="enonce">
+    <p>
+      On considère une population initiale de \(\N0\) noyaux d'isotopes   radioactifs et on suit l'évolution du nombre de noyaux radioactifs   au cours du temps.
+    </p>
+
+    <p>
+      Constante radioactive :
+      <ul>
+	<li>Si l'on multiplie la constante radioactive &lambda;  par la demi-vie T<sub>1/2</sub>, le résultat est toujours égal à au logarithme népérien de 2.</li>
+	<br/>
+	<center>
+	  <span class="formule">&lambda; &middot; T<sub>1/2</sub> = ln(2)</span>
+	</center>
+	<br/>
+	<li>À un intant <i>t</i>, si l'on multiplie la constante radioactive &lambda;  par le nombre N de noyaux radioactifs présents, on obtient l'activité radioactive A.</li>
+	<center>
+	  <span class="formule">&lambda; &middot; N(t) = A(t)</span>
+	</center>
+      </ul>
+    </p>
+  </div>
+
+
+
+
+  <div style="position:relative; top:10px; left:150px; z-index:1; ">
+    \graph</div>
+  <div style="position:absolute;top:550px; left:180px; z-index:2;">
+    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="580" height="480" id="\imagedir/tangentes" align="middle">
+      <param name="allowScriptAccess" value="sameDomain" />
+      <param name="movie" value="\imagedir/reticule.swf" />
+      <param name="quality" value="high" />
+      <param name="wmode" value="transparent" />
+      <embed src="\imagedir/reticule.swf"  quality="high" wmode="transparent" width="580" height="480" name="tangentes" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" target="wims_external"/>
+    </object>
+  </div>
+
+  <div style="position:relative; top:20px">
+    <div class="questions">
+      À l'aide de la courbe précédente déterminez:
+      <ol>
+	<li>La demi-vie radioactive de cet isotope: \embed{reply1,10} s</li>
+	<li>La constante radioactive: \embed{reply2,10} s<sup>-1</sup></li>
+	<li>L'activité initiale de cet échantillon: \embed{reply3,10}</li>
+	<li>Quelle est le symbole de son unité?: \embed{reply4,10}</li>
+      </ol>
+    </div>
+  </div>
+</br>
+}
+
+\help{<p>
+  Pour vous faciliter la lecture, n'hésitez pas à utiliser :
+  <ul>
+    <li> le réticule que vous pouvez déplacer avec votre souris ;</li>
+    <li> les boutons « Écartement » pour allonger les pointillés verticaux.</li>
+  </ul>
+</p>
+}
+
+
+\answer{}{\rep1min,\rep1max}{type=range}
+\answer{}{\rep2min,\rep2max}{type=range}
+\answer{}{\rep3min,\rep3max}{type=range}
+\answer{}{Bq}{type=text}

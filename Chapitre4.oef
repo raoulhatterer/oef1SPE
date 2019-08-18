@@ -1,0 +1,218 @@
+\comment{CH 4 : La couleur des objets}
+\fold{CA4}{Compétences attendues}{}
+<div class="cours">
+  <img src="\filedir/book.jpg" class="icone"/>
+  <p>Correspond au chapitre 2  page 29 du livre</p>
+</div>
+
+
+<h1 class="cours">Synthèse additive des couleurs </h1>
+<div class="cours">
+  <img src="\filedir/TP.png" class="icone"/>
+  <p>(TP8)</p>
+  <p>
+    <mark>La synthèse additive des couleurs correspond à la superposition</mark>, en certaines proportions, <mark>de lumières colorées dont les couleurs primaires sont : rouge /vert /bleu.</mark>
+  </p>
+  <p>
+    Le blanc résulte de la superposition des 3 couleurs primaires RVB.  Le noir  résulte de l’absence totale de lumière.
+  </p>
+
+  
+  <div class="wimscenter">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+	    codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
+	    width="800"
+	    height="600">
+      <param name="movie" value="\filedir/synthese_couleurs.swf">
+	<param name="quality" value="high">
+	  <embed src="\filedir/synthese_couleurs.swf" quality="high"
+		 pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"
+		 width="800"
+		 height="600"></embed>
+    </object>
+  </div>
+
+</div>
+
+<h1 class="cours">Synthèse soustractive des Couleurs </h1>
+<div class="cours">
+  <img src="\filedir/TP.png" class="icone"/>
+  <p>(TP8)</p>
+
+  <p>
+    <mark>Les objets opaques colorés et les filtres réalisent une synthèse soustractive</mark> : la couleur qu’ils diffusent ou transmettent est obtenue <mark>en absorbant</mark> certaines radiations de la lumière blanche incidente. 
+  </p>
+  <p>
+  Les couleurs primaires de la synthèse soustractive sont : <mark> Jaune / magenta/cyan</mark>
+  </p>
+  
+  Deux <mark>couleurs</mark> sont <mark>complémentaires</mark> l’une de l’autre si :
+  <ul>
+    <li>par synthèse additive elles forment une lumière <mark>blanche</mark></li>
+    <li>par synthèse soustractive elles forment du <mark>noir</mark></li>
+  </ul>
+
+
+  <p>
+    Sur un cercle (et sur une étoile chromatique) les couleurs complémentaires sont opposées.
+  </p>
+  
+  
+
+  \def{text cercleChromatique =
+  xrange -300,300
+  yrange -300,300
+  \comment{filled roundrect -300,-299,299,300,10,skyblue}
+  <!-- cerclechromatique -->
+  linewidth 190
+  angle 0,0,200,0,60,cyan
+  angle 0,0,200,60,120,blue
+  angle 0,0,200,120,180,magenta
+  angle 0,0,200,180,240,red
+  angle 0,0,200,240,300,yellow
+  angle 0,0,200,300,360,green
+  linewidth 3
+  arrows2 black,10, 0,-100,0,100
+  rotationcenter 0,0
+  rotate 60
+  arrows2 black,10, 0,-100,0,100
+  rotationcenter 0,0
+  rotate 60
+  arrows2 black,10, 0,-100,0,100
+  }
+
+    \canvasdraw{600,600}{\cercleChromatique}
+
+
+
+    <p>
+      <mark>Conséquence : la couleur absorbée est complémentaire de la couleur perçue </mark>
+    </p>
+    <h2>Exemples : </h2>
+    <ul>
+      <li>Un filtre jaune absorbe la lumière ……………..………. et transmet la lumière ……………….…. ( soit les lumières …………………. et ………..…………..).</li>
+      <li>Un pigment de couleur cyan absorbe la radiation …………………... Il diffuse les couleurs bleue et verte qui en synthèse additive forme le cyan.</li>
+      <li>Un pigment de couleur magenta absorbe les radiations de couleur vertes. Il diffuse les couleurs bleue et rouge.</li>
+    </ul>
+</div>
+
+
+
+<h1 class="cours">La couleur d’un objet</h1>
+<div class="cours">
+  <p>
+    La couleur d’un objet dépend de plusieurs paramètres :
+    <ul>
+      <li>la   ………………………..…..….………..    qui l’éclaire</li>
+      <li>des lumières colorées que cet objet ………………………..  , ..………………….…   ou …………….……………..</li>
+      <li>……………………….………..</li>
+    </ul>
+</p>
+
+  <h2>Absorption, transmission et diffusion : </h2>
+
+
+ 
+
+  \def{text objetEclaire =
+  xrange -300,300
+  yrange -300,300
+\comment{filled roundrect -300,-299,299,300,10,skyblue}
+  <!-- objet -->
+  filled roundrect -200,-50,200,50,7,blue
+
+  linewidth 3
+  <!-- lumière incidente -->
+  poly black,0,50,80,130,40,130,40,290,-40,290,-40,130,-80,130
+  <!-- lumière transmise -->
+  filled poly blue,0,-300,70,-220,35,-220,35,-60,-35,-60,-35,-220,-70,-220
+  linewidth 1
+  poly black,0,-300,70,-220,35,-220,35,-60,-35,-60,-35,-220,-70,-220
+
+  <!-- lumière difusée -->
+  arrow -10,50,-250,250,12,blue
+  arrow -10,50,-260,240,12,blue
+  arrow 10,50,250,250,12,blue
+  arrow 10,50,260,240,12,blue
+  }
+
+    \canvasdraw{600,600}{\objetEclaire}
+
+
+
+
+
+
+  <p>
+  Un objet coloré éclairé peut :
+  <ul>
+    <li>absorber une partie de la lumière ……………………….. ; c’est le phénomène …………………………………..   </li>
+    <li>laisser passer une partie de la lumière incidente ; c’est le phénomène de ………………………………   .(condition : l’objet ne doit pas être opaque : ex filtres, vitraux)</li>
+    <li>renvoyer une partie de la lumière incidente dans toutes les …………………………………   ; c’est le phénomène de ………………………   ( objets opaques et objet translucide)</li>
+  </ul>
+</p>
+</div>
+
+
+<h1 class="cours">Vision des couleurs </h1>
+
+<h2 class="cours">Trichromie </h2>
+<div class="cours">
+  <p>
+Chez l’être humain, la perception des couleurs repose sur trois types de cônes, caractérisés par le type de pigments photorécepteurs (l’opsine) qu’ils contiennent : un pigment sensible au …………… (420 nm), un pigment sensible au …………… (530 nm) et un pigment sensible au ……………….. (565 nm). La vision humaine est donc qualifiée de TRICHROMIQUE. L’œil réalise une synthèse additive des couleurs.
+  </p>
+  <p>
+L’activité relative des trois types de cônes permet au cerveau de restituer toutes les couleurs par addition des signaux produits par l’excitation des différents types de cônes.
+  </p>
+  <p>
+Remarque :
+Il existe un autre type de cellules photoréceptrices: les …………………………….qui sont impliqués dans la vision des noirs et blancs. Ils sont 1000 fois plus sensibles à la luminosité que les cônes. Quand il y a peu de lumière comme la nuit, seuls les bâtonnets contribuent à la vision.
+  </p>
+</div>
+
+<h2 class="cours">Daltonisme </h2>
+<div class="cours">
+  <p>
+    <a target="wims_external" href="http://www.webexhibits.org/causesofcolor/2.html">Simulateur de vision</a>
+  </p>
+<p>
+Le daltonisme est une anomalie de la perception des couleurs due à l’absence d’un ou plusieurs types de cônes. On parle aussi de dichromie.
+La perception se fait uniquement à partir de 2 couleurs (primaires). Cette anomalie est liée à l'absence du gène correspondant et donc du pigment.
+</p>
+<p>
+  Il existe trois dichromies différentes :
+  <ul>
+    <li>Protanopie : perception du vert et du bleu seulement (absence du rouge) </li>
+    <li>Deutéranopie : perception du rouge et du bleu seulement (la plus fréquente) donc absence du vert</li>
+    <li>Tritanopie : perception du rouge et du vert seulement</li>
+  </ul>
+</p>
+<p>
+Cette anomalie de la vision, plus fréquente chez les hommes que chez les femmes peut-être diagnostiquée par le test chromatique d’Ishihara. John Dalton, chimiste et physicien (1766-1844) était protanope. Il donna son nom à cette anomalie visuelle : le daltonisme.
+</p>
+<p>
+Il existe également le monochromatisme (une seule couleur) ou  l’achromatie : il s’agit de l’absence totale de perception des couleurs. Celui qui en est atteint voit le monde en noir et blanc et des nuances de gris. Les cônes de la cornée sont dépourvus des trois pigments habituels qui permettent de voir les couleurs. 
+</p>
+<p>
+Remarque :
+Les mammifères ont, à de rares exceptions près, une vision dichromatique basée sur 2 types de cônes: bleu et vert.
+</p>
+
+
+<p>    <img src="\filedir/book.jpg" class="icone"/><br/>
+  <h3>Exercices : </h3>
+  QCM p 37 n° 1 ; n°2 ( 1 ; 2 ; 5 ; 6) ;  n°3 (tous) A faire seul en autoévaluation <br/>
+  p41  ex n° 16	;  P 42 ex n° 21 ,22 ; 23 ,25
+ <p>
+   <h3>Résolution problème (DS de l’an passé) </h3>   
+  </p>    
+Un citron est éclairé par une lumière blanche. On place un filtre cyan sur le trajet de la lumière (Voir schéma)
+De quelle couleur est perçu le citron ? Vous expliquerez votre démarche étapes par étapes et vous légenderez le schéma ci-dessous.
+Même question si l’on ajoute un filtre magenta après le filtre cyan.
+</p>
+
+ </div>
+
+
+
+

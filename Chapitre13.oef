@@ -1,0 +1,148 @@
+
+\comment{CH 13 : Piles et accumulateurs, une réponse au défi énergétique}
+
+
+\fold{CA13}{Compétences attendues}{}
+
+
+<div class="cours">
+  <img src="\filedir/book.jpg" class="icone"/>
+  <p>Correspond au chapitre 17 page 285 du livre</p>
+</div>
+
+<h1 class="cours">Réactions d’oxydoréduction </h1>
+<div class="cours">
+  <h2 class="cours">Oxydant/ Réducteur </h2>
+  <div class="mark">
+    <ul>
+      <li>Un oxydant est une espèce chimique capable de capter un ou plusieurs électrons : Cu<sup>2+</sup>(aq) + 2e<sup>-</sup> &rarr; Cu(s)</li>
+      <li>Un réducteur est une espèce chimique capable de céder un ou plusieurs électrons : Fe(s) &rarr; Fe<sup>2+</sup>(aq) +  2e<sup>-</sup></li>
+    </ul>
+  </div>
+
+  <h2 class="cours">Couple redox </h2>
+  <p>
+    <mark>Deux espèces chimiques, qui se transforment l’une en l’autre par gain ou perte d’électrons sont dites conjuguées et forment un</mark> couple oxydant/réducteur ou <mark>couple redox</mark>. L’oxydant est donné en premier dans le couple.
+  </p>
+  <h4>Exemples :   Cu<sup>2+</sup>/Cu ; Al<sup>3+</sup>/Al </h4>
+  <p>
+    On peut les relier par une demi-équation redox : <span class="formulechimique">Ox + n e<sup>-</sup> ⇌ Red</span> 
+  </p>
+
+  <div class="mark">
+    <h3>Méthode pour les couples plus compliqués : </h3>
+    <b>exemple : </b>
+    Le couple  MnO<sub>4</sub><sup>-</sup> / Mn<sup>2+</sup> conduit à…
+    <ol>
+      <li>Équilibrer la stœchiométrie de l’élément chimique commun (autre que l’oxygène et l’hydrogène) : </li>
+      équilibrage de Mn : 1 de chaque côté. On obtient : <span class="formulechimique"> MnO<sub>4</sub><sup>-</sup>(aq) ⇌ Mn<sup>2+</sup>(aq)</span> <br/>
+      <li>Équilibrer l’élément oxygène  O à l’aide de molécules d’eau H<sub>2</sub>O : </li>
+      équilibrage de O : 4 Oxygènes à gauche, donc on ajoute 4 molécules H<sub>2</sub>O à droite. On obtient : <span class="formulechimique">MnO<sub>4</sub><sup>-</sup>(aq) ⇌ Mn<sup>2+</sup> + 4 H<sub>2</sub>O(ℓ)</span> <br/>
+      <li>Équilibrer l’élément hydrogène H à l’aide des ions H<sup>+</sup>(aq) </li>
+      équilibrage des H : 8 atomes d’hydrogène à droite, donc 8 ions H<sup>+</sup>(aq) à gauche. On obtient : <span class="formulechimique">MnO<sub>4</sub><sup>-</sup>(aq)  + 8 H<sup>+</sup>(aq) ⇌ Mn<sup>2+</sup>(aq) + 4 H<sub>2</sub>O(ℓ)</span>
+      <li>Équilibrer les charges électriques avec les e<sup>-</sup> du côté de l’oxydant</li>
+      équilibrage des charges : à droite : charge 2+, à gauche : charge 7+, il faut donc  rajouter 5 e<sup>-</sup>. 
+      <p>
+	… on obtient donc la demi-équation redox : <span class="formulechimique"> MnO<sub>4</sub><sup>-</sup>(aq) + 8 H<sup>+</sup>(aq) + 5 e<sup>-</sup> ⇌ Mn<sup>2+</sup>(aq) + 4 H<sub>2</sub>O(&ell;)  </span>
+      </p>
+    </ol>
+  </div>
+  
+  <h4>Écrire les demi-équations des couples suivants :</h4>
+  <ul>
+    <li>  Cℓ<sub>2</sub>(g) / Cℓ<sup>-</sup>(aq) </li>
+    <li>  S<sub>4</sub>O<sub>6</sub><sup>2-</sup>(aq) / S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq) </li>
+    <li>  CℓO<sup>-</sup>(aq) / Cℓ<sub>2</sub>(g)</li>
+    <li>  Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>(aq) / Cr<sup>3+</sup>(aq)</li>
+  </ul>
+
+  <h2 class="cours">Oxydation et réduction </h2>
+
+  <ul class="mark">
+    <li>  Une oxydation est une perte d’électron : c’est le passage du réducteur d’un couple à son oxydant conjugué. </li>
+    <li>  Une réduction est un gain d’électrons : c’est le passage de l’oxydant d’un couple à son réducteur conjugué.</li>
+  </ul>
+  <h2>Écrire une équation d’oxydoréduction </h2>
+  <p>
+    Une réaction d’oxydoréduction est une réaction au cours de laquelle il y a un transfert d’électrons entre le réducteur d’un couple rédox et l’oxydant d’un autre couple.
+  </p>
+  <p>
+    Pour écrire l’équation de la réaction d’oxydoréduction, il faut combiner les deux demi équations de telle sorte que le nombre d’électrons libérés soit égal au nombre d’électrons captés. Ainsi les électrons n’interviennent pas dans l’équation d'oxydoréduction.
+  </p>
+  <h4>Exemples :</h4>
+  <ol>
+    <li>Réaction  entre les ions peroxodisulfate et les ions iodure</li>
+    <ul>
+      <li>S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) / SO<sub>4</sub><sup>2-</sup> (aq) :</li>
+      <li>I<sub>2</sub>(aq) / I<sup>-</sup> (aq) :</li>
+      <li>Équation : </li>
+    </ul>
+    <li>Réaction de l'acide oxalique H<sub>2</sub>C<sub>2</sub>O<sub>4</sub> par les ions permanganate MnO<sub>4</sub><sup>-</sup>(aq) en milieu acide. </li>
+    <ul>
+      <li>MnO<sub>4</sub><sup>-</sup>(aq) / Mn<sup>2+</sup>(aq) : </li>
+      <li>CO<sub>2</sub>(g) / H<sub>2</sub>C<sub>2</sub>O<sub>4</sub> (aq)  : </li>
+      <li>Équation: </li>
+    </ul>
+  </ol>
+</div>
+
+<h1 class="cours">Les piles </h1>
+<div class="cours">
+  Une pile électrochimique est un générateur qui transforme l'énergie chimique, issue d'une réaction d'oxydoréduction spontanée, en énergie électrique.
+
+  <h2 class="cours">Constitution d'une pile électrochimique </h2>
+
+  Une pile est constituée de :   <a target="wims_external" href="http://www.pccl.fr/physique_chimie_college_lycee/lycee/terminale_TS/daniell.htm">pile Daniell (animation)</a>
+  <ul>
+    <li>2 compartiments séparés appelés demi-piles contenants chacun : une électrode (matériaux conducteurs électrique) et une solution électrolytique.</li>
+    <li>Un pont salin (ou une paroi poreuse) reliant les 2 demi piles. Il  assure une jonction électrolytique entre les deux demi-piles (ferme le circuit) et l’électroneutralité des solutions par migration d’ions. </li>
+  </ul>
+  <h2 class="cours">Détermination de la polarité </h2>
+  <ul>
+    <li>Avec un ampèremètre :  placé en série avec une résistance entre les électrodes. 
+      Si \(I > 0\) le courant rentre par la borne mA (+) et ressort par la borne COM(-)</li>
+    <li>Avec un voltmètre : placé en dérivation aux bornes des électrodes : il mesure alors la f.é.m de la pile. 
+      Si \(U > 0\) :  la borne +  est celle reliée à la borne V du voltmètre.</li>
+  </ul>
+  <h2 class="cours">Réaction aux électrodes et réaction globale </h2>
+  <ul>
+    <li>  À la borne - : Zn
+      <ul>
+	<li>libération d’électrons : c’est une</li>
+	<li>l’électrode est une</li>
+      </ul>
+    </li>
+    <li>À la borne + : Cu
+      <ul>
+	<li>des électrons sont captés : c’est une</li>
+	<li>l’ électrode est une</li>
+      </ul>
+    </li>
+  </ul>
+  <p>
+    La réaction globale de la pile s'obtient en combinant les deux réactions aux électrodes et en équilibrant les électrons échangés : 
+  </p>
+  <h2 class="cours">Mouvement des porteurs de charges </h2>
+  Pour qu'une pile puisse débiter il faut que le circuit soit fermé (pont salin + connexion entre électrodes)
+  <ul>
+    <li>Dans les électrodes et le circuit électrique extérieur les porteurs de charges sont </li>
+    <li>Dans les solutions et le pont salin les porteurs de charge sont  </li>
+  </ul>
+  <p>
+    Lorsque la pile est en fonctionnement, elle consomme des réactifs. 
+    Une pile est usée lorsque la réaction d’oxydoréduction s’arrête, c’est à dire lorsque l’un des réactifs (réactif limitant) a été totalement consommé.
+  </p>
+  <p>
+    Il existe des piles dites « piles rechargeables » pour lesquelles il est possible de reformer les réactifs de la réaction chimique ayant lieu dans la pile (en fournissant de l’énergie électrique) :on parle d’accumulateurs. Leur nombre de recharges est limité et ils doivent être recyclés.
+  </p>
+  <p>
+    Les piles saline et alcaline ne sont pas rechargeables. Elles ont une durée d’utilisation limitée et doivent être recyclées (contiennent des métaux toxiques et produits corrosifs)
+  </p>
+  <p>
+    Une batterie est association en série d’accumulateurs.
+  </p>
+
+    <img src="\filedir/book.jpg" class="icone"/>
+    <h3>Exercices : 9p298 ; 12p299 ; 18p300 + seul voir exercices corrigés pages 296-297 + QCM page 295 </h3>
+
+</div>

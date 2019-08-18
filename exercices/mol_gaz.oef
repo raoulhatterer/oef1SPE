@@ -1,0 +1,87 @@
+\title{quantité de matière et gaz}
+\language{fr}
+\range{-5..5}
+\author{Raoul, Hatterer}
+\comment{source : romain minne}
+\email{hatterer.raoul@gmail.com}
+\computeanswer{no}
+\format{html}
+\precision{1000}
+
+\integer{debug=0}
+
+#variable pour le volume
+\real{x1=random(1..3)}
+\real{V=round(\x1*10)/10}
+
+
+# truc pour écrire la concentration avec le bon nombre de chiffre significatif
+\text{V=slib(text/sigunits \V,2)}
+\text{empty=}
+\text{V=wims(replace e+00 by \empty in \V)}
+
+
+\real{mol=round(\V/22.4*1000)/1000}
+
+\steps{c1
+r1}
+
+
+
+<!-- STYLE CSS -->
+\css{
+<style type="text/css">
+  h1{
+  background-color: white;
+  color: #2584AB; margin: 1% 1%; padding : 1%;}
+  .enonce{
+  background-color: #E7F7FF;
+  color: black; margin: 1% 1%; padding : 1%;}
+  .questions{
+  background-color: #CCF0FF;
+  color: black; margin: 1% 1%; padding : 1%;}
+  .solution{ background-color: #D6E4C1;
+  color : green  ;margin: 0; padding : 1% 5% 5% 5%;}
+  .définition{ background-color: #FFBF7F;
+  color : black  ;margin: 0 10% 0 10%; padding : 1% 1% 1% 1%;}
+  h1.solution{ background-color: #C5E0A2;
+  color: green; margin: 5% 0 1% -5pt; padding : 1%;}
+</style>
+}
+
+
+
+
+\statement{
+<div class="enonce">
+  Un flacon de volume V=\V L contient du dihydrogène H<sub>2</sub>.
+</div>
+<div class="questions">
+Choisir la bonne formule puis calculer la quantité de matière contenue
+dans la bouteille
+
+<p>
+<b><font color=red>Attention aux chiffres significatifs et aux unités.</font></b>
+</p>
+
+\if{\step=1}{
+Choisissez la bonne formule 
+\embed{choice 1}
+}
+\if{\debug=1}
+{
+<h3>debug mode</h3>
+Réponses : n= \mol mol
+}
+</div>
+<h4>Notations :  <mark>\(10^-1)</mark> s'écrit <mark>e-1</mark> et l'unité g&middot;mol<sup>-1</sup> s'écrit g/mol.</h4>
+<h4>Données :
+M<sub>C</sub> = 12,0 g&middot;mol<sup>-1</sup>, M<sub>H</sub> = 1,00 g&middot;mol<sup>-1</sup>, M<sub>O</sub> = 16,0 g&middot;mol<sup>-1</sup>,
+M<sub>N</sub> = 14,0 g&middot;mol<sup>-1</sup>, M<sub>Cu</sub> = 63,5 g&middot;mol<sup>-1</sup>, 
+V<sub>m</sub> = 22,4 L&middot;mol<sup>-1</sup>, N<sub>A</sub> = 6,02&middot;10<sup>23</sup>.
+</h4>
+
+}
+
+\answer{la quantité de matière est}{\mol mol#2}{type=sigunits}
+\choice { } {n=V/Vm}{n=m/M , n=N/Na, C=n/V, CmèreVmère=CfilleVfille }

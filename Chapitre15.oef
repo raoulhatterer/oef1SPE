@@ -1,0 +1,194 @@
+\comment{CH 15 : Les différentes familles en chimie organique et la synthèse organique}
+
+
+\comment{Programmation wims pour afficher les molécules ethene.mol et acide.mol avec jmolshow: Le '0' avant HTML5 est l'indice de la molécule dessinée par jmolshow. À chaque nouvelle molécule il faut augmenter l'index de 1 sinon, les fonctions javascript dont on a besoin se confondent.}
+
+
+
+<h1 class="cours">Les différentes familles</h1>
+<div class="cours">
+  Déjà vu : famille des alcanes et des alcools
+  <h4>Exemple :</h4>
+  <svg xmlns="http://www.w3.org/2000/svg"
+       xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cml="http://www.xml-cml.org/schema" width="183.923" height="180" x="0" y="0" font-family="sans-serif" stroke="rgb(0,0,0)" stroke-width="1"  stroke-linecap="round">
+    <rect x="0%" y="0%" width="100%" height="100%" stroke-width="0" fill="rgb(255,255,255)"  />
+    <line x1="143.9" y1="100.0" x2="109.3" y2="80.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="109.3" y1="80.0" x2="109.3" y2="40.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="109.3" y1="80.0" x2="74.6" y2="100.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="74.6" y1="100.0" x2="51.3" y2="86.5" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="74.6" y1="100.0" x2="74.6" y2="140.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <text x="22.000000" y="88.000000" fill="rgb(255,12,12)"  stroke="rgb(255,12,12)" stroke-width="1" font-size="16" >HO</text>
+    <text font-size="18.000000" fill ="black" font-family="sans-serif"
+	  x="10.000000" y="20.000000" ></text>
+    <title>3-methylbutan-2-ol</title>
+  </svg>
+
+
+  <h2 class="cours">Famille des alcènes </h2>
+
+
+  L'éthène comporte deux atomes de carbone comme l'éthane. Mais, contrairement à ce dernier, il possède une double liaison <span class="formulechimique">C=C</span> .
+  
+    \def{text alcene=slib(chemistry/jmolshow \filedir/ethene.mol, 320,240,white,spin on;,0,HTML5)}
+    \alcene
+  
+  <h4>Exemple :</h4>
+  <svg xmlns="http://www.w3.org/2000/svg"
+       xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cml="http://www.xml-cml.org/schema" width="200" height="114.641" x="0" y="0" font-family="sans-serif" stroke="rgb(0,0,0)" stroke-width="1"  stroke-linecap="round">
+    <rect x="0%" y="0%" width="100%" height="100%" stroke-width="0" fill="rgb(255,255,255)"  />
+    <line x1="160.0" y1="74.6" x2="140.0" y2="40.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="140.0" y1="43.0" x2="100.0" y2="43.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="140.0" y1="37.0" x2="100.0" y2="37.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="100.0" y1="40.0" x2="80.0" y2="74.6" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="80.0" y1="74.6" x2="40.0" y2="74.6" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <text font-size="18.000000" fill ="black" font-family="sans-serif"
+	  x="10.000000" y="20.000000" ></text>
+    <title>Z-pent-2-ene</title>
+  </svg>
+
+
+  \fold{}{Quel est son nom ?}{
+  <ul>
+    <li>La chaîne la plus longue comporte 5 atomes de carbone : si c'était un alcane se serait un pentane</li>
+    <li>Entre 2 des atomes de carbone on remarque la présence d'une double liaison: c'est un alcène donc un pentène </li>
+    <li>La double liaison est en position n°2 : c'est donc le pent-2-ène</li>
+    <li>Si en plus on veut préciser l'isomérie Z/E: il s'agit du Z-pent-2-ène</li>
+  </ul>
+  } 
+  
+  (voir fiche méthode pour plus d'explications)
+  
+  <h2 class="cours">Famille des composés carbonylés </h2>
+  <h3 class="cours">Les cétones </h3>
+  <h4>Exemple :</h4>
+  <svg xmlns="http://www.w3.org/2000/svg"
+       xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cml="http://www.xml-cml.org/schema" width="218.564" height="140" x="0" y="0" font-family="sans-serif" stroke="rgb(0,0,0)" stroke-width="1"  stroke-linecap="round">
+    <rect x="0%" y="0%" width="100%" height="100%" stroke-width="0" fill="rgb(255,255,255)"  />
+    <line x1="143.9" y1="100.0" x2="143.9" y2="60.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="142.4" y1="57.4" x2="165.8" y2="43.9" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="145.4" y1="62.6" x2="168.8" y2="49.1" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="143.9" y1="60.0" x2="109.3" y2="40.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="109.3" y1="40.0" x2="74.6" y2="60.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="74.6" y1="60.0" x2="40.0" y2="40.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="74.6" y1="60.0" x2="74.6" y2="100.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <text x="172.564065" y="48.000000" fill="rgb(255,12,12)"  stroke="rgb(255,12,12)" stroke-width="1" font-size="16" >O</text>
+    <text font-size="18.000000" fill ="black" font-family="sans-serif"
+	  x="10.000000" y="20.000000" ></text>
+    <title>4-methylpentan-2-one</title>
+  </svg>
+
+  (voir fiche méthode)
+  <h3 class="cours">Les aldéhydes </h3>
+  <h4>Exemple :</h4>
+  <svg xmlns="http://www.w3.org/2000/svg"
+       xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cml="http://www.xml-cml.org/schema" width="183.923" height="180" x="0" y="0" font-family="sans-serif" stroke="rgb(0,0,0)" stroke-width="1"  stroke-linecap="round">
+    <rect x="0%" y="0%" width="100%" height="100%" stroke-width="0" fill="rgb(255,255,255)"  />
+    <line x1="143.9" y1="140.0" x2="143.9" y2="100.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="143.9" y1="100.0" x2="109.3" y2="80.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="109.3" y1="80.0" x2="109.3" y2="40.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="109.3" y1="80.0" x2="74.6" y2="100.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="73.1" y1="102.6" x2="49.8" y2="89.1" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="76.1" y1="97.4" x2="52.8" y2="83.9" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <text x="34.000000" y="88.000000" fill="rgb(255,12,12)"  stroke="rgb(255,12,12)" stroke-width="1" font-size="16" >O</text>
+    <text font-size="18.000000" fill ="black" font-family="sans-serif"
+	  x="10.000000" y="20.000000" ></text>
+    <title>2-methylbutanal</title>
+  </svg>
+
+  (voir fiche méthode)
+  <h2 class="cours">Famille des acides carboxylique </h2>
+  <h4>Exemple 1 :</h4>
+  <svg xmlns="http://www.w3.org/2000/svg"
+       xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cml="http://www.xml-cml.org/schema" width="253.205" height="180" x="0" y="0" font-family="sans-serif" stroke="rgb(0,0,0)" stroke-width="1"  stroke-linecap="round">
+    <rect x="0%" y="0%" width="100%" height="100%" stroke-width="0" fill="rgb(255,255,255)"  />
+    <line x1="178.6" y1="140.0" x2="178.6" y2="100.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="178.6" y1="100.0" x2="213.2" y2="80.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="178.6" y1="100.0" x2="143.9" y2="80.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="143.9" y1="80.0" x2="109.3" y2="100.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="109.3" y1="100.0" x2="74.6" y2="80.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="71.6" y1="80.0" x2="71.6" y2="53.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="77.6" y1="80.0" x2="77.6" y2="53.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <line x1="74.6" y1="80.0" x2="51.3" y2="93.5" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+    <text x="68.641016" y="48.000000" fill="rgb(255,12,12)"  stroke="rgb(255,12,12)" stroke-width="1" font-size="16" >O</text>
+    <text x="22.000000" y="108.000000" fill="rgb(255,12,12)"  stroke="rgb(255,12,12)" stroke-width="1" font-size="16" >HO</text>
+    <text font-size="18.000000" fill ="black" font-family="sans-serif"
+	  x="10.000000" y="20.000000" ></text>
+    <title> - OBDepict</title>
+  </svg>
+
+  \fold{}{Quel est son nom ?}{
+  <ul>
+    <li>La chaîne la plus longue comporte 5 atomes de carbone : si c'était un alcane se serait un pentane</li>
+    <li>En bout de chaîne on reconnaît le groupe carboxyle caractéristique des acides carboxyliques: c'est donc un acide pentanoïque </li>
+    <li>On numérote la chaîne carbonée la plus longue à partir du carbone du groupe carboxyle</li>
+    <li>Le carbone n°4 porte un groupe méthyl : c'est donc l'acide 4-méthylpentanoïque</li>
+  </ul>
+  } 
+  
+  (voir fiche méthode pour plus d'explications)
+
+  <h4>Exemple 2 :</h4>
+
+    \def{text acide=slib(chemistry/jmolshow \filedir/acide.mol, 500,400,white,spin on;,1,HTML5)}
+    \acide
+
+
+  \fold{}{Quel est son nom ?}{
+  <ul>
+    <li>La chaîne la plus longue comporte 4 atomes de carbone : si c'était un alcane se serait un butane</li>
+    <li>En bout de chaîne on reconnaît le groupe carboxyle caractéristique des acides carboxyliques: c'est donc un acide butanoïque </li>
+    <li>On numérote la chaîne carbonée la plus longue à partir du carbone du groupe carboxyle</li>
+    <li>Le carbone n°2 porte un groupe méthyl, le carbone n°3 porte lui aussi un groupe méthyl : c'est donc l'acide 2,3-diméthylbutanoïque</li>
+  </ul>
+  } 
+  
+  (voir fiche méthode pour plus d'explications)
+  
+</div>
+
+<h1 class="cours">Oxydation des alcools par les ions permanganates </h1>
+<div class="cours">
+  <h4>Observations : </h4>
+  <p>
+    Les alcools primaires et secondaires décolorent une solution acidifiée de permanganate de potassium initialement violette.  Par contre pour les alcools tertiaires rien ne se passe.
+  </p>
+  <p>
+    Les aldéhydes décolorent aussi une solution acidifiée de permanganate de potassium.
+  </p>
+  <p>
+    Les cétones ne décolorent pas une solution acidifiée de permanganate de potassium.
+  </p>
+  <h2 class="cours">Cas des alcools primaires </h2>
+  <p>
+    Les  alcools primaires appartiennent au couple : <br/>
+    <span class="formulechimique">CH<sub>3</sub> – CHO / CH<sub>3</sub> – CH<sub>2</sub> – OH </span> : <br/><br/>
+    L'ion permanganate appartient au couple : <br/>
+    <span class="formulechimique">MnO<sub>4</sub><sup>-</sup>(aq) / Mn<sup>2+</sup> (aq) </span> : <br/><br/>
+    Equation finale : <br/>
+  </p>
+  <p>
+    Mise en évidence du produit formé : Le produit formé est un aldéhyde lequel comporte un groupement carbonyle mis en évidence par un test positif à la 2,4-dinitrophénylhydrazine (ou 2,4-DNPH) qui conduit à un précipité jaune-orangé. De plus, le test avec de la liqueur de Fehling (qui contient des ions cuivre II) est positif car il y a formation d'un précipité rouge brique d'oxyde de cuivre ( <span class="formulechimique">Cu<sub>2</sub>O</span> ).  <br/>
+  </p>
+  <p>
+    L’aldéhyde formé appartient au couple : <br/>
+    <span class="formulechimique">CH<sub>3</sub> – COOH / CH<sub>3</sub> – CHO </span> : <br/>
+    L'ion permanganate appartient au couple : <br/>
+    <span class="formulechimique">MnO<sub>4</sub><sup>-</sup>(aq) / Mn<sup>2+</sup> (aq) </span> : <br/><br/>
+    Equation finale :
+  </p>
+  <h4>Conclusion : l’oxydation d’un alcool primaire conduit à la formation d’un aldéhyde puis à un acide carboxylique si l’oxydant est en excès. </h4> 
+
+  <h2 class="cours">Cas des alcools secondaires </h2>
+
+  Les alcools secondaires appartiennent au couple : <br/>
+
+  L'ion permanganate appartient au couple : <br/>
+  <span class="formulechimique">MnO<sub>4</sub><sup>-</sup>(aq) / Mn<sup>2+</sup> (aq) </span> : <br/><br/>
+  
+  Equation finale : <br/><br/>
+  <h4>Conclusion : l’oxydation d’un alcool secondaire conduit à une cétone (test positif à la 2,4-DNPH , mais négatif à la liqueur de Felhing) </h4>
+
+  <h2 class="cours">Cas des alcools tertiaires </h2>
+  Les alcools tertiaires ne sont pas oxydés par les ions permanganates car le carbone fonctionnel ne porte pas d’atome d’hydrogène.
+
+</div>

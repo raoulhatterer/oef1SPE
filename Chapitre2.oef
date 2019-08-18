@@ -1,0 +1,305 @@
+\comment{Vision et image  à travers une lentille convergente}
+\fold{CA2} {Compétences attendues}
+
+<div class="cours">
+  <img src="\filedir/book.jpg" class="icone"/>
+  <p>Correspond au chapitre 1  page 13 du livre</p>
+</div>
+
+<h1 class="cours">Caractéristiques d’une lentille convergente</h1>
+<div class="cours">
+    <img src="\filedir/TP.png" class="icone"/>
+    <p>(Activité)</p>
+
+    <div class="wimscenter">
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+		       codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
+		       width="800"
+		       height="600">
+	<param name="movie" value="\filedir/lentillebougie.swf">
+	  <param name="quality" value="high">
+	    <embed src="\filedir/lentillebougie.swf" quality="high"
+		   pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"
+		   width="800"
+		   height="600"></embed>
+      </object>
+    </div>
+
+    <h2 class="cours">Définition</h2>
+
+    <a target="wims_external" href="http://e.m.c.2.free.fr/lent5.jpg">Une lentille convergente</a> est un objet transparent et homogène (en verre, en plastique…) plus épais en son centre qu’en ses bords.
+
+    Elle est représentée par :
+    <ul>
+	<li>un segment fléché (les flèches traduisent que les bords sont fins) ;   symbole (L) </li>
+	<li>son axe optique noté Δ (droite passant par le centre O de la lentille et perpendiculaire à celle-ci)</li>
+    </ul>
+
+
+
+    <h2 class="cours">Propriétés et construction  </h2>
+    \def{integer OF=-125}
+    \def{integer OFprime=-\OF}
+    \def{integer OA=-300}
+    \def{integer AB=50}
+    \def{real OAprime= 1/(1/\OA + 1/\OFprime)}
+    \def{real gammaL= \OAprime / \OA}
+    \def{real AprimeBprime=\gammaL*\AB }
+
+    \def{text schemaLentille =
+    xrange -400,400
+    yrange -130,130
+    filled roundrect -400,-129,399,130,10,skyblue
+    <!-- axe optique -->
+    hline 0,0,black
+    mathml -390,-10,0,0,(\Delta)
+    <!-- lentille convergente en x=0 -->
+    segment 0,-100,0,100,black
+    polyline black,-7,90,0,100,7,90
+    polyline black,-7,-90,0,-100,7,-90
+    text black,0,105,medium,(L)
+    text black,0,5,medium,O
+    <!-- foyer objet -->
+    segment \OF,-5,\OF,5,black
+    text black,\OF,5,medium,F
+    <!-- foyer image -->
+    segment \OFprime,-5,\OFprime,5,black
+    text black,\OFprime,5,medium,F'
+    <!-- objet AB -->
+    arrow \OA,0,\OA,\AB,10,black
+    text black,\OA,-20,medium,A
+    text black,\OA,\AB+5,medium,B
+    <!-- image A'B' -->
+    arrow \OAprime,0,\OAprime,\AprimeBprime,10,black
+    text black,\OAprime,5,medium,A'
+    text black,\OAprime,\AprimeBprime-20,medium,B'
+    <!-- rayon passant par le centre -->
+    arrow \OA,\AB,\OA/2,\AB/2,10,blue 
+    segment \OA,\AB,0,0,blue 
+    segment 0,0,2*\OAprime,2*\AprimeBprime,blue 
+    <!-- rayon partant parallèle à l'axe optique -->
+    arrow \OA,\AB,\OA/2,\AB,10,red  
+    segment \OA,\AB,0,\AB,red 
+    segment 0,\AB,3*\OFprime,-2*\AB,red 
+    <!-- rayon partant vers le foyer objet -->
+    arrow \OA,\AB,(\OA+\OF)/2,\AB/2,10,green 
+    segment \OA,\AB,0,\AprimeBprime,green 
+    segment 0,\AprimeBprime,2*\OAprime,\AprimeBprime,green 
+    }
+
+    \canvasdraw{800,260}{\schemaLentille}
+
+    <img src="\filedir/TP.png" alt="description de l'image"/>
+
+    <ul>
+      <li>L’image A’ d’un point A situé sur l’axe optique est sur l’axe optique</li>
+      <li>Le point B (comme tous les autres, mais on ne va en prendre qu'un : ce sera plus simple) émet des rayons de lumière dans toutes les directions. Les rayons qui vont vers la droite et qui vont atteindre la lentille, vont être déviés. Parmi eux, il y a trois rayons particuliers dont on peut prévoir le trajet indépendamment de celui des autres rayons  :
+	<ol>
+	  <li class="mark">Le rayon lumineux incident passant par le centre optique O de la lentille : il n’est pas dévié lorsqu'il traverse la lentille.</li>
+	  <li class="mark">Le  rayon lumineux  incident parallèle à l’axe optique :  lorsqu'il ressort de la lentille, il converge en un point de l’axe appelé Foyer focal image noté F’ </li>
+	  <li class="mark">Le rayon lumineux passant par un point de l’axe appelé Foyer focal objet noté F : il ressort de la lentille parallèle à l’axe optique. </li>
+	</ol>
+	<li>Tous les rayons issus du point objet B convergent en un point unique B’ image de B à travers la lentille. Si le point B' a été déterminé on est donc en mesure de tracer le trajet de n'importe quel rayon issu de B.  Tout rayon quelconque issu du point objet B passe par le point image B’. </li>
+	<li>Si AB est perpendiculaire à l’axe optique alors son image A’B’ est aussi perpendiculaire à l’axe optique.</li>
+    </ul>
+
+    <p>
+	Remarques :
+	<ul>
+	    <li> F et F’ sont symétriques par rapport à O.</li>
+            <li>le tracé de 2 rayons lumineux suffit pour trouver l’image du point B</li>
+            <li>L’image d’un objet situé très loin de la lentille (considéré comme étant à l’infini) se forme sur le plan focal image (plan perpendiculaire à Δ passant par F’) </li>
+            <li>L’axe optique étant orienté on introduit un outil mathématique : la mesure algébrique (repérée par une barre horizontale, ex : \(\overline{OF'}\) = mesure algébrique de la longueur entre O et F’ )</li>
+	    <li>La distance entre O et F’ est une caractéristique de la lentille étudiée : on l’appelle la distance focale de la lentille et on la note f’ :       \(f'=\overline{OF'}=-\overline{OF}\)   (en mètres)    avec \(\overline{OF'}>0\) et \(\overline{OF}<0\)</li>
+	</ul>
+    </p>
+
+    <h2 class="cours">Vergence d’une lentille</h2>
+    <p>    Les ophtalmologues caractérisent les verres correcteurs par leur vergence notée V (ou C) :
+	<center>
+	    <span class="formulemathematique">\(V=\frac{1}{f'}\)</span>
+	</center>
+	(V en dioptries δ si f' exprimé en mètres)
+    </p>
+</div>
+
+<h1 class="cours">Caractéristiques d’une image à travers une lentille convergente </h1>
+
+<div class="cours">
+  <h2 class="cours">Le grandissement</h2>
+  <p>
+    Le grandissement \(\gamma{}\) est le rapport de la taille \(\overline{A'B'}\)de l’image sur la taille \(\overline{AB}\) de l’objet:
+    <center>
+      <span class="formulemathematique">\(\gamma{}=\frac{\overline{A'B'}}{\overline{AB}}=\frac{\overline{OA'}}{\overline{OA}}\)</span>
+    </center>
+  </p>
+
+<p>
+  Sa valeur renseigne sur la taille de l’image :
+  <ul>
+    <li>Si \(\left|\gamma{}\right|>1\) l'image est plus grande que l’objet ;</li>
+<li>Si \(\left|\gamma{}\right|<1\) l'image est plus petite que l’objet.</li>
+				 </ul>
+valeur absolue :\(\left|...\right|\)  = valeur toujours positive
+</p>
+
+<p>
+  Son signe renseigne sur son sens :
+  <ul>
+    <li>Si  \(\gamma{}>0\), l'image est droite (même sens que l’objet) ;</li>
+<li>Si \(\gamma{}<0\), l'image est renversée (sens opposé à l’objet).</li>
+  </ul>
+</p>
+
+
+
+<h2 class="cours">Relation de conjugaison</h2>
+<img src="\filedir/TP.png" class="icone"/>
+<p>(TP 4 : Obtension d'images nettes à travers une lentille convergente)</p>
+
+<p>
+  Connaissant la position \(\overline{OA}\) d’un objet, on peut déterminer la position \(\overline{OA'}\) de son image par la relation de conjugaison suivante :
+  <center>
+    <span class="formulemathematique">
+      \(\frac{1}{\overline{OA'}}=\frac{1}{\overline{OA}}+\frac{1}{\overline{OF'}}\)
+    </span>
+  </center>
+</p>
+
+<p>
+  <mark>
+    ATTENTION : Pour ces deux relations, les grandeurs sont algébriques.
+    </mark>
+</p>
+
+<h2 class="cours">Remarque : Image réelle ou virtuelle ?</h2>
+<p>
+  L’image d’un objet est dite <mark>réelle</mark> si elle est formée après la lentille et peut être observée sur écran (l’objet est à une distance supérieure à la distance focale)
+</p>
+<p>
+  Elle est dite <mark>virtuelle</mark> si elle se forme avant la lentille. Elle  peut alors être observée à travers la lentille (effet loupe) mais pas sur un écran (l’objet est à une distance inférieure à la distance focale).
+</p>
+
+
+<img src="\filedir/book.jpg" class="icone"/>
+<p>S'auto-évaluer p21 : 1,2,3(2,3,5) + 11,13,20p25/26</p>
+
+</div>
+
+
+
+<h1 class="cours">Fonctionnement comparé de l’œil et de l’appareil photo</h1>
+<div class="cours">
+  <img src="\filedir/TP.png" class="icone"/>
+  <p>(TP 5 : L’œil et l’appareil photographique, de vrais jumeaux ?)</p>
+
+  <h2 class="cours">Modélisation de l’œil et de l’appareil photo</h2>
+  <p>
+    L’œil et l’appareil photographique sont des systèmes convergents qui forment une image <mark>réelle</mark> (ou nette), l’un sur la rétine, l’autre sur un capteur.
+  </p>
+
+  <h3>Pour l’œil (Activité) </h3>
+  <p>
+    L’œil peut-être modélisé par un modèle qui ne tient compte que de ses fonctionnements optiques et que l’on appelle <mark>modèle réduit de l’œil.</mark>
+  </p>
+  
+  <div class="wimscenter">
+    <img src="\filedir/oeil-modele.png" width="500"/>
+  </div>
+  <p>
+    Il est constitué :
+    <ul>
+      <li>D'un <mark>diaphragme</mark> qui joue le rôle de l’ensemble pupille-iris : limite la lumière pénétrant dans l’oeil</li>
+      <li>D'une <mark>lentille convergente</mark> qui joue le rôle du cristallin : milieu transparent qui réfracte les rayons de lumière</li>
+      <li>D'un <mark>écran</mark> qui joue le rôle de la rétine : endroit où se forment les images nettes</li>
+    </ul>
+  </p>
+  <h3>Pour l’appareil photo</h3>
+  <p>
+    \fold{}{De quoi un appareil photo est-il constitué?}{
+    Un appareil photo est constitué:
+    <ul>
+      <li>D’un <mark>diaphragme</mark> qui régule l’entrée de lumière pénétrant dans l’appareil photo ;</li>
+      <li>D’un objectif (une <mark>lentille convergente</mark>) ;</li>
+      <li>De capteurs jouant le rôle <mark>d'écran.</mark></li>
+    </ul>
+    }
+    <img src="\filedir/book.jpg" class="icone"/>
+    <p>Voir Doc 3 p17</p>
+  </p>
+  Conclusion : l’œil et l’appareil photo peuvent être modélisé par les mêmes éléments, pour autant ont–ils le même fonctionnement ?
+
+
+  <h2 class="cours">Accommodation et mise au point</h2>
+  <h3>Cas de l’œil : accommodation</h3>
+  <p>
+    Rappel : dans un œil, la distance cristallin – rétine ne peut être modifiée ( distance lentille – image fixe).
+  </p>
+  <p>
+    L’accommodation de l’œil est possible grâce à des muscles qui déforment le cristallin et augmente sa courbure. L’oeil modifie donc la <mark>vergence (ou distance focale)</mark> de son cristallin.
+  </p>
+  <p>
+    L’image d’un objet observé à grande distance (considéré à l’infini) se trouve au foyer image \(F'\) du cristallin ; c’est là que se trouve la rétine.  Si l’objet observé se rapproche de l’œil, la distance cristallin-rétine ne pouvant changer, c’est la distance focale du cristallin qui doit diminuer
+  </p>
+
+  <h3>Cas de l’appareil photographique : mise au point</h3>
+  <p>
+    La vergence de la lentille est constante (c’est l’objectif). La netteté de la photographie est obtenue en déplaçant l’écran (la distance lentille-écran \(OA'\) a donc varié). C’est par ce déplacement que l’image se forme sur le capteur. On parle de mise au point.
+  </p>
+  <p>
+    L’image d’un objet photographié à grande distance (considéré à l’infini) se trouve dans le plan focal image de l’objectif ; c’est là que doit être le capteur. Si l’objet photographié se rapproche, la distance objectif-capteur doit être plus <mark>grande.</mark>
+</p>
+
+  \fold{}{Tableau: variable ou constante ?}{
+  <center>
+    <table class="cours">
+      <tr>
+	<th scope="col"></th>
+	<th scope="col">Appareil photographique</th>
+	<th scope="col">Œil</th>
+      </tr>
+      <tr>
+	<th scope="row">Vergence (et distance focale) de la lentille</th>
+	<td>constante</td>
+	<td>variable</td>
+      </tr>
+      <tr>
+	<th scope="row">Distance lentille-écran \(OA'\)</th>
+	<td>variable</td>
+	<td>constante</td>
+      </tr>
+    </table>
+  </center>
+  }
+
+
+
+<h2 class="cours">Similitudes et différences :</h2>
+
+<h3>Similitudes :</h3>
+L’objectif comporte :
+<ul>
+  <li>un diaphragme réglable ( qui joue le même rôle que l’iris + pupille) ;</li>
+  <li>des lentilles ( qui joue le même rôle que le cristallin + milieux transparents) ;</li>
+  <li>la pellicule, ou le capteur, surface sensible sur laquelle se forme l’image joue le même rôle que la rétine.</li>
+</ul>
+
+<h3>Différences :</h3>
+<p>
+  Le plus souvent, la mise au point s’effectue en déplaçant les lentilles de l’objectif par rapport au capteur, et non en modifiant la distance focale.
+</p>
+<p>  
+  Contrairement à l’œil, l’appareil photographique dispose d’une durée d’exposition variable, ce qui permet de photographier des objets trop peu lumineux pour que l’œil puisse les voir.
+</p>
+
+<img src="\filedir/book.jpg" class="icone"/>
+<h3>Exercices : s’auto évaluer p21   + 11,13,15, 20,23 p25</h3>
+  <p>
+    <ul>
+      <li>Après 1er cours : autoévaluer 1,2,3(2,3,5) + 11,13,20p25/26</li>
+      <li>Après la fin : autoévaluer 3 (1,4,6,7) + 4 p21 + 15,23 p25/26</li>
+    </ul>
+<a target="wims_external" href="http://www.edumedia-sciences.com/fr/a295-lentille-convergente">Lentille convergente</a>
+</p>
+
+</div>

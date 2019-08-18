@@ -1,0 +1,274 @@
+\comment{La chimie des couleurs}
+\fold{CA1} {Compétences attendues}
+
+<div class="cours">
+  <img src="\filedir/book.jpg" class="icone"/>
+  <p>Correspond au chapitre 4  page 61 du livre</p>
+</div>
+
+<h1 class="cours">Pigments et colorants</h1>
+<div class="cours">
+  <img src="\filedir/TP.png" class="icone"/>
+  <p>Observer (Activité préparatoire TP 1)</p>
+
+  <p>
+    La nature offre de nombreuses sources de couleurs d’origines minérale (minerais de cuivre bleus et verts, de fer ocre…) végétale (fleurs, racines, tiges…) ou animale (coquillages, insectes…)
+  </p>
+  <p>
+    <mark>Les pigments</mark> sont des substances colorées dispersées dans un milieu où elles sont <mark>insolubles</mark>.
+    <mark>Les colorants</mark> sont des substances colorées <mark>solubles</mark> dans leur milieu d’origine.
+  </p>
+  <p>
+    <img src="\filedir/applications.png" class="icone"/> <br/>
+    Applications :
+    Les pigments sont utilisés dans l’art (peintures, encres..) et dans l’industrie (cosmétique).
+    Les colorants sont plutôt utilisés dans les industries alimentaires (bonbons, boissons..) et textile.
+  </p>
+  <p>
+    <img src="\filedir/book.jpg" class="icone"/>
+    <br/>Ex7p74 : Distinguer un pigment d'un colorant
+  </p>
+</div>
+
+<h1 class="cours">Extraction d’une espèce colorée</h1>
+<div class="cours">
+  <img src="\filedir/TP.png" class="icone"/>
+  <p>Observer  (TP 1 + fiche méthode 1)</p>
+  <h2 class="cours">Extraction directe</h2>
+  <p> Depuis la préhistoire, l'homme extrait des espèces colorées à partir de plantes ou d’insectes.
+  </p>
+  <p>Protocole :
+    <ul>
+      <li>Piler ou broyer la plantes</li>
+      <li>Laisser macérer avec le solvant choisit</li>
+      <li>Filtrer sur Buchner ou filtration simple pour séparer les solides du liquide</li>
+    </ul>
+  </p>
+  <p>Choix du solvant : On choisit toujours le solvant dans lequel l’espèce chimique à extraire est <mark>soluble</mark>.
+  </p>
+  <h2 class="cours">Extraction liquide /liquide</h2>
+  <p> Lorsque l’espèce chimique à extraire est contenue dans une solution aqueuse on choisira un solvant organique en
+    fonction de plusieurs critères :
+    <ul>
+      <li>Solvant dans lequel l’espèce chimique à extraire est plus <mark>soluble</mark> que dans l’eau</li>
+      <li>Il faut impérativement que l’eau et le solvant organique ne soit pas <mark>miscibles</mark></li>
+      <li>Solvant le moins <mark>nocif pour l'homme et pour l'environnement</mark> et enfin le moins cher.</li>
+    </ul>
+  </p>
+  <p>L’espèce chimique extraite peut-être identifiée par exemple par chromatographie sur couche mince (CCM).
+  </p>
+  <div class="rappel"> \fold{}{Rappel}{[Rappel]
+    <p>La (CCM) est une méthode physique qui permet de séparer et d’identifier des espèces chimiques présentes dans des mélanges liquides homogènes.
+    </p>
+    <p>Pour réaliser une CCM, on utilise :
+      <ul>
+	<li>un support fixe (par exemple une plaque en aluminium recouverte d’une couche mince de silice)
+	</li>
+	<li>un éluant constitué d’un solvant approprié (ou mélange de solvants) : c’est une phase mobile.
+	</li>
+      </ul>
+      Deux taches qui arrivent à la même hauteur correspondent à la même espèce chimique (identification).
+      Si plusieurs taches apparaissent, les unes au-dessus des autres, le liquide contient plusieurs espèces chimiques différentes, si une seule tache apparaît, il contient une seule espèce chimique (corps pur).
+    </p>
+    Exemple :
+    Les filtrats obtenus en TP contiennent de la matière colorée. Le chromatogramme obtenu montre que le paprika contient plusieurs espèces chimiques colorées (plusieurs taches observées) et les carottes une seule (une seule tache observée).}
+  </div>
+</div>
+
+
+<h1 class="cours">Quelques paramètres influençant la couleur d’une substance</h1>
+<div class="cours">
+  <img src="\filedir/TP.png" class="icone"/>
+  <p> (TP 2)
+  </p>
+  <p>La couleur de certaines espèces chimiques dépend :
+    <ul>
+      <li>du <mark>solvant</mark> dans lequel elles sont dissoutes ; </li>
+      <li>du <mark>pH</mark> de la solution aqueuse dans laquelle elles sont dissoutes. Ces espèces sont appelées des <mark>indicateurs colorés acido basique</mark>  ; </li>
+      <li>de la <mark>température</mark>. </li>
+    </ul>
+  </p>
+  <p>
+    <img src="\filedir/book.jpg" class="icone"/>
+    <br/>
+    Ex8p74 : Étudier l'influence d'un paramètre sur la couleur d'une espèce <br/>Ex17p75 : Le pernambouc ou « bois du Brésil » 
+  </p>
+</div>
+
+<h1 class="cours">Synthèse d’une espèce colorée</h1>
+<div class="cours">
+  <img src="\filedir/TP.png" class="icone"/>
+  <p>Agir  (TP 3)
+  </p>
+
+  <p>L’indigo est un pigment. Il est possible de l’extraire de l’indigotier ou de le synthétiser.
+  </p>
+  <p>
+    La synthèse d’une molécule se déroule généralement en 3 étapes :
+    <ul>
+      <li>la <mark>transformation chimique</mark> (déclenchée par la mise en présence des réactifs)</li>
+      <li>le <mark>traitement</mark> (pour isoler et purifier l’espèce synthétisée)</li>
+      <li>l’<mark>identification</mark> de l’espèce synthétisée (par CCM par exemple)</li>
+    </ul>
+
+  </p>
+  <p> Une synthèse est caractérisée par son <mark>rendement</mark> noté ρ :
+    <center>
+      <span class="formulemathematique">\(ρ= \frac {n(obtenu)}{n(maximal)}\)
+      </span>
+    </center>
+  </p>
+  <p> Comme toutes les matières colorées organiques, l’indigo est essentiellement constitué de carbone et d’hydrogène.   C’est une molécule colorée car sa structure présente  une alternance de doubles liaisons et simples liaisons (système conjugué dans lequel il existe des doubles liaisons en positions conjuguées).
+  </p>
+</div>
+
+<h1 class="cours">Structure moléculaire d’une espèce chimique colorée</h1>
+<div class="cours">
+  <p>
+    <img src="\filedir/TP.png" class="icone"/>
+    <br/>
+    Comprendre (Activité préparatoire 1)
+  </p>
+  <h2 class="cours">Système conjugué</h2>
+  <p>La chimie organique est la chimie des composés naturels et synthétiques contenant principalement les éléments <mark>carbone C</mark> et <mark>hydrogène H</mark>.
+  </p>
+  <p>L’enchaînement des atomes de carbone constituant une molécule organique forme le <mark>squelette carboné</mark> ou <mark>chaîne carbonée</mark> de la molécule.
+  </p>
+  <p>
+    Une chaîne carbonée peut-être :
+    <ul>
+      <li>Ramifiée : <a  target="wims_external" href="https://chemapps.stolaf.edu/jmol/jmol.php?title=2-m%C3%A9thylpropane&model=CC%28C%29C">Visualiser la molécule d’isobutane (ou 2-méthylpropane)</a> </li>
+      <li>Linéaire : <a  target="wims_external" href="https://chemapps.stolaf.edu/jmol/jmol.php?title=%27%27n%27%27-butane&model=CCCC">Visualiser la molécule de butane</a></li>
+      <li>Cyclique : <a   target="wims_external" href="https://chemapps.stolaf.edu/jmol/jmol.php?title=cyclohexane&model=C1CCCCC1">Visualiser la molécule de cyclohexane</a></li>
+    </ul>
+  </p>
+
+  \def{text listeMoleculesL = propane, butane, pentane, éthène, propène, but-1-ène, E-but-2-ène, Z-but-2-ène, propan-1-ol propan-2-ol, butan-2-ol, acide propanoïque, pentanal, propanone, butanone, acide lactique}
+  \def{text listeMoleculesR = ibuprofène, vitamine A, acétyle-leucine }
+  \def{text listeMoleculesC = paracétamol, ibuprofène, vitamine A, vitamine C, styrène, phénol, acide benzoïque, benzaldéhyde }
+  \def{text moleculeL=randitem(\listeMoleculesL)}
+  \def{text moleculeR=randitem(\listeMoleculesR)}
+  \def{text moleculeC=randitem(\listeMoleculesC)}
+  \def{integer typeMolecule = random(1..3)}
+  \def{text choixMolecules= \moleculeL ,  \moleculeR , \moleculeC}
+  \def{text molecule=\choixMolecules[\typeMolecule]}
+  <div class="exemple">
+
+    <p>
+      Vérifier à l'aide de l'outil
+      <a  target="wims_external"  href="http://sciences-physiques-moodle.ac-orleans-tours.fr/moodle/pluginfile.php/3348/mod_resource/content/4/index2-jsmol.htm">visualisation de molécules</a>
+      que la molécule dénommée « \molecule » a une chaîne carbonée
+      \if{\molecule isitemof \listeMoleculesC}{cyclique}
+      \if{\molecule isitemof \listeMoleculesL}{linéaire}
+      \if{\molecule isitemof \listeMoleculesR}{ramifiée}.
+    </p>
+    \reload{Nouvel exemple aléatoire}
+  </div>
+
+  <p class="mark">Deux doubles liaisons entre atomes sont dites conjuguées si elles ne sont séparées que par une liaison simple. Un système de doubles liaisons est dit conjugué s’il se présente sous la forme d’une alternance ininterrompue de simples et doubles liaisons.</p>
+  <p>
+    Ex : Le carotène  contient 11 doubles liaisons conjuguées successives, ce qui est à l’origine de sa couleur en solution.
+
+  </p>
+
+  <p>    Certains groupes sont responsables de la couleur d’une molécule organique : ces groupes sont appelés des groupes <mark>chromophores</mark> (c’est le cas des doubles liaisons conjuguées
+    <span class="formulechimique">C = C – C = C</span>
+    , mais aussi
+    <span class="formulechimique">– C = N –</span> ;
+    <span class="formulechimique">– N = N –</span>;
+    <span class="formulechimique">– C = C – C = O</span>.
+
+    On rencontre également dans les molécules organiques des <mark>groupes caractéristiques</mark> qui peuvent modifier la
+    couleur, on les appelle les groupes <mark>auxochromes</mark> (
+    <span class="formulechimique">– OH</span>,
+    <span class="formulechimique">O – CH<sub>3</sub></span>,
+    <span class="formulechimique">–	NH<sub>2</sub></span>,
+    <span class="formulechimique">– Br</span>)
+  </p>
+
+
+  <p class="mark">    Une molécule organique qui possède un système conjugué d’au moins 7 double liaisons (en l’absence de groupe caractéristique) forme le plus souvent un matériau coloré.
+  </p>
+  <p class="mark">Si la molécule organique possède un système conjugué de moins de 7 doubles liaisons, la présence d’un groupe caractéristique (ou d’un cycle avec doubles liaisons) peut colorer le matériau.
+  </p>
+
+  <h2 class="cours">Formule topologique</h2>
+  <p>    <img src="\filedir/book.jpg" class="icone"/><br/>
+    (voir p361)
+  </p>
+
+  <ul>
+    <li>  La chaîne carbonée est représentée par une ligne brisée (succession de zig et de zag). À chaque extrémité d’une    ligne brisée se trouve un atome de carbone (non représenté). Aucun atome d’hydrogène lié aux atomes de carbone n’est représenté. 
+      <p>
+	exemple : le propane <br/>
+	<svg version="1.1" id="topsvg"
+	     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	     xmlns:cml="http://www.xml-cml.org/schema" x="0" y="0" width="300px" height="300px" viewBox="0 0 100 100">
+	  <title>OBDepict</title>
+	  <rect x="0" y="0" width="100" height="100" fill="white"/>
+	  <text text-anchor="middle" font-size="6" fill ="black" font-family="sans-serif"
+		x="50" y="98" ></text>
+	  <g transform="translate(0,0)">
+	    <svg width="100" height="100" x="0" y="0" viewBox="0 0 149.282 100"
+		 font-family="sans-serif" stroke="rgb(0,0,0)" stroke-width="2"  stroke-linecap="round">
+	      <line x1="109.3" y1="60.0" x2="74.6" y2="40.0" stroke="rgb(0,0,0)"  stroke-width="2.0"/>
+	      <line x1="74.6" y1="40.0" x2="40.0" y2="60.0" stroke="rgb(0,0,0)"  stroke-width="2.0"/>
+	    </svg>
+      </p>
+    </li>
+    <li>
+      Tous les atomes des groupes caractéristiques sont représentés (y compris les <span class="formulechimique">H</span> s’il y en a).
+      <p>
+	exemple : le pentan-2-ol <br/>
+	<svg version="1.1" id="topsvg"
+	     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	     xmlns:cml="http://www.xml-cml.org/schema" x="0" y="0" width="300px" height="300px" viewBox="0 0 100 100">
+	  <title>OBDepict</title>
+	  <rect x="0" y="0" width="100" height="100" fill="white"/>
+	  <text text-anchor="middle" font-size="6" fill ="black" font-family="sans-serif"
+		x="50" y="98" ></text>
+	  <g transform="translate(0,0)">
+	    <svg width="100" height="100" x="0" y="0" viewBox="0 0 218.564 140"
+		 font-family="sans-serif" stroke="rgb(0,0,0)" stroke-width="2"  stroke-linecap="round">
+	      <line x1="143.9" y1="100.0" x2="143.9" y2="60.0" stroke="rgb(0,0,0)"  stroke-width="2.0"/>
+	      <line x1="143.9" y1="60.0" x2="167.3" y2="46.5" stroke="rgb(0,0,0)"  stroke-width="2.0"/>
+	      <line x1="143.9" y1="60.0" x2="109.3" y2="40.0" stroke="rgb(0,0,0)"  stroke-width="2.0"/>
+	      <line x1="109.3" y1="40.0" x2="74.6" y2="60.0" stroke="rgb(0,0,0)"  stroke-width="2.0"/>
+	      <line x1="74.6" y1="60.0" x2="40.0" y2="40.0" stroke="rgb(0,0,0)"  stroke-width="2.0"/>
+	      <text x="172.564065" y="48.000000" fill="rgb(255,12,12)"  stroke="rgb(255,12,12)" stroke-width="1" font-size="16" >OH</text>
+	    </svg>
+	  </g>
+	</svg>
+      </p>
+    </li>
+  </ul>
+  
+  <p>    <img src="\filedir/book.jpg" class="icone"/><br/>
+    Ex12p75 : Écrire une formule topologique <br/>
+    Ex15p75 : Interpréter la structure d'une molécule
+  </p>    
+
+  <h3>Exercices :     QCM partie 1 p 71 &  7, 8, 12, 15, 17, 18, 23  p74,75,76,77</h3>
+
+</div>
+
+\comment{Exercice 1:
+Le paprika contient principalement 3 espèces chimiques colorées. Deux spatules de paprika, 20ml de dichlorométhane et quelques grains de pierre ponces sont introduits dans un ballon. Après 30 minutes de chauffage à reflux, la solution est filtrée.
+Schématiser le chauffage à reflux et expliquer son fonctionnement. Quel est le rôle de la pierre ponce ?
+A quoi sert le dichlorométhane ?
+A quoi sert la filtration.
+Proposer une méthode permettant de vérifier que le filtrat contient bien les 3 espèces chimiques colorées. Faire un schéma de ce que l’on obtiendrait.
+
+Exercice 2 : Donner les formules semi-développées des molécules suivantes. Surligné les doubles liaisons conjuguées
+
+Exercice 3 : Parmi les deux molécules proposées, l’une est incolore et l’autre est colorée. Identifiez les.
+
+Exercice 1 : Extraction (non)
+La curcumine est la principale espèce chimique colorée du curcuma. Une fois isolée elle est utilisée en tant que colorant alimentaire (E 100). Elle peut être extraite de la façon suivante :
+« dans un erlenmeyer, introduire la pointe d’une spatule de curcuma et 10 ml d’éthanol. A giter quelques minutes puis filtrer le contenu de l’erlenmeyer. Le filtrat jaune ambré est une solution de curcumine.
+1-Quel est le rôle de l’éthanol ? Quelle propriété justifie son utilisation pour cette extraction ?
+2-La curcumine est –elle un pigment ou un colorant dans cette situation ? Justifier.
+3-A quoi sert la filtration ?
+4-Proposer une méthode afin de vérifier que la curcumine est une espèce chimique pure.
+5-Comment récupérer uniquement la curcumine ?
+1ère S, thème 1 : les couleurs}

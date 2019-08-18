@@ -1,0 +1,182 @@
+\comment{CH 3 : Géométrie des molécules et vision}
+\fold{CA3}{Compétences attendues}{}
+<div class="cours">
+  <img src="\filedir/book.jpg" class="icone"/>
+  <p>Correspond au chapitre 6  page 95 du livre</p>
+</div>
+
+<h1 class="cours">Liaisons covalentes</h1>
+<div class="cours">
+    <img src="\filedir/TP.png" class="icone"/>
+    <p>(TP6)</p>
+
+    <p>
+      Les atomes se lient entre eux en mettant en commun des électrons de leur couche externe pour former une liaison
+      covalente et satisfaire la <mark>règle du duet et de l’octet.</mark>
+    </p>
+    <ul>
+     
+      <li><mark>Liaison covalente simple</mark> : deux atomes mettent en commun 1 électron chacun. La liaison est donc composée de 2 électrons qui appartiennent à chaque atome de la liaison.
+
+	<p>\fold{}{Exemple : la molécule de dihydrogène}{La molécule de dihydrogène : <span class="formulechimique">H–H</span> }</p></li>
+      <li><mark>Liaison covalente double</mark> : 2 atomes atomes mettent en commun 2 électrons chacun.
+	<p>\fold{}{Exemple : la molécule de dioxygène}{La molécule de dioxygène : <span class="formulechimique">O=O</span> }</p></li>
+      <li><mark>Liaison covalente triple</mark> : 2 atomes mettent en commun 3 électrons chacun.
+	<p>\fold{}{Exemple : la molécule de diazote}{La molécule de diazote : <span class="formulechimique">N≡N</span> }</p></li>
+    </ul>
+    </div>	
+
+<h1 class="cours">Représentation de Lewis</h1>
+<div class="cours">
+    <img src="\filedir/TP.png" class="icone"/>
+    <p>(TP6)</p>
+
+    <p>
+C’est une représentation dans laquelle apparaissent toutes les liaisons covalentes (ou doublet liant) entre les
+    atomes <mark>et tous les doublets non liants</mark> (électrons restant sur la couche externe et qui ne participent pas à une
+liaison).
+    </p>
+    <p>
+	Atomes	courants	:		d’après	les	règles	du	duet	et	de	l’octet,	on	aura	toujours :	
+    </p>
+    <center>
+    <table class="cours">
+      <tr>
+        <td>Nom, symbole et  n° atomique</td><td>Structure	électronique</td><td>Structure du gaz noble</td><td>Liaison(s) covalente(s)</td><td>Doublet(s) non liant(s)</td>
+      </tr>
+      <tr>
+	<td>carbone	C (Z = 6)</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+      </tr>
+      <tr>
+	<td>azote N  (Z = 7)</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+      </tr>
+            <tr>
+	<td>oxygène	O (Z = 8)</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	    </tr>
+	          <tr>
+	<td>hydrogène H  (Z = 1)</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+      </tr>
+    </table>
+    </center>
+
+    </div>
+    <h1 class="cours">Géométrie des molécules</h1>
+<div class="cours">
+    <img src="\filedir/TP.png" class="icone"/>
+    <p>(TP6)</p>
+    <h2 class="cours">Répartition des doublets</h2>
+    <p>
+      Dans la nature les molécules ne sont pas planes, elles ont une structure en 3 dimensions. L'analyse des doublets figurant dans la représentation de Lewis d'une molécule permet de déterminer cette géométrie.
+    </p>
+    <p>
+      La plupart des atomes obéissant à la règle de l’octet sont entourés de 8 électrons donc de 4 doublets (liants ou
+      non liants). Ces doublets sont constitués d’électrons chargés négativement qui vont se repousser. La molécule
+adopte une géométrie dans laquelle ces doublets électroniques sont le plus éloignés les uns des autres.
+    </p>
+    <p>
+      Conclusion : La répartition pour laquelle <mark>les 4 doublets</mark> sont les plus éloignés est une <mark>répartition tétraédrique</mark>.
+    </p>
+    <h2 class="cours">Géométrie des molécules</h2>
+        <img src="\filedir/play.jpg" class="icone"/>
+
+    <p>
+	<a target="wims_external" href="https://www.youtube.com/watch?v=2ngcZ1ikulM">Vidéo sur la géométrie des molécules</a>
+      </p>
+
+    
+      <p>
+      De cette répartition géométrique des 4 doublets découlent différentes géométries de molécules suivant que les doublets considérés soient liants ou non liants :
+      <ul>
+	<li><mark>tétraédrique</mark> (si les doublets de l'atome central sont tous liants sans double liaison) renvoie à un assemblage de cinq atomes : l'atome central est placé au centre d'un tétraèdre et relié à quatre atomes se situant à chaque sommet ;</li>
+	<li><mark>pyramidal à base triangulaire</mark> (si un des doublets n'est pas liant ; pas de double liaison) renvoie à un assemblage de 4 atomes : l'atome central est placé au sommet d'une pyramide et relié à trois atomes se situant aux trois autres sommets.</li>
+	<li><mark>trigonal (triangulaire plane)</mark> (si les doublets sont tous liants avec présence d'une double liaison) renvoie à un assemblage de 4 atomes : l'atome central est placé au centre d'un triangle et relié à trois atomes se situant aux trois sommets du triangle.</li>
+	<li><mark>plane coudée</mark> (si deux doublets sont non liants ; pas de double liaison) renvoie à un assemblage de 3 atomes.</li>
+	<li><mark>linéaire</mark>  (doublets tous liants constituant deux doubles liaisons ou alors une liaison triple et une liaison simple) renvoie à un assemblage de  3 atomes ou alors (3 doublets non liants) renvoie à un assemblage de 2 atomes. </li>
+      </ul>
+</p>
+
+    <p>
+      <h3>Exemples de molécules non linéaires: </h2>
+
+\comment{Wikipedia Identification SMILES vue3D}
+    <ul>
+      <li>Méthane : molécule tétraédrique <a  target="wims_external" href="https://chemapps.stolaf.edu/jmol/jmol.php?title=Methane&model=C">Visualiser la molécule avec JSmol</a> (utiliser la souris pour faire pivoter la molécule)</li>
+        <li>Méthane : molécule tétraédrique <a  target="wims_external" href="https://fr.wikipedia.org/wiki/Représentation_de_Cram#/media/File:Methane-2D-stereo.svg">Visualiser formule de Cram de la molécule</a> </li>
+      <li>Ammoniac : molécule pyramidale <a  target="wims_external" href="https://chemapps.stolaf.edu/jmol/jmol.php?title=Ammoniac&model=N">Visualiser la molécule</a></li>
+      <li>Eau : molécule plane coudée <a   target="wims_external" href="https://chemapps.stolaf.edu/jmol/jmol.php?title=Eau&model=O">Visualiser la molécule</a></li>
+      <li>Méthanal : molécule plane triangulaire <a   target="wims_external" href="https://chemapps.stolaf.edu/jmol/jmol.php?title=Méthanal&model=C%3DO">Visualiser la molécule</a></li>
+      <li>Méthanamine : La molécule est pyramidale autour de l'atome d'azote considéré comme « central » et tétraédrique autour de l'atome de carbone <a  target="wims_external" href="http://chemapps.stolaf.edu/jmol/jmol.php?title=Méthylamine&model=CN">Visualiser la molécule</a> </li>
+    </ul>
+  </p> 
+
+
+  <p>
+    <h3>Exemples de molécules linéaires: </h2>
+    <ul>
+      <li>Dioxyde de carbone  <a  target="wims_external" href="https://chemapps.stolaf.edu/jmol/jmol.php?title=Dioxyde+de+carbone&model=C%28%3DO%29%3DO">Visualiser la molécule</a> </li>
+      <li>Dihydrogène <a  target="wims_external" href="https://chemapps.stolaf.edu/jmol/jmol.php?title=Dihydrogène&model=%5BHH%5D">Visualiser la molécule</a></li>
+      <li>Dichlore <a   target="wims_external" href="http://jmol.sourceforge.net">Pour visualiser des molécules il y a Jmol</a></li>
+    </ul>
+  </p>
+
+
+  </div>
+
+<h1 class="cours">Isomérie Z et E </h1>
+<div class="cours">
+  <img src="\filedir/TP.png" class="icone"/>
+  <p>(TP7)</p>
+  <p>
+    <center>
+
+      <img src="\filedir/isomereZE.jpg" width="600" alt="isomères Z et E"/>
+    </center>
+
+  </p>
+
+    
+    <p>
+      Les molécules présentant une double liaison carbone-carbone, du type <span class="formulechimique">R - CH = CH - R’</span> existent sous la forme de deux isomères spatiaux appelés <mark> isomère Z et isomère E </mark>:
+      <ul>
+	<li>L’isomère est dénommé Z si R et R’ sont disposés du <mark>même côté</mark> de la double liaison;</li>
+	<li>L’isomère est dénommé E si R et R’ sont disposés de <mark>de part et d'autre</mark>  de la double liaison.</li>
+      </ul>
+      <p>
+	Ces deux isomères ont des propriétés chimiques et physiques <mark>différentes </mark>.
+      </p>
+      <img src="\filedir/play.jpg" class="icone"/>
+
+      <p>
+	<a target="wims_external" href="https://www.youtube.com/watch?v=21Oq4uRF6MY">Vidéo sur l'isomérie Z/E</a>
+      </p>
+      <p>
+	<mark>L’isomérisation photochimique </mark> est la transformation d’un isomère Z en son isomère E ( ou vice versa) sous l’effet
+d’un rayonnement lumineux.
+L’isomérisation photochimique d’une double liaison est à l’origine du processus de la vision.
+      </p>
+
+ <p>    <img src="\filedir/book.jpg" class="icone"/><br/>
+   <h3>Exercices :</h3>
+   Exos	:		6,	9,	10,	12,	14,	17,	21	p107	+	s’auto	évaluer	p103 <br/>
+Liaison covalente : 6 p106 ; Lewis : 9,10 p 106 ; Géométrie :12,17 p107 ; Isomérie : 14p107 ; Bilan 21p109
+  </p>    
+</div>
+
+
+  

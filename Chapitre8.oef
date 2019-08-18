@@ -1,0 +1,246 @@
+\comment{CH 8: Les différents champs}
+\fold{CA8}{Compétences attendues}{}
+
+<div class="cours">
+  <img src="\filedir/book.jpg" class="icone"/>
+  <p>Correspond  au chapitre 12 page 201 du livre</p>
+</div>
+
+<h1 class="cours">Notion de champ et définitions </h1>
+<div class="cours">
+   
+  <p class="mark">
+    Un champ  est associé à une propriété physique qui se manifeste en tout point de l’espace. Cette propriété est définie par une grandeur mesurable dépendant de la position du point de mesure.
+  </p>
+  <p>
+    Le champ est dit :
+    <ul>
+      <li><mark> scalaire</mark> si la grandeur mesurée est caractérisée par une <mark>valeur</mark> seulement.</li>
+      <li><mark>vectoriel</mark> si la grandeur mesurée est caractérisée par une <mark>valeur</mark> mais aussi un <mark>sens</mark> et une <mark>direction</mark>.</li>
+    </ul>
+  </p>
+  <p>
+
+  </p>
+  <p class="mark">
+    Cartographier un champ consiste à donner une représentation de ce champ en plusieurs points de l’espace.
+  </p>
+  <p>
+    Une <mark> ligne de champ</mark> vectoriel est une ligne <mark>tangente</mark> en chacun de ses points au vecteur champ. Elle est <mark>orientée</mark> par une flèche dans le sens du champ.
+  </p>
+  <p>
+    Un <mark>champ vectoriel uniforme</mark> est un champ dont les caractéristiques <mark>(direction, sens, valeur) sont les mêmes</mark> en tout point de l’espace considéré.
+  </p>
+</div>
+
+<h1 class="cours">Le champ de pesanteur </h1>
+<div class="cours">
+    <img src="\filedir/TP.png" class="icone"/>
+  <p>(TP1)</p>
+  <h2 class="cours">Le champ de pesanteur sur Terre : \(\vec{g}\) </h2>
+  Toute masse placée à proximité de la Terre subit une force appelée poids de l’objet et notée :\(\vec{P}\)
+
+  On y associe un champ vectoriel appelé <mark>champ de pesanteur noté : \(\vec{g}\)</mark>
+  <p>
+    La relation vectorielle qui lie la masse, le champ de pesanteur et le poids est : <br/> <br/>
+    <center>
+      <span class="formulemathematique">
+	\(\vec{P}=m\cdot \vec{g}\)
+      </span>
+    </center>
+  </p> <br/>
+  
+  <p>
+    Les caractéristiques du champ de pesanteur  sont :
+    <ul>
+      <li><b>direction</b> :  verticale</li>
+      <li><b>sens</b> : vers le centre de la Terre</li>
+      <li><b>intensité</b> (= valeur) donnée par : \(g=\frac{P}{m}\)		  ( où : P en N ; m en kg ; g en N&middot;kg<sup>-1</sup>).</li>
+    </ul>
+  </p>
+  <p class="mark">
+    Le champ de pesanteur sur terre n’est pas uniforme car il n’a pas toujours la même direction ni la même intensité.
+  </p>
+  <h2 class="cours">Le champ de pesanteur local </h2>
+  <center>
+<img src="\filedir/glocal.png" width="480"  alt="g local"/>
+  </center>
+  <p class="mark">
+    Localement, dans une région petite par rapport au diamètre de la Terre (de l’ordre du km), on peut considérer que le champ de pesanteur est uniforme.
+  </p>
+  <p>
+    Les lignes de champ sont alors des droites parallèles verticales orientées vers le bas, et l'intensité de ce champ (g) est constante.
+  </p>
+  <p>
+    D’un point de vue général, les caractéristiques du champ de pesanteur local sont :
+    <ul>
+      <li><b>direction</b> : verticale</li>
+      <li><b>sens</b> : vers le bas</li>
+      <li><b>intensité</b> : dépend du lieu (principalement car la distance par rapport au centre de la Terre varie suivant l'endroit où l'on se trouve). <br/>
+	Exemples : 
+	<ul>
+	  <li>à La Ciotat : g = 9,81 N&middot;kg<sup>-1</sup>; </li>
+	  <li> aux pôles : g = 9,83 N&middot;kg<sup>-1</sup>; </li>
+	  <li>  à l’équateur :  g = 9,78 N&middot;kg<sup>-1.</sup></li>
+	</ul>
+	
+    </ul>
+  </p>
+  <h2 class="cours">Le champ de gravitation (ou champ gravitationnel) \(\vec{\mathcal{G}}\) </h2>
+  <p>
+    Toute objet de masse m placée à proximité de la Terre subit une force appelée  force d’attraction gravitationnelle et notée \(\vec{F}\)     d'intensité :
+    <center><span class="formulemathematique">\(F=G\,\frac{m\cdot M_T}{d^2}\)</span></center>
+  </p>
+  <p>
+    On y associe un champ vectoriel appelé <mark>champ de gravitation, noté \(\vec{\mathcal{G}}\)</mark> tel que  \(\displaystyle \vec{\mathcal{G}}=\frac{\vec{F}}{m}\)
+  </p>
+  <p>
+    Les caractéristiques du champ de gravitation       sont :
+    <ul>
+      <li><b>direction</b> :  droite qui lie le centre de l’objet au de la Terre</li>
+      <li><b>sens</b> : du centre de l’objet vers le centre de la Terre</li>
+      <li><b>intensité</b>   (en N&middot;kg<sup>-1</sup>) :	\(\mathcal{G} = \frac{F}{m}  =\frac{ G \times M_T}{d^2}\)  	<br/>
+	où :
+	<ul>
+	  <li>F en N ;</li>
+	  <li>\(M_T\)  : masse de la Terre en kg ;</li>
+	  <li>m : masse de l’objet en kg ;</li>
+	  <li>d : distance entre les centres de la Terre et de l’objet en m ;</li>
+	  <li>G = 6,67&middot;10<sup>-11</sup>m<sup>3</sup>&middot;kg<sup>-1</sup>&middot;s<sup>-2</sup>.</li>
+	</ul>
+      </li>
+    </ul>
+
+  </p>
+  <h2 class="cours">Comparaison entre le champ de gravitation et le champ de pesanteur </h2>
+
+  <center>
+    <table class="cours" >
+      <tr>
+	<td></td>
+	<th scope="col">Champ de gravitation (\(\mathcal{G}\))</th>
+	<th scope="col"> Champ de pesanteur (g)</th>
+      </tr>
+      <tr>
+	<th scope="col">Direction</th>
+	<td>verticale</td>
+	<td>verticale</td>      
+      </tr>
+      <tr>
+	<th scope="col">Sens</th>
+	<td>vers le centre de la Terre</td>
+	<td>vers le centre de la Terre</td>      
+      </tr>
+      <tr>
+	<th scope="col">Intensité  (en N&middot;kg<sup>-1</sup>)</th>
+	<td>	\(\mathcal{G} = \frac{F}{m}  =\frac{ G \times M_T}{d^2}\)  </td>
+	<td>\(g=\frac{P}{m}\simeq \mathcal{G}\) (différence < à 1%) </td>
+							      </tr>
+    </table>
+  </center>
+  <p>
+    Au voisinage de la Terre,     leur différence de valeur étant très faible, en général on identifie localement le champ de pesanteur au champ de gravitation.
+    Cette approximation, consiste à négliger la rotation de la terre, et les attractions gravitationnelles exercées par le Soleil et la Lune.
+  </p>
+  <p>
+    L'intensité moyenne de la pesanteur à la surface de la Terre est g = 9,8 N&middot;kg<sup>-1</sup>.
+    
+  </p> 
+</div>
+
+<h1 class="cours">Le champ électrostatique \(\vec{E}\)</h1>
+<div class="cours">
+    <img src="\filedir/TP.png" class="icone"/>
+  <p>(TP2)</p>
+  <p>
+    Une charge électrique q est sensible au champ électrostatique régnant dans une région de l’espace. <br/>
+    Le champ électrostatique est un champ vectoriel, on le note \(\vec{E}\)
+  </p>
+  <p>
+    La relation qui lie la charge, le champ électrostatique et la force électrostatique est : <br/> <br/>
+    <center><span class="formulemathematique">
+	\(\vec{F}= q \vec{E}\)
+    </span></center> <br/> <br/>
+    où : F en newtons (N) ; q en coulombs (C) ; E en volts par mètre (V&middot;m<sup>-1)</sup>.
+  </p>
+  <p class="mark">
+    Les lignes de champ sont orientées dans le sens des potentiels décroissants (du plus vers le moins).
+  </p>
+  <h3>  Exemple : le 	condensateur plan </h3>
+  <center>
+<img src="\filedir/champcondensateur.gif" alt="champ électrique entre les armatures d'un condensateur"/>
+  </center>
+  <p>
+    Pour mettre en évidence le champ électrostatique \(\vec{E}\), on peut envoyer un faisceau d'électrons. Les électrons subissent une force électrostatique \(\vec{F}\) qui les dévie.  
+  </p>
+
+  <p>
+    Entre les deux armatures d’un condensateur plan, le champ électrostatique est uniforme (même direction, même sens et même valeur).
+    Les lignes équipotentielles sont parallèles aux armatures.
+    Les lignes de champ sont parallèles entre elles, perpendiculaires aux armatures et dirigées de l’armature chargée positivement vers l’armature chargée négativement.
+  </p>
+  <p>
+    Relation liant la tension U, le champ E entre les armatures distantes de d : <br/> <br/>
+    <center><span class="formulemathematique">
+	\(E = \frac{\left| U\right|}{d}\)
+    </span></center> <br/>
+    avec E en V&middot;m<sup>-1</sup>, U en V et d en m.
+  </p>
+  </div>
+
+<h1 class="cours">Le champ magnétique </h1>
+<div class="cours">
+  <img src="\filedir/TP.png" class="icone"/>
+  <p>(TP3)</p>
+  <h2 class="cours">Le champ de magnétique \(\vec{B}\)</h2>
+  <p>
+    Une aiguille aimantée (boussole) est sensible au champ magnétique régnant dans une région de l’espace. <br/>
+    Un aimant est un corps qui possède la propriété d’attirer le fer, il possède un pôle Sud et un pôle Nord.
+  </p>
+  <p>
+    Un champ magnétique peut-être crée par un aimant ou par des courants électriques. C’est un champ vectoriel.
+  </p>
+  <p>
+    <ul>
+      <li><mark>Les lignes de champ sont orientées du pôle Nord vers le pôle Sud à l’extérieur de l'aimant.</mark></li>
+      <li>Le vecteur champ magnétique \(\vec{B}\) est tangent aux lignes de champ.</li>
+      <li>La valeur du vecteur champ magnétique est mesurée avec un teslamètre et  s’exprime en tesla (T).</li>
+    </ul>
+  </p>
+
+  <h3>Cas d’un aimant droit </h3>
+  <center>
+<img src="\filedir/aimantdroit.png" alt="lignes de champ d'un aimant droit"/>
+  </center>
+  <h3>Cas d’une bobine </h3>
+  <center>
+<img src="\filedir/solenoide.png" alt="lignes de champ crées par un solénoïde"/>
+  </center>
+  <h3>Cas d’un aimant en U </h3>
+  <center>
+<img src="\filedir/aimantU.png" width="320" alt="lignes de champ d'un aimant en U"/>
+  </center>
+
+  <h2 class="cours">Le champ magnétique terrestre </h2>
+  <p>
+    La partie externe métallique liquide du noyau de la Terre est à l’origine du champ magnétique terrestre.
+    </p>
+  <center>
+<img src="\filedir/geomagnetisme.jpg" width="480" alt="lignes de champ de la Terre"/>
+  </center>
+  
+  <p>
+  Le champ magnétique terrestre est proche de celui   créé par un aimant droit placé à l’intérieur du globe. Le pôle sud de l’aimant indiquant le Nord géographique avec un léger écart appelé déclinaison.
+  Les lignes de champ sont orientées du pôle Nord vers le pôle Sud de cet aimant droit.
+</p>
+    <img src="\filedir/book.jpg" class="icone"/>
+
+  <h3>Exercices : </h3>
+  <ul>
+    <li>Champ gravitationnel : n°18,19 p215</li>
+    <li>Champ électrostatique : n°14, 24 p 214,217</li>
+    <li>Champ magnétique : n°12,16 (attention, erreur fléchage dans l’énoncé !)  p213,214 </li>
+    <li>Exercices à faire soi-même :  exercice résolu, application immédiate p212 +  QCM p211</li>
+  </ul>
+
+</div>

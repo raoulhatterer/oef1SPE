@@ -1,0 +1,260 @@
+\comment{CH 7 : Cohésion de la matière et interactions fondamentales}
+
+\fold{CA7}{Compétences attendues}{}
+<div class="cours">
+  <img src="\filedir/book.jpg" class="icone"/>
+  <p>Correspond au chapitre  au chapitre 7 page 119 du livre</p>
+</div>
+
+<h1 class="cours">La matière à différentes échelles</h1>
+<div class="cours">
+<p>
+Dans l’Univers, la matière se présente sous des formes et des dimensions bien différentes. Chaque objet a son ordre de grandeur :
+</p>
+
+<center>
+  <table class="cours">
+    <tr>
+      <th scope="col" style="width:19%">Objet</th>
+      <th scope="col" style="width:9%">Terre</th>
+      <th scope="col" style="width:9%">Homme</th>
+      <th scope="col" style="width:9%">Cellule</th>
+      <th scope="col" style="width:9%">Système Solaire</th>
+      <th scope="col" style="width:9%">Quark</th>
+      <th scope="col" style="width:9%">Noyau d’atome</th>
+      <th scope="col" style="width:9%">Univers</th>
+      <th scope="col" style="width:9%">Atome</th>
+      <th scope="col" style="width:9%">Galaxie</th> 
+    </tr>
+    <tr>
+      <th scope="col" style="width:19%">Ordre de grandeur</th>
+      <td>10<sup>7</sup> m </td>
+      <td>10<sup>0</sup> m </td>
+      <td>10<sup>-5</sup> m </td>
+      <td>10<sup>13</sup> m </td>
+      <td>10<sup>-18</sup> m </td>
+      <td>10<sup>-15</sup> m </td>
+      <td>10<sup>26</sup> m </td>
+      <td>10<sup>-10</sup> m </td>
+      <td>10<sup>21</sup> m </td>
+    </tr>
+  </table>
+</center>
+
+</div>
+
+
+<h1 class="cours">Un univers constitué de particules élémentaires (voir activité)</h1>
+<div class="cours">
+
+
+  <h3>Particules élémentaires</h3>
+  <p>
+  Une <mark>particule élémentaire</mark> est une particule qui <mark>ne peut-être divisée</mark> en particules plus petites. 
+  </p>
+
+  <p>
+    Les particules élémentaires qui servent de base à la constitution de la matière de l’Univers sont : <mark>protons, neutrons  et électrons</mark>.
+  </p>
+  <p>
+    Remarque : les neutrons et les protons sont encore considérés comme des particules élémentaires (même s’ils sont tous deux formés de <mark>quarks</mark>).
+  </p>
+  <p>
+    Les caractéristiques de ces particules élémentaires sont :
+    <center>
+      <table class="cours">
+        <tr>
+	  <th></th>
+	  <th scope="col">électron</th>
+	  <th scope="col">proton</th>
+	  <th scope="col">neutron</th>
+        </tr>
+	<tr>
+	  <th scope="col">masse</th>
+	  <td> m<sub>e</sub> = 9,1&middot;10<sup>-31</sup> kg</td>
+	  <td>m<sub>p</sub> = 1,67&middot;10<sup>-27</sup> kg</td>
+	  <td>m<sub>n</sub> = 1,67&middot;10<sup>-27</sup> kg</td>
+	</tr>
+	<tr>
+	  <th scope="col">Charge électrique</th>
+	  <td>q<sub>e</sub> = - e = - 1,6&middot;10<sup>-19</sup> C</td>
+	  <td>q<sub>p</sub> =  + 1,6&middot;10<sup>-19</sup> C</td>
+	  <td>q<sub>n</sub> = 0 C</td>
+	</tr>
+	<tr>
+	  <th scope="col">Représentation</th>
+	  <td>\( {}_{-1}^{\phantom{-}0}\mathrm{e}\)</td>
+	  <td>\({}_{1}^{1}\mathrm{p}\) ou \({}_{1}^{1}\mathrm{H}\)</td>
+	  <td>\({}_{0}^{1}\mathrm{n}\)</td>
+	</tr>
+
+
+      </table>
+    </center>
+	
+  </p>
+
+  <h3>Charge électrique</h3>
+  <p>
+    <mark>e est la charge élémentaire</mark> (la plus petite charge que puisse porter une particule) :   <mark>e = 1 ,6&middot;10<sup>-19</sup> C</mark>
+  </p>
+  <p>
+    De façon générale, toute charge électrique (notée q) est multiple de la charge élémentaire e : <br/>
+    <br/>
+    <center>
+      <span class="formulemathematique">q  = n × e </span>      où n est un nombre entier 
+    </center>
+  </p>
+  <h3>L'atome</h3>
+  <p>
+    Un atome  \({}_{Z}^{A}\mathrm{X}\) est constitué d’un noyau et d’un nuage électronique.
+  </p>
+  <p>
+    <mark>Z est le numéro atomique</mark> (ou nombre de protons)  et <mark>A est le nombre de masse</mark>    (nombre de nucléons =  protons + neutrons) soit A = Z + N. <br/>
+    Donc le nombre de neutrons est : N = A - Z
+  </p>
+  <p>Remarques:
+    <ul>
+      <li>L’atome est électriquement neutre. Son noyau possède donc autant de protons qu’il y a d’électrons dans le nuage électronique.</li>
+      <li>La masse d’un électron est négligeable devant celle d’un nucléon (rapport voisin de 10<sup>3</sup>)</li>
+      <li>Les noyaux isotopes ont le même nombre de protons (même numéro atomique Z) mais un nombre de neutrons  différents.</li>
+    </ul>
+</p>
+  <h3>Cohésion de la matière</h3>
+  <p>
+    L’association des particules élémentaires et la cohésion de la matière qui en découle est due à des interactions entre ces particules élémentaires. On parle d’interactions fondamentales qui sont au nombre de quatre.
+  </p>
+
+</div>
+
+<h1 class="cours">Les interactions fondamentales (activité)</h1>
+<div class="cours">
+  <h2 class="cours">L’interaction gravitationnelle </h2>
+  <center>
+    <img src="\filedir/interactionGravitationnelle.jpg" width="70%" alt="interaction gravitationnelle"/>
+  </center>
+<p>
+  Deux corps A et B à répartition sphérique de masses m<sub>A</sub> et  m<sub>B</sub> séparés d’une distance d exercent l’un sur l’autre des <mark>actions mécaniques attractives</mark>, modélisées par des forces d’attraction gravitationnelles <mark>de portée infinie</mark>, ayant la même intensité.
+<center><span class="formulemathematique">\(F_{A/B}=F_{B/A}=G\,\frac{m_A\cdot m_B}{d^2}\)</span></center>
+où :
+<ul>
+  <li> F en Newton (N) ;         </li>
+  <li> m<sub>A</sub> et m<sub>B</sub> en kg ;      </li>
+  <li> d : distance entre les centres 2 corps en m ;</li>
+  <li> G : constante universelle de gravitation. G = 6,67&middot;10<sup>-11</sup> N&middot;kg<sup>-2</sup>&middot;m<sup>2</sup></li>
+</ul>
+</p>
+
+<h2 class="cours" id="forceelectrostatique">Interaction électrique (loi de Coulomb)</h2>
+<center>
+  <img src="\filedir/charge-electrique-interaction.jpg" width="70%" alt="interaction électrostatique"/>
+</center>
+<p>
+  <mark>Cette interaction de portée infinie agit sur tous les corps ayant une charge électrique</mark>
+</p>
+<p>
+  Soient deux corps A et B immobiles de charges q<sub>A</sub>  et  q<sub>B</sub>  séparés d’une distance d.
+</p>
+<p>
+  Ces deux corps exercent l’un sur l’autre des actions mécaniques :
+  <ul>
+    <li>attractives si q<sub>A</sub> et  q<sub>B</sub> sont de signes contraire</li>
+    <li>répulsives si q<sub>A</sub>    et  q<sub>B</sub>    sont de même signe</li>
+  </ul>
+</p>
+<p>
+  Ces actions sont modélisées par des forces dites électrostatiques ayant la même valeur, telles que :
+  <center><span class="formulemathematique">\(F_e=k\, \frac{\left|q_A\cdot q_B\right|}{d^2}\)</span></center>
+  où :
+  <ul>
+    <li>F en Newton (N) ;   </li>
+    <li>q<sub>A</sub> et q<sub>B</sub> en C ;   </li>
+    <li>d : distance entre les 2 corps en m  ;</li>  
+    <li>k : constante de Coulomb. k = 9,0&middot;10<sup>9</sup> unité SI</li>
+  </ul>
+</p>
+
+
+
+
+<h2 class="cours">Comparaison de l’interaction gravitationnelle et l’interaction électrostatique à l’échelle atomique</h2>
+<p>
+  À l'échelle de l’atome et des molécules, la force d'attraction électrostatique est largement supérieure à la force d'attraction gravitationnelle (10<sup>42</sup>  fois plus grande).
+  <mark>La cohésion de la matière à l'échelle atomique et moléculaire est assurée par l'interaction électrostatique.</mark>
+Les propriétés des solides, des liquides et des gaz en découlent. 
+C’est donc cette interaction qui assure à notre échelle la cohésion des objets, etc. 
+</p>
+
+<h2 class="cours">L’interaction forte et faible à l’échelle du noyau</h2>
+<p>
+  Dans le noyau, la force électrostatique répulsive entre deux protons est prédominante par rapport à la force d’attraction gravitationnelle entre ces deux protons : deux protons devraient donc se repousser et au final, le noyau devrait éclater.
+  Or puisque  la plupart des  noyaux sont stables, c'est qu'il existe une autre interaction attractive supérieure à l'interaction électromagnétique, et qui assure la cohésion du noyau.
+</p>
+<p>
+  <mark>La cohésion du noyau est assurée par une interaction fondamentale entre les nucléons qui est appelée interaction forte.</mark></p>
+<p>
+  Au niveau d’un noyau l’interaction forte est de 100 à 1000 fois plus grande que celle de la force électrostatique.
+  C'est une action de très COURTE portée: son action ne dépasse pas les limites du noyau (10<sup>-15</sup>  m)
+</p>
+<p>
+  Remarques :
+  <ol>
+    <li>La stabilité de nombreux noyaux (contenant jusqu’à 83 protons) est assurée par l’interaction forte. 
+Lorsque le nombre de protons devient trop important (et donc la charge)  dans le noyau, l'interaction électromagnétique (répulsive entre les protons) finit par l'emporter. 
+Les noyaux sont alors instables, ils se désintègrent : c’est l’une des causes au phénomène de radioactivité.		
+</li>
+    <li>L’interaction faible :
+      L’interaction faible de très courte portée (de l'ordre du diamètre d'un nucléon) est responsable de certaines désintégrations nucléaires (émission de particules par des noyaux : radioactivité béta). Elle est beaucoup moins intense que l’interaction forte (un million de fois plus faible que celle de l’interaction forte entre deux nucléons) .
+</li>
+  </ol>
+</p>
+</div>
+
+<h1 class="cours">Bilan :  la cohésion de la matière à différentes échelles !</h1>
+<div class="cours">
+  <p>
+    À l'échelle de l'Univers, seules les interactions de portée infinie peuvent intervenir (gravitationnelle et électromagnétique). Or la matière est globalement électriquement neutre à grande échelle. <mark>Seule l'interaction gravitationnelle (toujours attractive) assure la cohésion de la matière à l'échelle de l'Univers.</mark>
+  </p>
+  <p>
+La cohésion de la matière est assurée par :
+<center>
+  <table class="cours" >
+    <tr>
+      <td></td>
+      <th scope="col">Domaine d'action</th>
+      <th scope="col">À l’échelle</th>
+      <th scope="col">De portée</th>
+    </tr>
+    <tr>
+      <th scope="col">interaction gravitationnelle</th>
+      <td>Entre corps massiques</td>
+      <td>Univers ; Planètes ;  Étoiles</td>
+      <td>infinie</td>
+    </tr>
+    <tr>
+      <th scope="col">interaction électrostatique</th>
+      <td>Entre corps chargés</td>
+      <td>humaine ; molécules ; atomes</td>
+      <td>infinie</td>
+    </tr>
+    <tr>
+      <th scope="col">interaction forte</th>
+      <td>Entre nucléons </td>
+      <td>noyau de l’atome </td>
+      <td>inférieure à 10<sup>-15</sup>	m </td>
+    </tr>
+    <tr>
+      <th scope="col">interaction faible</th>
+      <td>Entre les nucléons</td>
+      <td>noyau de l’atome</td>      <td>Inférieure à 10<sup>-17</sup>
+	m</td>
+    </tr>
+  </table>
+</center>
+  </p>
+    <img src="\filedir/book.jpg" class="icone"/>
+
+    <h3>Exercices : S’autoévaluer p 125 (seul) +     Ex  8 ; 9 (seul) ; 10 ; 15 ; 21 p128/129</h3>
+
+
+</div>

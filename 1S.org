@@ -1,0 +1,141 @@
+* Thème 1 : Couleur
+** Chapitre 1 : La chimie des couleurs
+*** DONE 7p74 Distinguer un pigment d'un colorant
+**** Énoncé
+     Dans quatre tubes à essais contenant 2mL d'eau, on introduit respectivement:
+     une pointe de spatule d'hélianthine (a),
+     de charbon (b),
+     d'indigo (c),
+     et de vert malachite (d).
+     Après agitation, on observe le contenu des tubes.
+**** Question
+     Quels sont les pigments et les colorants parmis les matières colorées introduites?
+
+**** Solution
+     Les pigments sont insolubles dans le milieu : b et c.
+     Les colorants y sont solubles : a et d.
+*** DONE 8p74 Étudier l'influence d'un paramètre sur la couleur d'une espèce
+
+**** Énoncé
+     Les baies de troène sont riches en anthocyanes.
+     Jadis, les parties rouges et violettes des cartes à jouer étaient colorées par le jus des baies de troène, additionné de sulfate acide de potassium pour le rouge, d'urine pour le violet et de potasse (obtenu par macération des cendres dans l'eau) pour les bleus.
+
+     La valeur du pH d'une solution de sulfate acide de potassium est inférieure à 7.
+     L'urine a un pH compris entre 7 et 7,5.
+     Celui d'une solution de potasse est très supérieur à 7.
+ 
+**** Questions
+     1. Quel paramètre influence la couleur de l'anthocyane ?
+     2. Comment nomme-t-on de telles espèces?
+
+**** Solution
+     1. L’acidité du milieu influence la couleur.
+     2. Ce sont des indicateurs colorés acido-basiques.
+
+*** DONE 17p75 Le pernambouc ou « bois du Brésil » 
+**** Énoncé
+     Le coeur du bois de pernambouc était utilisé pour ses propriétés tinctoriales. On en tire un pigment rouge : La braziléine. Pour extraire la teinture, le bois réduit en poudre est mis à bouillir dans l'eau. Le jus rouge-rosé est alors récupéré.
+     
+**** Questions
+     1. Nommer les techniques d'extraction et de séparation évoquées dans le texte.
+     2. Qhel est l'intérêt de réduire le bois en poudre?
+     3. Décrire le procédé de séparation.
+     4. En présence de soude, la teinture vire au rouge violacé. En présence d'acide chlorhydrique elle vire au jaune. Conclure.
+
+**** Solution
+     1. Décoction ; filtration.
+     2. L’extraction est facilitée.
+     3. On peut réaliser une filtration simple (entonnoir +
+     filtre) ou bien utiliser un montage Büchner.
+     4. La braziléine est sensible au pH du milieu.
+*** DONE 12p75 Écrire une formule topologique
+**** Énoncé
+     Donner la formule topologique des molécules ayant la formule semi-dévelopée suivante:
+
+*** DONE 15p75 Interpréter la structure d'une molécule
+**** Énoncé 
+     La canthaxanthine est un pigment qui donne au plumage des oiseaux une couleur rouge.
+     C'est un additif alimenataire autorisé pour les animaux.
+**** Question
+     Toutes les doubles liaisons sont-elles conjuguées?
+**** Solution
+     Toutes les doubles liaisons sont conjuguées.
+
+*** DONE 10p74 Interpréter la couleur d'un colorant
+**** Énoncé
+     On réalise la chromatographie du colorant vert d'un sirop de menthe. 
+     Sur une plaque CCM , on dépose la tantrazine jaune (J), le bleu patenté (B) (dont la couleur est proche du cyan) et le colorant vert (V).
+**** Questions 
+     1. Que signifie l'acronyme CCM?
+     2. Interpréter la couleur du colorant vert à l'aide du cercle chromatique simplifé.
+**** Solution
+     1.  Chromatographie sur Couche Mince.
+     2.  Le colorant vert est un mélange des colorants
+     bleu (perçu cyan) et jaune. En effet, le colorant cyan
+     absorbe les radiations rouges et diffuse les radiations
+     bleues et vertes. Le colorant jaune absorbe les radiations bleues et diffuse les radiations rouges et vertes.
+     Les radiations diffusées sont donc vertes.
+  
+*** TODO 17p75
+**** Énoncé
+**** Questions
+**** Solutions
+** TODO Chapitre 2 : Vision et image
+**** Énoncé
+**** Questions
+**** Solutions
+** TODO Chapitre 3 : Géométrie des molécules et vision
+**** Énoncé
+**** Questions
+**** Solutions
+** TODO Chapitre 4 : Vision des couleurs
+**** Énoncé
+**** Questions
+**** Solutions
+** TODO Chapitre 5 : Sources lumière colorée
+**** Énoncé
+**** Questions
+**** Solutions
+** TODO Chapitre 6 : Réaction chimique et couleurs
+**** Énoncé
+**** Questions
+**** Solutions
+   
+
+* TODO Thème 2 : Énergie
+** TODO Chapitre 7 : Interactions
+**** Énoncé
+**** Questions
+**** Solutions
+** TODO Chapitre 8 : Champs BgE
+**** Énoncé
+**** Questions
+**** Solutions
+** TODO Chapitre 9 : Radioactivité
+**** Énoncé
+**** Questions
+**** Solutions
+** TODO Chapitre 10 : Cohésion des solides
+**** Énoncé
+**** Questions
+**** Solutions
+** TODO Chapitre 11 : Alcanes alcools
+**** Énoncé
+**** Questions
+**** Solutions
+** TODO Chapitre 12 : Transfert thermique
+**** Énoncé
+**** Questions
+**** Solutions
+** TODO Chapitre 13 : Oxred et pile
+**** Énoncé
+**** Questions
+**** Solutions
+** TODO Chapitre 14 : Différentes formes d'énergies
+**** Énoncé
+**** Questions
+**** Solutions
+** TODO Chapitre 15 : Les fonctions en CO
+**** Énoncé
+**** Questions
+**** Solutions

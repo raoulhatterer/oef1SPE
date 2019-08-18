@@ -1,0 +1,320 @@
+\comment{CH 9 : La radioactivité}
+
+\fold{CA9}{Compétences attendues}{}
+
+<div class="cours">
+  <img src="\filedir/book.jpg" class="icone"/>
+  <p>Correspond au chapitre 8 page 134 du livre</p>
+</div>
+
+<h1 class="cours">Qu’est ce que la radioactivité ? </h1>
+<div class="cours">
+
+  <div class="wimscenter">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+	    codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
+	    width="800"
+	    height="600">
+      <param name="movie" value="\filedir/atomeradioactivite.swf">
+	<param name="quality" value="high">
+	  <embed src="\filedir/atomeradioactivite.swf" quality="high"
+		 pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"
+		 width="800"
+		 height="600"></embed>
+    </object>
+  </div>
+
+  <p>
+    <mark>Dans la nature, la plupart des noyaux d’atome sont stables, du fait de l’interaction forte.</mark> Cette cohésion est directement liée au nombre de protons et de neutrons qui constituent le noyau. <mark>Lorsque la cohésion du noyau n’est plus assurée, le noyau est dit instable.</mark>
+  </p>
+  <p>
+    La radioactivité est dite :
+    <ul>
+      <li><mark>naturelle</mark> lorsque les noyaux instables existent dans la <mark>nature</mark>.</li>
+      <li><mark>artificielle</mark> lorsque les noyaux instables sont crées en <mark>laboratoire</mark> (par collision de particules dans des accélérateurs).</li>
+    </ul>
+  </p>
+
+
+
+  <p>
+    La radioactivité est une <mark>réaction nucléaire (ne touche que le noyau)</mark> dans laquelle un noyau instable (appelé <mark>noyau père) se désintègre en un</mark> autre noyau plus stable (appelé <mark>noyau fils</mark>) et émet une particule (électron, positon, particule alpha) et la plupart du temps un rayonnement électromagnétique (rayonnement gamma γ)
+  </p>
+<p>
+  <a target="wims_external" href="https://phet.colorado.edu/fr/simulation/legacy/alpha-decay">Animation JAVA : Désintégration alpha</a>
+</p>
+  <p>
+    Cette transformation est :
+    <ul>
+      <li><mark>spontanée</mark> (sans intervention extérieure),</li>
+      <li><mark>aléatoire</mark> (impossible de prévoir quand elle va se déclencher),</li>
+      <li><mark>inéluctable</mark> (un noyau instable se désintègre tôt ou tard.)</li>
+    </ul> 
+  </p>
+</div>
+
+<h1 class="cours">L’Activité d’une source radioactive</h1>
+<div class="cours">
+  <img src="\filedir/TP.png" class="icone"/>
+  <p>(TP4)</p>
+  <p>
+    Le décompte des rayonnements reçus par un compteur de radioactivité (compteur Geiger-Muller) permet d’accéder indirectement au nombre de désintégrations d’une source radioactive sur une durée donnée.
+  </p>
+  <p class="mark">
+    <mark>L’activité A</mark> d’une source radioactive est le nombre moyen de désintégrations par seconde.
+  </p>
+  <p>
+    Elle s'exprime en <mark>becquerels</mark>  (1Bq = 1 désintégration par seconde).
+  </p>
+
+  <div class="wimscenter">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+	    codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
+	    width="800"
+	    height="600">
+      <param name="movie" value="\filedir/LaRadioactivite.swf">
+	<param name="quality" value="high">
+	  <embed src="\filedir/LaRadioactivite.swf" quality="high"
+		 pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"
+		 width="800"
+		 height="600"></embed>
+    </object>
+  </div>
+
+
+
+  
+</div>
+
+<h1 class="cours">Les réactions nucléaires </h1>
+<div class="cours">
+  <h2 class="cours">Lois de conservation dans les réactions nucléaires (lois de Soddy)</h2>
+  
+  <div class="mark">    
+    <p>
+      Lors d’une transformation nucléaire, il y a conservation :
+      <ul>
+	<li>du nombre de charge Z </li>
+	<li>du nombre de masse A</li>
+      </ul>
+    </p>
+  </div>
+
+  <h2 class="cours">Réactions de désintégration spontanées </h2>
+  <p>
+    Une réaction nucléaire est spontanée si elle ne nécessite pas d’apport d’énergie de l’extérieur.
+  </p>
+
+
+  <h3 class="cours">Désintégration α</h3>
+  <p>
+  <a target="wims_external" href="https://phet.colorado.edu/fr/simulation/legacy/alpha-decay">Animation JAVA : Désintégration alpha</a>
+</p>
+  <p class="mark">
+    Elle concerne les noyaux pères trop lourds, instables à cause d’un grand nombre de nucléons. Ces noyaux se désintègrent en noyaux plus légers par émission de particule α (noyaux d’hélium).
+  </p>
+  <h4>Exemple : déterminer l'équation de désintégration du radon-222</h4>
+  <p>
+    <ul>
+      <li>La désintégration du radon-222 produit un noyau fils et une particule alpha :  	\({}_{\phantom{2}86}^{222}\mathrm{Rn} \rightarrow {}_{Z}^{A}\mathrm{X} + {}_{2}^{4}\mathrm{He}\)      </li>
+      <li>Conservation de la masse : 222 = A + 4 donc A = 218</li>
+      <li>Conservation de la charge : 86 = Z + 2 donc Z = 84</li>
+      <li>Lecture du tableau périodique pour déterminer l'élément : Z = 84 donc X   = Po (le Polonium)</li>
+      <li>Symbole du noyau fils : \({}_{\phantom{2}84}^{218}\mathrm{Po}\)</li>
+      <li>Équation de la désintégration :   
+	<span class="formulemathematique">\({}_{\phantom{2}86}^{222}\mathrm{Rn} \rightarrow {}_{\phantom{2}84}^{218}\mathrm{Po} + {}_{2}^{4}\mathrm{He}\) </span>       </li>
+
+    </ul>
+  </p>
+  
+
+  
+  <h3 class="cours">Désintégration \(\beta^-\) </h3>
+  <p>
+<a target="wims_external" href="https://phet.colorado.edu/fr/simulation/legacy/beta-decay">Animation : Désintégration Beta</a>
+  </p>
+  <p class="mark">
+    Les noyaux instables possédant un excès de neutrons par rapport aux protons se désintègrent en émettant un électron.
+  </p>
+  <h4>Exemple : déterminer l'équation de désintégration du carbone-14</h4>
+  <p>
+    <ul>
+      <li>La désintégration du carbone-14 produit un noyau fils et un électron :  	\({}_{\phantom{1}6}^{14}\mathrm{C} \rightarrow {}_{Z}^{A}\mathrm{X} + {}_{-1}^{\phantom{-}0}\mathrm{e}\)      </li>
+      <li>Conservation de la masse : 14 = A + 0 donc A = 14 </li>
+      <li>Conservation de la charge : 6 = Z - 1 donc Z = 7</li>
+      <li>Lecture du tableau périodique pour déterminer l'élément : Z = 7 donc X   = N (l'azote)</li>
+      <li>Symbole du noyau fils : \({}_{\phantom{1}7}^{14}\mathrm{N}\)</li>
+      <li>Équation de la désintégration :
+	<span class="formulemathematique">\({}_{\phantom{1}6}^{14}\mathrm{C} \rightarrow {}_{\phantom{1}7}^{14}\mathrm{N} + {}_{-1}^{\phantom{-}0}\mathrm{e}\) </span>        (lors de la désintégration un neutron a été transformé en proton)    </li>
+    </ul>
+  </p>
+
+  <h3 class="cours">Désintégration \(\beta^+\)</h3>
+  <p class="mark">
+    Les noyaux instables possédant un excès de protons par rapport aux neutrons se désintègrent en émettant un positon (positron in english), une particule identique à l’électron mais de charge opposée, notée \({}_{1}^{0}\mathrm{e}\).
+  </p>
+  <h4>Exemple : déterminer l'équation de désintégration du fluor-18</h4>
+  <p>
+    <ul>
+      <li>La désintégration du fluor-18 produit un noyau fils et un positon :  	\({}_{\phantom{1}9}^{18}\mathrm{F} \rightarrow {}_{Z}^{A}\mathrm{X} + {}_{1}^{0}\mathrm{e}\)      </li>
+      <li>Conservation de la masse : 18 = A + 0 donc A = 18</li>
+      <li>Conservation de la charge : 9 = Z + 1 donc Z = 8</li>
+      <li>Lecture du tableau périodique pour déterminer l'élément : Z = 8 donc X   = O (l'oxygène)</li>
+      <li>Symbole du noyau fils : \({}_{\phantom{1}8}^{18}\mathrm{O}\)</li>
+      <li>Équation de la désintégration :
+	<span class="formulemathematique">\({}_{\phantom{1}9}^{18}\mathrm{F} \rightarrow {}_{\phantom{1}8}^{18}\mathrm{O} + {}_{1}^{0}\mathrm{e}\) </span>        (lors de la désintégration un proton a été transformé en neutron)    </li>
+
+    </ul>
+  </p>
+
+  <h3 class="cours">Rayonnement Ɣ</h3>
+  <p>
+    Après une désintégration α  ou β,  le noyau fils peut-être dans un état énergétique excité. On le note \({}_{Z}^{A}\mathrm{Y}^*\). 
+    Le noyau fils revient dans son état fondamental en émettant la différence d’énergie sous forme d’un rayonnement électromagnétique : des photons très énergétiques (λ < 1 pm soit f > 3&middot;10<sup>19</sup> Hz) : les photons Ɣ 
+  </p>
+  <p>
+    L’équation générale d’une désexcitation s’écrit :   \({}_{Z}^{A}\mathrm{Y}^*\rightarrow {}_{Z}^{A}\mathrm{Y} + Ɣ\)
+  </p>
+
+  <h2 class="cours">Les réactions provoquées </h2>
+  <p>
+    Une réaction nucléaire est dite provoquée si elle nécessite un apport d’énergie extérieur.
+  </p> 
+  <h3 class="cours">La fission </h3>
+  <p>
+<a target="wims_external" href="https://phet.colorado.edu/fr/simulation/legacy/nuclear-fission">Animation JAVA : Fission nucléaire</a>
+  </p>
+  <p class="mark">
+    La fission est une réaction nucléaire provoquée dans laquelle un noyau lourd dit fissible donne naissance à deux noyaux légers sous l’effet d’un choc avec un neutron.
+  </p>
+
+  <center>
+    <img src="\filedir/fission.jpg" alt="fission d'un noyau lourd"/>
+  </center>
+  <p>
+    Lors d’une fission de noyaux lourds, un rayonnement Ɣ est émis, de l’énergie est libérée.
+  </p>
+  <p>
+    Les neutrons émis peuvent à leur tour provoquer d’autre fission : on parle de réaction en chaîne qui peut devenir rapidement incontrôlable. L’énergie libérée par une bombe atomique de type A provient de fissions en chaîne non contrôlées de noyaux d’uranium 235 (bombe A d'Hiroshima) ou de plutonium 239 (bombe A de Nagasaki).
+  </p>
+
+
+  <h3 class="cours">La fusion </h3>
+  <p class="mark">
+    La fusion est une réaction nucléaire provoquée au cours de laquelle deux petits noyaux s’associent pour former un noyau plus gros et plus stable (avec éventuellement formation de particules (neutron, proton,...).
+  </p>
+  <p>
+    Lors d’une fusion, un rayonnement Ɣ est émis, de l’énergie est libérée.
+  </p>
+</div>
+
+<h1 class="cours">L’énergie nucléaire</h1>
+<div class="cours">
+  <img src="\filedir/TP.png" class="icone"/>
+  <p>(TP4bis)</p>
+  <h2 class="cours">Défaut de masse d’un noyau </h2>
+
+  <div class="wimscenter">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+	    codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
+	    width="800"
+	    height="600">
+      <param name="movie" value="\filedir/masses_noyaux.swf">
+	<param name="quality" value="high">
+	  <embed src="\filedir/masses_noyaux.swf" quality="high"
+		 pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"
+		 width="800"
+		 height="600"></embed>
+    </object>
+  </div>
+
+  
+  
+  <p class="mark">
+    La masse des nucléons séparés qui constituent un noyau est supérieure à la masse de ce noyau : la différence est le défaut de masse du noyau.
+  </p>
+  <center>
+<img src="\filedir/defautmasse.png" width="400" alt="défaut de masse"/>
+  </center>
+  <p>
+    Au défaut de masse est associé une énergie appelée énergie de liaison du noyau. C’est l’énergie qu’il faut fournir au noyau pour séparer les nucléons.
+  </p>
+    <h3>Unité de masse atomique</h3>
+    <p>
+      L'unité de masse atomique unifiée (en anglais : unified atomic mass unit), de symbole « u », est une unité de mesure standard, utilisée pour exprimer la masse des atomes et des molécules.
+    </p>
+    <center>
+<img src="\filedir/uma.jpg" width="480" alt="unité de masse atomique"/>
+  </center>
+
+  
+  <h2 class="cours">Énergie libérée lors d’une réaction nucléaire </h2>
+  <p>
+    Une transformation nucléaire libère de l’énergie.
+  </p>
+  <p>
+    <mark>C’est la perte de masse qui est à l’origine de l’énergie libérée</mark> : la masse ne disparaît pas…elle se transforme en énergie (énergie cinétique des noyaux ou particules produites et énergie de rayonnement Ɣ).
+  </p>
+  <p>
+    L’énergie libérée E<sub>libérée</sub>  lors d’une réaction nucléaire est : <br/><br/>
+    <center><span class="formulemathematique">E<sub>libérée</sub> = │ΔE│= │Δm│× c² 	</span></center><br/>
+
+    où :	ΔE : énergie libérée (en J) ; Δm : variation de masse totale (en kg) ;   c : célérité de la lumière (m&middot;s<sup>-1</sup>)
+  </p>
+  <p>
+    Remarque : lors d’une transformation nucléaire, l’énergie totale se conserve.
+  </p>
+</div>
+
+<h1 class="cours">Domaines d’application du nucléaire </h1>
+<div class="cours">
+  <h2 class="cours">Domaine médical </h2>
+
+  <ul>
+    <li><mark>Scintigraphie</mark> : on injecte des isotopes radioactifs d’atomes présents dans le corps humain, ils ont les mêmes propriétés chimiques et se comportent de la même manière dans le corps. Le rayonnement produit par la radioactivité de ces isotopes permet l’imagerie médicale (scintigraphie).</li>
+    <li>Traitement médical par <mark>radiothérapie</mark> (utilise la libération d’énergie des réactions nucléaires).</li>
+    <li><mark>Stérilisation</mark> des aliments par irradiation radioactive.</li>
+  </ul>
+  <h2 class="cours">Production d’électricité dans des centrales nucléaires </h2>
+  <p>
+    Une réaction en chaîne qu’il faut arriver à contrôler, se déroule dans le cœur d’une centrale nucléaire. 
+    <mark>La fission libère de l’énergie mais aussi des déchets radioactifs</mark>, qui s’accumulent car malgré des dizaines d’années de recherches, aucune solution n’a été trouvée pour les rendre inoffensifs. 
+  </p>
+  <p>
+    Actuellement on étudie la possibilité de produire de l’électricité par fusion nucléaire, qui libère beaucoup plus d’énergie pour moins de produits utilisés et moins de déchets.
+  </p>
+
+  <h2 class="cours">Datation au carbone 14 </h2>
+  <div class="wimscenter">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+	    codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
+	    width="800"
+	    height="600">
+      <param name="movie" value="\filedir/DecroissanceRadioactive.swf">
+	<param name="quality" value="high">
+	  <embed src="\filedir/DecroissanceRadioactive.swf" quality="high"
+		 pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"
+		 width="800"
+		 height="600"></embed>
+    </object>
+  </div>
+
+La demi-vie T<sub>1/2</sub> (ou période radioactive) est le temps au bout duquel le nombre de noyaux de l'isotope considéré a été divisé par deux.
+  
+  <p>
+    Tous les êtres vivants, animaux ou végétaux ont un rapport entre le carbone 12 et le carbone 14 constant. Dès que l'organisme meurt, le carbone 14 n'est plus renouvelé, sa proportion se met donc à décroître.
+  </p>
+  <p>
+    Si l'activité est constante, c'est l'activité d'un organisme vivant actuel. 
+    Si l'origine t = 0 est l'instant de sa mort on connaît A<sub>0</sub> l'activité de l’organisme vivant à cette époque (activité constante jusqu'en 1950 ; au-delà il faut introduire des termes correctifs dus aux essais ou accidents nucléaires). On mesure alors l'activité A (par exemple celle d’un os). Et on utilise la courbe de décroissance radioactive du carbone 14 ci-dessous :
+  </p>
+  <center>
+    <img src="\filedir/carbone14.jpg"width="600" alt="activité du carbone 14"/>
+  </center>
+  <img src="\filedir/book.jpg" class="icone"/>
+
+  <h3>Exercices : s’autoévaluer p143 (à faire seul)  + 12,18,19,24 p147/148 </h3>
+
+</div>
+
+

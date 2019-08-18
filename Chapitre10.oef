@@ -1,0 +1,253 @@
+\comment{CH 10: Cohésion des solides ioniques et moléculaires}
+
+\fold{CA10}{Compétences attendues}{}
+
+
+<div class="cours">
+  <img src="\filedir/book.jpg" class="icone"/>
+  <p>Correspond au chapitre 9 page 151 du livre</p>
+</div>
+
+<h1 class="cours">Cohésion des solides ioniques </h1>
+<div class="cours">
+
+  <img src="\filedir/TP.png" class="icone"/>
+  <p>(TP5)</p>
+
+  <p>
+    <mark>Un solide ionique est un assemblage régulier de cations + et d’anions -</mark>  qui ne conduit pas le courant électrique car les ions sont figés.
+  </p>
+  <p>
+    C’est <mark>\link{Chapitre7}{la force électrostatique}{forceelectrostatique}{} attractive entre les cations + et les anions - qui assure la cohésion du solide</mark> (elle est plus importante que la force répulsive entre 2 ions de même charge).
+  </p>
+  <p>
+    Globalement, le solide ionique est électriquement neutre (autant de charges + que de charges -).
+  </p>
+
+  <h3>Formule statistique</h3>
+  
+  <p class="mark">
+    La formule statistique indique la nature et la proportion des ions présents.   La formule statistique commence toujours par son cation.
+  </p>
+  <p>
+    Exemples : 
+    <ul>
+      <li>NaCl : statistiquement il y a autant de Na<sup>+</sup> que de Cl<sup>-</sup> (donc le solide ionique est neutre)</li>
+      <li>CaCl<sub>2</sub> : statistiquement dans le solide il y a deux fois plus d’ions Cl<sup>-</sup> que d’ions Ca<sup>2+</sup> (donc le solide ionique est neutre)</li>
+    </ul>
+    
+  </p>
+  
+</div>
+
+<h1 class="cours">Cohésion des solides moléculaires </h1>
+<div class="cours">
+  <h2 class="cours">Polarité d’une molécule </h2>
+
+
+  <p>
+    Pour savoir si une liaison <span class="formulechimique">A  –  B</span> est polarisée, les chimistes comparent l'électronégativité des atomes <span class="formulechimique">A</span> et <span class="formulechimique">B</span>.
+  </p>
+  <center>
+    <img src="\filedir/electronegativites.jpg" width="90%" alt="«alternate text»électronégativité"/>
+    <img src="\filedir/electronegativity.jpg" width="60%" alt="«alternate text»électronégativité"/>    
+  </center>
+  
+  <div class="mark">
+    <ul>
+      <li>L’électronégativité est la capacité d’un atome  à attirer à lui les électrons d’une liaison covalente. Plus la valeur de l’électronégativité est grande et plus l’atome attire les électrons.</li>
+      <li>Une liaison entre deux atomes A et B est polarisée si ces deux atomes ont des électronégativités différentes (écart de ~ 0,6 à 2). La liaison constitue alors un dipôle électrique ( = deux charges ponctuelles opposées, séparées par une distance d) caractérisée par son moment dipolaire \(\vec p\)  (orienté du – vers le + et de norme \(p=q\cdot d\) ).</li>
+    </ul>
+  </div>
+
+  <p>
+    Exemples :
+    <ul>
+      <li>Liaison <span class="formulechimique">C – O</span>, l’oxygène a une électronégativité de 3,4 supérieure à celle du carbone (2,6) : la liaison est polarisée</li>
+      <li>Liaison <span class="formulechimique">C – H</span> : écart de 0,4 donc liaison très faiblement polarisée : on la néglige </li>
+      <li>Une liaison entre 2 atomes identiques n’est pas polarisée Ex : <span class="formulechimique">O = O</span> ; <span class="formulechimique">C – C</span></li>
+    </ul>
+  </p>
+  <p class="mark">
+    Une molécule est polaire si le barycentre de ses charges positives (noté δ<sup>+</sup>) est distinct du barycentre de ces charges négatives δ<sup>-</sup>. </p>
+
+  <h3>Exemples : </h3>
+  <ul>
+    <li>\fold{}{molécule d’eau :}{molécule d'eau :<center><img src="\filedir/momentH2O.jpg" width="400" alt="la molécule d'eau est polaire"/> <br/>	La molécule d'eau est polaire      </center>}</li>
+    <li>molécule de dioxyde de carbone :</li>
+  </ul>
+
+
+
+
+
+
+
+  <h2 class="cours">Cohésion des solides moléculaires </h2>
+  Les solides moléculaires sont des molécules neutres. La cohésion de ces molécules est due à deux types d'interactions :
+  <ul>
+    <li>Les interactions de Van der Waals</li>
+    <li>Les liaisons hydrogènes</li>
+  </ul>
+  <h3 class="cours">Interactions de Van der Waals</h3>
+
+  <p class="mark">
+    Attraction entre dipôles électriques (attraction entre  δ<sup>+</sup>  et δ<sup>-</sup>) 
+  </p>
+
+  <ul>
+    <li>  Soit entre dipôles électriques permanents pour les <mark>molécules polaires</mark>
+      <p>
+	Exemple : la molécule d’acétone.
+	<center>
+	  <img src="\filedir/Acetone_dipole-dipole.jpg" width="30%" alt="molécule d'acétone"/>
+	</center>
+      </p>
+      <p>
+	Le carbone moins électronégatif que l’oxygène, porte une charge partielle δ<sup>+</sup> et l’oxygène δ<sup>-</sup>. Il y a une interaction attractive entre ces 2 charges partielles de 2 molécules différentes.
+      </p>
+    </li>
+    <li>  Soit entre dipôles électriques instantanées pour les <mark>molécules apolaires </mark>
+      <p>
+	Exemple : molécule de dichlore <span class="formulechimique">Cl - Cl</span>.
+	<center>
+	  <img src="\filedir/forces_london.jpg" alt="dipôles instantanés"/>
+	</center>
+      </p>
+      <p>
+	À un instant <i>t</i> le nuage électronique se déforme et laisse apparaitre la charge positive du noyau créant ainsi un dipôle instantané qui va induire un autre dipôle instantané sur la molécule d’à côté.
+      </p>
+    </li>
+  </ul>
+
+  <h3 class="cours">Liaisons hydrogènes </h3>
+  <p class="mark">
+    Liaison entre un atome d’hydrogène H (lié à un atome A électronégatif) et le doublet non liant d’un autre  atome B très électronégatif.
+    <center>
+      <img src="\filedir/liaisonhydrogene.gif" alt="liaison hydrogène"/>
+    </center>
+  </p>
+
+  <h4>Exemple de liaisons hydrogène :</h4>
+
+  <center>
+    <img src="\filedir/liaisonHydrogene.jpg" alt="liaison hydrogène"/>
+  </center>
+
+  <h4>Remarque : </h4>
+  L’hydrogène d’une liaison <span class="formulechimique">C – H</span> ne pourra jamais faire de liaison hydrogène car <span class="formulechimique">C</span> n’est pas assez électronégatif.
+
+  <h2 class="cours">Comparaison des différentes attractions : </h4>
+<center>
+  <p class="mark">
+    Interactions électrostatiques solides ioniques > liaison hydrogène >  interactions de Van der Waals
+  </p>
+</center>
+</div>
+
+<h1 class="cours">Dissolution d’un soluté dans un solvant </h1>
+<div class="cours">
+  <p>
+    Une solution est obtenue par la dissolution d'un <mark>soluté</mark> (ionique ou moléculaire), dans un <mark>solvant</mark>.
+  </p>
+  <h2 class="cours">Dissolution d’un solide ionique dans un solvant polaire </h2>
+
+  <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aKGJm6OGJNs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </center>
+  
+  <h3>La dissolution d'un solide ionique dans l'eau se déroule en trois étapes : </h3>
+  <p>
+    <ul>
+      <li>dissociation des ions du solide (rupture de la force électrostatique de coulomb entre les ions)</li>
+      <li>solvatation (ou hydratation dans le cas de l’eau) des ions
+	<center>
+	  <img src="\filedir/dissolution_solvation.gif"  alt="solvatation"/>
+	</center>
+
+      </li>
+      <li>dispersion des ions dans la solution</li>
+    </ul>
+  </p>
+
+  <center>
+    <div class="wimscenter">
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+	      codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
+	      width="800"
+	      height="600">
+	<param name="movie" value="\filedir/dissolution.swf">
+	  <param name="quality" value="high">
+	    <embed src="\filedir/dissolution.swf" quality="high"
+		   pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"
+		   width="800"
+		   height="600"></embed>
+      </object>
+    </div>
+  </center>
+
+  
+
+  <p>
+    L’équation de dissolution doit respecter la conservation des éléments chimiques et de la charge électrique.
+  </p>
+  <h3>Exemples : </h3>
+  <ul>
+    <li>\fold{}{CoCℓ<sub>2</sub>(s)}{<span class="formulechimique">CoCℓ<sub>2</sub>(s) &rarr; Co<sup>2+</sup>(aq) + 2 Cℓ<sup>-</sup>(aq)</span>}</li>
+    <li>\fold{}{KNO<sub>3</sub>(s)}{<span class="formulechimique">KNO<sub>3</sub>(s) &rarr;  K<sup>+</sup>(aq) + NO<sub>3</sub><sup>-</sup>(aq)</span>}</li>
+    <li>\fold{}{CuSO<sub>4</sub>(s)}{<span class="formulechimique">CuSO<sub>4</sub>(s) &rarr; Cu<sup>2+</sup> + SO<sub>4</sub><sup>2-</sup></span>}</li>
+  </ul>
+
+  <p>
+    <mark>Une solution contenant des ions conduit le courant électrique : c’est une solution électrolytique.</mark>
+    Toutes les espèces chargées participent à la circulation du courant : les cations circulent du (+) vers le (-), et les anions vont du (-) vers le (+). La solution électrolytique est électriquement neutre (autant de cation que d’anions)
+  </p>
+
+  <h2 class="cours">Dissolution d’un composé moléculaire dans un solvant </h2>
+
+  <ul>
+    <li>Les composés moléculaires polaires sont généralement solubles dans les solvants polaires (comme l’eau) à cause  des liaisons hydrogène ou des interactions de Van der Waals qui s’établissent entre les molécules de soluté et de solvant.</li>
+    <li>Les composés moléculaires apolaires sont généralement solubles dans les solvants apolaires (comme le cyclohexane) et non solubles dans les solvants polaires.</li>
+  </ul>
+
+
+
+  <h2 class="cours">Concentration molaire et dissolution </h2>
+  <h3>Concentration molaire en soluté A : </h3>
+  <p>
+    <center>
+      <span class="formulemathematique">
+	\(C_A = \frac{n(A)} {V(solution)}\)
+      </span>
+    </center> <br/>
+    n<sub>A</sub> : quantité de matière de soluté solide A mis en solution en mol.
+  </p>
+    <h3>La concentration molaire réelle (ou effective) en ions : </h3>
+    <p>
+      <center>
+	<span class="formulemathematique">
+	  \([B^-]=\frac{n(B^-)}{V(solution)}\)
+	</span>    ou    <span class="formulemathematique">
+	  \([B^+]=\frac{n(B^+)}{V(solution)}\)
+	</span>
+      </center> <br/>
+      n(B<sup>-</sup>)  ou n(B<sup>+</sup>) : quantité d’ions réellement présents dans un volume de solution.
+    </p>
+    <h4>Exemples : </h4>  
+
+
+
+
+  <img src="\filedir/book.jpg" class="icone"/>
+
+  <h3>Exercices : </h3>
+  <ul>
+    <li>s’autoévaluer (seul) p 177 et p 161 (sauf 4) </li>
+    <li>exercice résolu p178 + p162</li>
+    <li>11,16,21,25 p167</li>
+    <li>8,11, 12,14,19 p181 </li>    
+  </ul>
+  
+  
+</div>
+

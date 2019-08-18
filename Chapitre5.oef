@@ -1,0 +1,367 @@
+\comment{CH 5 Des sources de lumière colorées }
+
+\fold{CA5}{Compétences attendues}{}
+<div class="cours">
+  <img src="\filedir/book.jpg" class="icone"/>
+  <p>Correspond au chapitre 3  page 45 du livre</p>
+</div>
+
+
+<h1 class="cours"> Couleur perçue et couleur spectrale </h1>
+<div class="cours">
+  <img src="\filedir/TP.png" class="icone"/>
+  <p>(TP9)</p>
+  <p class="definition">
+    Une même couleur  perçue peut correspondre à plusieurs profils spectraux.
+  </p>
+  <center>
+    <img src="\filedir/spectres_sources.png"  width="400" alt="spectres"/>
+</center>
+  <h3>Exemples : </h3>
+  <p>
+    La lumière d'une ampoule à incandescence et des lampes de la classe apparaissent blanches, alors que leur spectre est différent : spectre continu pour l'ampoule incandescente, spectre discontinu pour les lampes.
+  </p>
+</div>
+
+  
+  <h1 class="cours">Lumière et ondes électromagnétiques </h1>
+
+  <h2 class="cours">Sources de lumières monochromatiques et polychromatiques </h2>
+  <div class="cours">
+  <img src="\filedir/TP.png" class="icone"/>
+  <p>(TP9)</p>
+  <p>
+    Une lumière émise par une source peut être analysée par un système dispersif comme le prisme ou le réseau.
+  </p>
+
+
+
+  <p class="mark">
+    Si la lumière ne peut pas être décomposée par un système dispersif, la source est dite <b>monochromatique</b>.<br/>
+    Elle correspond à une seule radiation lumineuse et est caractérisée par une <b>longueur d'onde dans le vide λ</b>.
+  </p>
+  <div class="wimscenter">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Lasers.JPG/1280px-Lasers.JPG" class="cours" alt="Laser rouge (660 & 635 nm), vert (532 & 520 nm) et bleu (445 & 405 nm)" width="300"/>
+</div>
+
+  <h3>Exemples de source de lumière monochromatique : </h3>
+  <p>
+    La lumière d'un laser rouge λ = 632,8nm. Sur la photo ci-dessus : laser rouge (660 & 635 nm), vert (532 & 520 nm) et bleu (445 & 405 nm).
+  </p>
+  
+  <p class="mark">
+    Si la lumière peut-être décomposée par un système dispersif, la source est dite <b>polychromatique</b><br/>
+Elle correspond à plusieurs radiations (ensemble de lumières monochromatiques de longueurs d'onde différentes)
+  </p>
+
+  <div class="wimscenter">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sz%C3%ADnszóródás_prizmán1.jpg/750px-Sz%C3%ADnszóródás_prizmán1.jpg" class="cours" alt="Dispersion de la lumière blanche à travers un prisme" width="300"/>
+  </div>
+  
+  <h3>Exemple de sources de lumières polychromatiques: </h3>
+  <p>
+  Les sources de lumière naturelles (étoiles, flammes..) ou  ampoules des plafonniers.
+  </p>
+  
+  <h3>Remarque : </h3>
+  <p>
+    Une lumière polychromatique peut provoquer la même sensation colorée qu'une lumière monochromatique (l'œil ne distingue pas le jaune d'une lumière monochromatique d'un jaune obtenu par synthèse additive de lumière rouge et  verte).
+  </p>
+ 
+
+  <h2 class="cours">Longueur d'onde dans le vide d'une radiation </h2>
+  <p>
+    La lumière appartient au domaine des <mark>ondes électromagnétiques.
+  </p>
+
+  <p >
+    Chaque radiation lumineuse est caractérisée par :
+    <ul>
+      <li class="mark">Sa <b>longueur d'onde dans la vide</b>\(\displaystyle\lambda\) (lambda) dans le vide. Unités :  <b>mètre</b>. </li>
+      <li class="mark">Sa fréquence notée \(\displaystyle\nu\) ( nu)  qui s'exprime en <b>hertz</b>  (Hz ou s<sup>-1 </sup>)</li>
+    </ul>
+  </p>
+
+  <p>
+ Spectre du visible :
+
+ <div class="wimscenter">
+   <img src="\filedir/visible.jpg" class="cours" alt="spectre lumière visible" width= "600"/>
+ </div>
+</p>
+
+  <p>
+    La fréquence ν  d'une radiation lumineuse  est liée à sa longueur d'onde dans le vide λ par la relation : 
+
+
+    <center>
+      <span class="formulemathematique">	\(\lambda= \frac{c}{ \nu}\)  </span>
+    </center>
+
+   λ  en m ;   ν  en hertz (Hz ou s <sup>-1 </sup> ) et   c = 3,0&times;10<sup>8</sup>m&middot;s<sup>-1 </sup>
+</p>
+  
+  </div>
+
+  <h1 class="cours">Des différentes sources de lumière </h1>
+
+
+  <div class="cours">
+  <h2 class="cours">Sources thermiques (à incandescence)- Loi de Wien </h2>
+
+  <p>
+    Tout corps chaud émet un rayonnement électromagnétique dans le visible lorsqu'il est maintenu à une température suffisamment élevée : c'est le phénomène <mark>d'incandescence</mark>.
+  </p>
+<p>
+<a target="wims_external" href="http://media4.obspm.fr/public/FSU/temperature/rayonnement/corps-noir/spectre-corps-noir/SIMULER.html">Lancer le Simulateur de l’Observatoire de Paris</a>
+    </p>
+
+  <center>
+<img src="\filedir/wien.png" width="500" alt="loi de Wien"/>
+  </center>
+
+  
+    <p>
+    Une lampe à incandescence a un profil spectral <mark>continu</mark> qui dépend de sa température. Ce profil spectral présente toujours un maximum d'intensité pour une longueur d'onde \(\lambda_{max}\).
+    </p>
+    
+    
+    <p>
+      Connaissant cette longueur d'onde, on peut déterminer leur température et inversement grâce à la loi de Wien :
+    </p>
+    <div class="definition">
+      \fold{}{Montrer la Loi de Wien}{
+      <p >
+	Selon <mark>la loi de Wien</mark>, la longueur d'onde \(\lambda_{max}\)  à laquelle un corps chaud émet un maximum d'intensité lumineuse est inversement proportionnelle à sa température T : 
+      </p>
+      <br/>
+      <p>
+	<center>
+	  <span class="formulemathematique">\(\lambda_{max}\cdot T\) = constante </span>
+	</center>
+      </p>
+      <br/>
+    <p>
+    Lorsque \(\lambda_{max}\)  s'exprime en mètres et T en kelvin, la constante vaut 2,898&times;10 <sup>-3 </sup> m&middot;K.
+    </p>
+    }
+    </div>
+
+    <h3>Correspondance entre les kelvins et les degrés Celsius</h3>
+    <br/>
+    <center>
+      <span class="formulemathematique">T (en K) = Θ (en °C)  +   273</span>
+    </center>
+
+
+    <h2 class="cours">Sources spectrales (à luminescence) </h2>
+    <p>
+Tous les processus d'émission de lumière autres que l'incandescence sont qualifiés de luminescence.
+    </p>
+    <p>
+Exemples : lampes à décharge, lampes fluorescentes, DEL, laser
+    </p>
+    <p>
+      Le profil spectral d'une lampe fluorescente présente des raies colorées, avec un fond continu noir.
+    </p>
+    <p>
+      On parle de spectre de <mark>raies d'émission</mark> (spectre discontinu). 
+</p>
+
+
+</div>
+  
+  <h1 class="cours">Interaction lumière - matière : modèle corpusculaire de la lumière (livre p48) </h1>
+  <div class="cours">
+
+    <h2 class="cours">Le photon : un quantum d'énergie lumineuse</h2>
+    
+
+    <p>
+      L'énergie de la lumière est transportée par des <mark>photons </mark>.
+    </p>
+    <p>
+      <mark>Chaque photon véhicule une énergie appelée quantum d'énergie lumineuse</mark> qui dépend de la fréquence de l'onde associée telle que :
+    </p>
+    <br/>
+    <p>
+      <center>
+      <span class="formulemathematique">
+	\(E=h\cdot\nu=\frac{h\cdot c}{\lambda}\)
+      </span>
+      </center>
+    </p>
+    <p>
+Avec :
+      
+      <ul>
+	<li>E : énergie du photon en J</li>
+	<li>h : constante de Planck (h =  6,62618&times;10<sup>-34 </sup> J&middot;s)</li>
+	<li>\(\displaystyle \nu\) : fréquence du rayonnement en Hz</li>
+	<li>\(\displaystyle \lambda\) : longueur d'onde dans le vide (en m)</li>
+      </ul>
+
+
+    </p>
+    
+    <h3>Remarque :</h3>
+    <p>
+      Souvent l'énergie est exprimée en <mark>électronvolt</mark> (eV) :
+      <span class="formulemathematique">
+	1 eV = 1,602&times;10<sup>-19 </sup> J
+      </span>
+</p>
+    <h2 class="cours">Deux modèles pour décrire la lumière</h2>
+   <img src="\filedir/play.jpg" class="icone"/>
+
+    <p>
+	<a target="wims_external" href="https://youtu.be/H549FOGwfKs">Vidéo sur les deux modèles de la lumière</a>
+      </p>
+
+
+
+    
+    <p>
+      Pour une description complète de la lumière, deux aspects sont nécessaires :
+      <ul>
+	<li>Le modèle <mark>ondulatoire</mark> convient bien pour expliquer tous les phénomènes liés à la <mark>propagation</mark> de la lumière et à la formation d'une image.</li>
+	<li>Le modèle <mark>corpusculaire </mark> est plus adapté lorsque des <mark>interactions entre la lumière et la matière</mark> interviennent.</li>
+</ul>
+
+
+</p>
+    <h2 class="cours">Diagramme d'énergie d'un atome</h2>
+    <p>
+      En 1913, le physicien Niels Bohr  introduit l'idée qu'un atome ne peut exister que dans certains états d'énergie bien définis, caractérisés par un niveau d'énergie.
+    </p>
+    <p>
+      Ainsi, l'atome d'hydrogène possède 1 électron sur sa couche K mais possède aussi des couches L, M, N ...
+    </p>
+    <p>
+      Sil reçoit de l'énergie l'électron peut aller sur les autres couches. L'atome sera alors dit dans un état exité. Il n'aura pas la même énergie.
+    </p>
+    <center>
+      <img src="http://s3.e-monsite.com/2011/01/07/04/resize_550_550//etats-excite.jpg" with="500" alt="Absorption Emission"/>
+    </center>
+    <p>
+      Ces niveaux sont dits quantifiés car les valeurs d'énergies correspondantes sont bien déterminées pour un atome donné.
+    </p>
+    <p class="definition">
+      L'énergie d'un atome ne peut pas prendre n'importe quelle valeur. Ces valeurs particulières sont appelées <mark>niveaux d'énergie</mark>.  L'énergie de l'atome est dite quantifiée.
+    </p>
+
+   <img src="\filedir/play.jpg" class="icone"/>
+
+    <p>
+	<a target="wims_external" href="https://youtu.be/hRy61RlbYOo">Vidéo sur le diagramme de niveaux d'énergie (voir les 6 premières minutes de la vidéo car le reste est de niveau TS)</a>
+      </p>
+
+
+    
+    <p>
+      <mark>Un diagramme de niveaux d'énergie</mark>, fait apparaître ces niveaux d'énergie quantifiés (discontinus) pour un atome donné, numérotés de 1 à n.
+    </p>
+    <p>
+      <ul>
+        <li>Pour n=1, l'énergie E<sub>1</sub> est minimale et l'atome est dit dans son <mark>état fondamental</mark> , état pour lequel il possède la stabilité maximale. Remarque : parfois ce niveau d'énergie est noté E<sub>0</sub> plutôt que E<sub>1</sub> .</li>
+        <li>Pour n>1, l'énergie est notée (E<sub>1</sub>,) E<sub>2</sub>, E<sub>3</sub>,..,E<sub>n</sub> et l'atome est dans un <mark>état excité</mark>.</li>
+        <li>Lorsque n tend vers l'infini, l'énergie est maximale, choisie nulle par convention.  L'atome est alors dans son <mark>état ionisé</mark> : il a perdu un <mark>électron</mark>.</li>
+      </ul>
+    </p>
+
+    <h3>Remarque :</h3>
+    Avec cette convention, les énergies E<sub>n</sub> sont négatives.
+    <h3>Exemple :</h3>
+    <p>
+      Pour l'atome d'hydrogène les différents niveaux sont donnés par la relation : <span class="formulemathematique"> \(E_n=\frac{E_0}{n^2}\) </span>
+    </p>
+    <p>
+    Avec :
+    <ul>
+      <li>n entier positif</li>
+      <li>E<sub>0</sub> = -13,6 eV (niveau minimal d'énergie de l'atome) </li>
+    </ul>
+</p>
+    <center>
+<img src="http://p.21-bal.com/pars_docs/refs/2/1753/1753_html_52e91bb7.gif" width="600" alt="diagramme hydrogene"/>
+    </center>
+    
+
+    <h2 class="cours">Émission et absorption d'énergie : lien avec les spectres discontinus</h2>
+    <p>
+Sur un spectre de raies, la position des raies est la carte d'identité des atomes se trouvant dans le gaz.
+L'énergie d'un atome peut être modifiée lorsque l'atome émet ou absorbe de la lumière (donc de l'énergie).
+    </p>
+    <p>
+      La radiation lumineuse émise ou absorbée est caractérisée par sa fréquence \(\displaystyle \nu\) et est liée à la variation d'énergie par :
+    </p>
+    <p>
+    <center>
+      <span class="formulemathematique">
+	\(\Delta E=h\cdot\nu=\frac{h\cdot c}{\lambda}\)
+      </span>
+    </center>
+
+    
+    ΔE est positif   
+    </p>
+
+    <center>
+<img src="\filedir/atome-emission-absorption.gif" width="600" alt="emission absorption"/>
+</center>
+
+
+    
+    <h3>Remarques :</h3>
+    <ul>
+      <li>Spectres de <mark>raies d'émission</mark> : on envoie une décharge électrique (donc de l'énergie) aux atomes présents dans l'ampoule, ceux-ci sont excités et passent dans des niveaux d'énergie plus élevés. Quand ils retournent à l'état fondamental, ils émettent de l'énergie qui correspond aux différentes transitions possibles.  C'est pourquoi on observe des raies colorées sur fond noir.
+      </li>
+      <li>Spectres de <mark>raies d'absorption</mark> : les atomes reçoivent de la part de la lumière blanche, toutes les radiations du domaine du visible, ils absorbent celles qui correspondent aux transitions possibles en fonction de leurs niveaux d'énergie. C'est pourquoi on observe des raies noires (dues aux photons ayant interagit avec l'atome) sur le fond coloré du spectre de la lumière blanche (les photons correspondant sont passés librement sans interagir avec l'atome).
+      </li>
+      <li>Les raies d'émission et les raies d'absorption se produisent aux mêmes longueurs d'onde car celles-ci sont calculées de la même façon : à partir des différences d'énergie entre les mêmes niveaux.</li>
+      <li>Un atome est capable d'absorber n'importe quel photon d'énergie supérieure à l'énergie nécessaire à son ionisation. Dans ce cas, une partie de l'énergie du photon absorbé permet l'ionisation de l'atome, le complément d'énergie étant transféré à l'électron libre sous forme d'énergie cinétique.</li>
+    </ul>
+  <img src="\filedir/book.jpg" class="icone"/>
+  <h3>Exercice corrigé p 54</h3>
+  
+    <h2 class="cours">Spectre du soleil (voir activité)</h2>
+    <p>
+      <ul>
+	<li>Le Soleil peut être assimilé à une boule de gaz très chaude et sous pression qui émet un spectre <mark>continu</mark> qui contient toutes les radiations du visible.</li>
+	<li>L' atmosphère du Soleil est composée d'atomes gazeux « relativement » froids et à basse pression (chromosphère) qui vont  <mark>absorber</mark> certaines radiations.</li>
+      </ul>
+    </p>
+    <h3>Pourquoi des raies d'absorption ?</h3>
+    <p>
+L'état stable d'un atome est son niveau d'énergie fondamental. Lorsqu'un atome est porté dans un niveau excité, il n'y reste pas longtemps. Il revient spontanément à son niveau fondamental en émettant un photon dont la longueur d'onde correspond à la variation d'énergie relative à cette transition.
+</p>
+<p>
+  On peut se demander pourquoi, dans le cas où l'atome est excité par absorption d'un photon et où il se désexcite en émettant un photon identique à celui qui a été absorbé, le bilan global pour l'observateur se solde par une raie d'absorption, alors qu'il semble qu'il devrait être nul. Ceci tient au fait que <mark>le photon absorbé provient d'une direction donnée</mark>, qui est celle du faisceau lumineux envoyé sur le milieu gazeux, <mark>alors que la réémission  est isotrope</mark> (elle se fait au hasard dans n'importe quelle direction). Il y a bien de temps en temps un photon qui est réémis dans la direction du faisceau, mais la plupart des photons sont réémis dans des directions différentes. Ainsi l'observateur qui regarde dans la direction du faisceau lumineux incident voit un spectre continu, parsemé de raies d'absorption.
+</p>
+
+    <h3>Composition de l'atmosphère du Soleil</h3>
+    <p>
+      On obtient donc un spectre de <mark>raies d'absorption</mark> (Environ 20 000 raies sombres !).
+    </p>
+    <p>
+      La position des raies est caractéristique des éléments chimiques qui composent l'atmosphère du soleil.
+    </p>
+    <h3>Température de Surface</h3>
+    <p>
+      <center>
+	<img src="\filedir/profilsoleil.jpg" width="600" alt="profil spectral soleil"/>
+      </center>
+
+      Profil spectral livre p 51 : \(\displaystyle \lambda_{max}=480nm\).
+      
+      Loi de Wien : la température de surface du Soleil est voisine de 5800°C
+    </p>
+  <img src="\filedir/book.jpg" class="icone"/>
+
+  <h3>Exercices : s'auto évaluer p53 tous +17,18,19,24 p 56 </h3>
+  </div>
+
+
+
+		
+

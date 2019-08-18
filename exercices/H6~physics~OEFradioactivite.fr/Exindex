@@ -1,0 +1,4 @@
+!set exolist  =!char 1 to -2 of decroissance,radioactivite2,radioactivit_beta_plus,radioactivit_beta_moins,radioactivite1,
+!set titlelist=!char 1 to -2 of décroissance radioactive,Quel type de radioactivité?,Radioactivité &beta +,Radioactivité &beta;<sup>-</sup>,Radioactivité alpha (&alpha;),
+!set exototal =!itemcnt $exolist
+

@@ -1,0 +1,82 @@
+\title{Radioactivité alpha (&alpha;)}
+\author{Raoul, HATTERER}
+\comment{source :Benoit Markey}
+\email{hatterer.raoul@gmail.com}
+
+
+\range{-5..5}
+\computeanswer{no}
+\format{html}
+\precision{10000}
+
+\comment{atomes: X_pere,nom_pere,A_pere,Z_pere,X_fils,nom_fils,A_fils,Z_fils}
+\matrix{atomes=wims(record 1 of tableau_alpha)}
+\text{at1=randomrow(\atomes)}
+\text{nom=\at1[2]}
+\text{nom=slib(lang/frapostrophe de wims(lower \nom))}
+
+
+\statement{
+<p>
+  Un des isotopes de l'élément \nom suivant subit une désintégration &alpha;, compléter alors l'équation suivante. 
+</p>
+</br>
+  <center>
+    <table>
+      <tr>
+	<td>
+	  <table>
+	    <tr>
+	      <td align=right>\at1[3]</td>
+	      <td rowspan="2">\at1[1]</td>
+	    </tr>
+	    <tr>
+	      <td align=right>\at1[4]</td>
+	    </tr>
+	  </table>
+	</td>
+	<td> \(\rightarrow\) </td>
+	<td>
+	  <table>
+	    <tr>
+	      <td align=right>\embed{reply1,2}</td>
+	      <td rowspan="2">\embed{reply3,2}</td>
+	    </tr>
+	    <tr>
+	      <td align=right>\embed{reply2,2}</td>
+	    </tr>
+	  </table>
+	</td>
+	<td> + </td>
+	<td>
+	  <table>
+	    <tr>
+	      <td align=right>\embed{reply4,2}</td>
+	      <td rowspan="2">\embed{reply6,2}</td>
+	    </tr>
+	    <tr>
+	      <td align=right>\embed{reply5,2}</td>
+	    </tr>
+	  </table>
+	</td>
+      </tr>
+    </table>
+</center></br>
+<h4>Remarques :</h4>
+<ul>
+  <li>On trouvera en aide un tableau périodique.</li>
+  <li>On respectera l'ordre suivant pour la réponse : noyau père \(\rightarrow\) noyau fils + particule &alpha; </li>
+</ul>
+
+
+
+
+}
+
+\answer{A_fils}{\at1[7]}{type=numeric}
+\answer{Z_fils}{\at1[8]}{type=numeric}
+\answer{X_fils}{\at1[5]}{type=text}
+\answer{A_He}{4}{type=numeric}
+\answer{Z_He}{2}{type=numeric}
+\answer{particule \alpha}{He}{type=text}
+\help{<center> <img src="\imagedir/tableau_periodique.jpg"></center>}

@@ -1,0 +1,163 @@
+\comment{CH 14 : L’énergie électrique et l’énergie mécanique ; principe de conservation}
+
+\fold{CA14}{Compétences attendues}{}
+
+<div class="cours">
+  <img src="\filedir/book.jpg" class="icone"/>
+  <p>Correspond au chapitre 13 page 219 et au chapitre 14 page 243 du livre</p>
+</div>
+
+
+<h1 class="cours">Énergie électrique (lire doc p 250)</h1>
+<div class="cours">
+  <h2 class="cours">Transporter l’électricité </h2>
+  <h3 class="cours">Energie et puissance </h3>
+  L’énergie consommée ou produite par un appareil de puissance P est liée à sa durée de fonctionnement Δt :
+  <br/><br/><br/>
+  <center>
+    <span class="formulemathematique">\(E= P\times \Delta t\) </span>  &nbsp; &nbsp; &nbsp; &nbsp;   (E en joules J, P en watts W, et Δt en secondes s)
+  </center>
+  <br/><br/>
+  Sur les factures d’électricité, l’énergie est exprimée en kW.h. ( 1 kW.h= 1000x3600= 3,6&middot;10<sup>6</sup>J)
+
+  <h4>Ordres de grandeurs de puissance électrique </h4>
+
+  <center>
+    <table class="cours">
+      <tr>
+	<th scope="col" style="width:15%">Système</th>
+	<td style="width:15%">Lampe à économie d’énergie</td>
+	<td style="width:15%">Ordinateur ou production par 1m² de panneaux photovoltaïques </td>
+	<td style="width:15%">Four</td>
+	<td style="width:15%">Moteur TGV</td>
+	<td style="width:15%">Centrale thermoélectrique</td>
+      </tr>
+      <tr>
+	<th scope="col">P (W)</th>
+	<td>10</td>
+	<td>100</td>
+	<td>1000</td>
+	<td>10<sup>6</sup> à 10<sup>7</sup></td>
+	<td>10<sup>9</sup></td>
+      </tr>
+    </table>
+  </center>
+
+  En électricité la puissance électrique d’un composant est égale : P = U x I    ( P en W ; U en V et I en A)
+
+  <h3 class="cours">Résistance et effet Joule </h3>
+  <p>
+    <h4>Loi d’ohm  aux bornes d’une résistance : </h4>
+    
+    <center>
+      <span class="formulemathematique">U = R x I</span>
+    </center>
+    <br/>
+    La tension U est proportionnelle à l’intensité du courant qui la traverse.
+  </p>
+  <p>
+    Tout conducteur ohmique (Résistance) a tendance à s’échauffer au passage d’un courant électrique. Ce phénomène est appelé <mark>effet Joule</mark>.
+  </p>
+  <p>
+    <h4>Puissance dissipée par effet Joule par une résistance sous forme de chaleur : </h4>
+    <br/>
+    <center>
+      <span class="formulemathematique">  P<sub>J</sub> = U x I = RI²</span>
+      (P en W, U en V, I en A et R en Ω )
+    </center>
+  </p>
+  <br/>
+  <p>
+    On transporte l’énergie électrique depuis les centrales jusqu’aux habitations grâce à des câbles électriques. La résistance électrique de ces câbles conduit donc à des pertes inévitables d’énergie par effet Joule. </p>
+  <p>
+    D’après la relation P=UI, pour une puissance transportée, le courant électrique circulant dans les câbles est plus faible lorsqu’on augmente la tension. Comme P<sub>J</sub>=RI², la puissance dissipée par effet Joule diminue également. Pour le transport de l’électricité, on utilise donc la haute tension afin de réduire l’effet Joule.
+  </p>
+
+  <h2 class="cours">« Produire » l’énergie électrique</h2>
+  <div class="mark">
+    L’électricité n’est pas une ressource énergétique, car elle ne se trouve pas dans la nature sous une forme utilisable. C’est un mode de transport de l’énergie. </div>
+  <p>
+    Elle  ne peut pas être stockée directement. On peut la stocker « indirectement » par exemple sous forme d’énergie mécanique dans des barrages hydrauliques ou en énergie chimique dans des accumulateurs ou la plupart des systèmes embarqués (téléphones portables, perceuses sans fil…). Ceci permet de la rendre disponible si besoin.  Le moyen le plus répandu pour fabriquer de l’électricité est de faire tourner un aimant (rotor) devant une bobine en cuivre (stator) : ce mouvement fait naître un courant dans les fils de cuivre. C’est le principe d’un <mark>alternateur</mark>.     
+  </p>
+  <p>
+    La ressource énergétique doit permettre de produire une énergie mécanique suffisante pour que la turbine puisse la transmettre à l’alternateur qui la convertit en énergie électrique.
+  </p>
+  <h4>Exemples : </h4>
+  <ul>
+    <li>Centrales nucléaires et thermiques : la source d’énergie produit de la chaleur qui génère de la vapeur d’eau sous pression qui entraîne la turbine.</li>
+    <li>Usines marémotrices, hydroélectriques et éoliennes : mouvement de l’eau ou de l’air qui entraîne la turbine.</li>
+    <li>Panneaux solaires : conversion d’énergie lumineuse en énergie électrique grâce à des matériaux semi-conducteurs</li>
+    <li>Les piles : conversion d’énergie chimique en énergie électrique grâce à des réactions chimiques (n’utilisent pas d’alternateur).</li>
+  </ul>
+
+  <h2 class="cours">Comprendre une chaîne énergétique </h3>
+<p>
+  Une chaîne énergétique illustre le principe de conservation de l’énergie. La somme des énergies qui « entrent » dans un système est forcément égale à la somme des énergies qui en « sortent »</p>
+<p>
+  L’énergie utilisable en bout de chaîne est inférieure (voir égale..) à l’énergie initiale.
+</p>
+<img src="\filedir/book.jpg" class="icone"/>
+<h4>Exos:  16,17,24 p264/265     + Seul :  QCM page 261 </h4>
+</div>
+
+<h1 class="cours">Énergie mécanique</h1>
+<div class="cours">
+  <h2 class="cours">Énergie cinétique </h2>
+  <p>
+    Tout objet en mouvement possède une énergie appelée énergie cinétique. 
+    <center>
+      <span class="formulemathematique">\(E_c=\frac 1 2 \cdot m\cdot v_G^2\)</span>
+
+    </center>
+
+    avec :
+    <ul>
+      <li>Ec : Énergie cinétique en joules (J).</li>
+      <li>m : Masse du solide en kilogrammes (kg).  </li>
+      <li>v<sub>G</sub> : Vitesse du centre d'inertie G du solide (en m&middot;s<sup>-1</sup>).</li>
+    </ul>
+  </p>
+
+  <h2 class="cours">Énergie potentielle de pesanteur </h2>
+  <p>
+    L’énergie potentielle d’un solide en interaction avec la terre est une grandeur associée à la position de ce solide par rapport à la terre. Si l’altitude augmente son énergie potentielle de pesanteur augmente. Cette énergie est stockée par le système, elle est récupérable si l’objet chute.
+  </p> <br/><br/>
+  <center>
+    <span class="formulemathematique">\(E_{pp}  =  m\cdot g \cdot z_G\) </span>
+  </center> <br/><br/>
+  
+  Unités :  E<sub>pp</sub>  en J ;   m  en kg ;   z  en m ; g  en N&middot;kg<sup>-1</sup>.
+
+
+  <p>
+    L’énergie potentielle est une grandeur qui dépend de l’origine choisie. Avant de la calculer il faut toujours vérifier par rapport à quelle origine on la calcule.
+  </p>
+  
+  <h2 class="cours">Énergie mécanique</h2>
+  <center>
+    <span class="formulemathematique">\(E_m = E_c + E_{pp}\) </span>
+  </center>
+  
+  <h2 class="cours">Transferts d’énergie dans le cas d’une chute libre </h2>
+
+  <center>
+<iframe src="https://phet.colorado.edu/sims/html/energy-skate-park-basics/latest/energy-skate-park-basics_fr.html" width="800" height="600" scrolling="no" allowfullscreen></iframe>
+</center>
+
+
+  <p>
+  Un objet en chute libre n’est soumis qu’à une seule force : son poids.  C’est le cas si les autres forces notamment les frottements, sont négligeables par rapport au poids (ex : chute d’une boule de pétanque).
+  Quand la boule chute, elle perd de l’altitude donc de l’énergie potentielle de pesanteur, et elle gagne de la vitesse donc de l’énergie cinétique. 
+  La somme des deux énergies (Em= énergie mécanique) reste constante, ce qui signifie que toute l’énergie potentielle de pesanteur perdue se transforme en énergie cinétique. On dit qu’il y a <mark>conservation de l’énergie mécanique</mark>.
+</p>
+
+
+
+  <h4>Remarque : </h4>
+  Si les frottements ne sont plus négligeables, l’énergie mécanique du système n’est pas constante : elle diminue. Elle est perdue souvent sous forme de chaleur. Cela signifie que seulement une partie de l’énergie potentielle perdue est convertie en énergie cinétique le reste est perdu.
+
+
+<img src="\filedir/book.jpg" class="icone"/>
+<h4>Exercices :  12,14,23 p229/231  </h4>
+
+</div>

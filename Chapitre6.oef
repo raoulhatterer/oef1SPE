@@ -1,0 +1,390 @@
+\comment{CH 6 : l'évolution d'un système chimique}
+
+
+
+
+
+\fold{CA6}{Compétences attendues}{}
+<div class="cours">
+  <img src="\filedir/book.jpg" class="icone"/>
+  <p>Correspond au chapitre  au chapitre 5 page 79 du livre</p>
+</div>
+
+
+
+<h1 class="cours">Description d’un système chimique à l’aide d’un tableau d’avancement</h1>
+<div class="cours">
+  <img src="\filedir/TP.png" class="icone"/>
+  <p>(TP12)</p>
+
+ L’avancement d’une réaction permet de décrire la composition d'un système chimique au cours de sa transformation à tout moment. Il se note \(x\) et s’exprime en mol.
+
+  <h3>Exemple avec la réaction du TP 12 tube 1 :</h3>
+
+  <center>
+    <table class="cours">
+      <tr>
+	<th scope="col" colspan="2">Équation chimique:</th>
+	<th scope="col" colspan="4">I<sub>2</sub> (aq)    &nbsp;  &nbsp;     + &nbsp;&nbsp;  2    S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq)      &nbsp;&nbsp; &nbsp;  →  &nbsp;&nbsp; &nbsp;  2 I<sup>-</sup> (aq) &nbsp;&nbsp; &nbsp;       +  &nbsp;&nbsp;    S<sub>4</sub>O<sub>6</sub><sup>2-</sup> (aq)</th>
+      </tr>
+      <tr>
+	<td></td>
+	<td width="15%">avancement</td>
+	<td width="15%">n(I<sub>2</sub>) en mol</td>
+	<td width="15%"> n(S<sub>2</sub>O<sub>3</sub><sup>2-</sup>) en mol</td>
+	<td width="15%">n(I<sup>-</sup>) en mol</td>
+	<td width="15%">n(S<sub>4</sub>O<sub>6</sub><sup>2-</sup>) en mol</td>
+      </tr>
+      <tr>
+	<th scope="row">État Initial :</th>
+	<td>\(x = 0\)</td>
+	<td>n<sub>0</sub> = 7,0&times;10<sup>-5</sup></td>
+	<td>n<sub>1</sub> = 2,0&times;10<sup>-4</sup></td>
+	<td>.....</td>
+	<td>.....</td>
+      </tr>
+      <tr>
+	<th scope="row">En cours de transformation :</th>
+	<td>\(x\)</td>
+	<td>.....</td>
+	<td>.....</td>
+	<td>.....</td>
+	<td>.....</td>
+      </tr>
+      <tr>
+	<th scope="row">État Final :</th>
+	<td>\(x = x_{max}\)</sub></td>
+	<td>.....</td>
+	<td>.....</td>
+	<td>.....</td>
+	<td>.....</td>
+      </tr>
+    </table>
+  </center>
+
+<div class="rappel">
+  \fold{}{Rappel : Comment calculer une quantité de matière ?}{[ Rappel : <b>Comment calculer une quantité de matière ?</b> ]
+  <p>
+    <ul>
+      <li>Si l'on connait la <mark>masse \(m\)</mark>
+	(en \(g\)) et la <mark>masse molaire \(M\)</mark>
+	(en \(g\cdot mol^{-1}\)) on fait : <br/><br/>
+	<center>
+	  <span class="formulemathematique">\(n=\frac{m}{M}\) </span>
+      </center></li>
+      <br/>
+      <li>Si l'on connait le <mark>volume \(V\)</mark> (en \(L\)) et la <mark>concentration molaire \(C\)</mark>
+	(en \(mol\cdot L^{-1}\)) on fait : <br/><br/><br/>
+	<center>
+	  <span class="formulemathematique">\(n=C\cdot V\)</span>
+	</center>
+      </li>
+    </ul>
+    
+  </p>
+  }
+</div>
+
+
+<h3>Remarques : </h3>
+<ul>
+  <li>L'avancement \(x\) est nul au début de la réaction et augmente au cours de la transformation jusqu’à atteindre une valeur maximale quand la réaction est terminée (épuisement d’un des réactifs)</li>
+  <li>Ici, les nombres qui précèdent l'avancement \(x\)  sont toujours les nombres stoéchiométriques de l'équation, précédés d'un signe « - » pour les réactifs (dont la quantité diminue), d'un signe « + » pour les produits (dont la quantité augmente)</li>
+</ul>
+
+<h2 class="cours">Avancement maximal et réactif limitant </h2>
+
+<p>
+ Au cours de la réaction, les quantités de matière des réactifs diminue jusqu’à ce que l’une d’entre elle s’annule. C’est l’état final. Il est caractérisé par un avancement maximal, noté \(x_{max}\) (en mol).
+</p>
+<h3>Comment déterminer cet avancement maximal ? </h3>
+<p class="definition">
+L’avancement maximal est la plus petite valeur de \(x\) pour laquelle la quantité de matière de l’un des réactifs devient nulle.
+</p>
+<p>
+  Pour cela il faut poser des hypothèses :
+  <ul>
+    <li>Hypothèse 1 : si le diiode I<sub>2</sub>  est le réactif limitant alors il n’en reste plus à la fin :
+    \fold{}{Résolution}{ <br/><br/><br/><span class="formulemathematique">\(n_0-x_{max}=0\)</span> &nbsp; donc &nbsp; <span class="formulemathematique">\(x_{max}=n_0=7,0\cdot 10^{-5}\)mol</span><br/><br/><br/>}</li>
+    <li>Hypothèse 2 : si l'ion thiosulfate  S<sub>2</sub>O<sub>3</sub><sup>2-</sup> est le réactif limitant alors il n’en reste plus à la fin :    \fold{}{Résolution}{ <br/><br/><br/><span class="formulemathematique">\(n_1-2x_{max}=0\)</span> &nbsp; donc &nbsp; <span class="formulemathematique">\(x_{max}=\frac{n_1}{2}=\frac{2,0\cdot 10^{-4}}{2}=1,0\cdot 10^{-4}\)mol</span><br/><br/><br/>}</li>
+  </ul>
+</p>
+<p>
+\(x_{max}\) correspond à la plus petite de ces deux valeurs. Donc \(x_{max} =\)……………………………….
+</p>
+<p>
+  Le réactif qui est totalement consommé (qui vient à manquer en premier) et qui empêche la réaction de se poursuivre est appelé le <mark>réactif limitant</mark>
+  .  C’est celui qui correspond à l’hypothèse pour laquelle la valeur de x est la plus petite.
+</p>
+<p>
+  Le ou les réactifs restant à l’état final sont appelés <mark>réactifs en excès</mark>.
+  </p>
+  <p>
+L’état final du système peut être décrit en remplaçant \(x_{max}\) par sa valeur.
+</p>
+
+<h3>Remarques : </h3>
+<p>
+la valeur de \(x_{max}\) dépend des quantités de matière introduites à l’état initial.	
+</p>
+<h3>Autre méthode</h3>
+<p>
+  Pour trouver \(x_{max}\) on divise la quantité de matière initiale de chacun des réactifs par son coefficient stoechiométrique. La plus petite valeur obtenue sera \(x_{max}\).
+</p>
+
+<h3>Analyse graphique</h3>
+
+    \def{text tube1 =
+    xrange -200,500
+    yrange -50,500
+    filled roundrect -200,-100,500,500,10,skyblue
+    <!--  échelle horizontale 400 pour 1E-4 -->
+    <!-- échelle verticale x 100 -->
+    grid 40,100,grey,5,5,8,yellow
+    <!-- avancement -->
+    linewidth  3
+    arrow 0,0,450,0,8,black
+    mathml 410,-20,110,110, wims(mathmlmath x) (en mol)
+    <!-- quantités de matière -->
+    arrow 0,0,0,490,8,black
+    mathml -100,470,110,110, wims(mathmlmath n) (en mol)
+    <!-- n_I2 -->
+    segment 0,100*0.7,0.7*400,0,blue
+    mathml -140,100*0.7,110,110, wims(mathmlmath n(I_2)=7&#183;10^{-5})
+    <!-- n_S2O3^2--->
+    segment 0,100*2,400,0,red
+    mathml -175,100*2,110,110, wims(mathmlmath n(S_2O_3^{2-})=2&#183;10^{-4})
+    <!-- I-  -->
+    segment 0,0,400,100*2,green
+    mathml 410,100*2,110,110, wims(mathmlmath n(I^{-}))
+    <!-- S4O6^2-  -->
+    segment 0,0,400,100*1,magenta
+    mathml 410,100*1,110,110, wims(mathmlmath n(S_4O_6^{2-}))
+    dashed
+    segment 400,0,400,450,black
+    dashed
+    segment 0.7*400,0,0.7*400,450,black
+
+	    }
+
+	    \canvasdraw{700,550}{\tube1}
+
+    <h2 class="cours">Cas particulier du mélange stoechiométrique </h2>
+    <p class="definition">
+	Le mélange est dit stoéchiomètrique si les quantités de matière de tous les réactifs s’annulent pour la même valeur de \(x\). Dans ces conditions, à la fin de la transformation chimique, les réactifs sont tous consommés, et l’état final n’est constitué que des produits de la réaction.
+</p>
+
+
+  <h3>Exemple :</h3>
+
+  <center>
+    <table class="cours">
+      <tr>
+	<th scope="col" colspan="2">Équation chimique:</th>
+	<th scope="col" colspan="4">I<sub>2</sub> (aq)    &nbsp;  &nbsp;     + &nbsp;&nbsp;  2    S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq)      &nbsp;&nbsp; &nbsp;  →  &nbsp;&nbsp; &nbsp;  2 I<sup>-</sup> (aq) &nbsp;&nbsp; &nbsp;       +  &nbsp;&nbsp;    S<sub>4</sub>O<sub>6</sub><sup>2-</sup> (aq)</th>
+      </tr>
+      <tr>
+	<td></td>
+	<td width="15%">avancement</td>
+	<td width="15%">n(I<sub>2</sub>) en mol</td>
+	<td width="15%"> n(S<sub>2</sub>O<sub>3</sub><sup>2-</sup>) en mol</td>
+	<td width="15%">n(I<sup>-</sup>) en mol</td>
+	<td width="15%">n(S<sub>4</sub>O<sub>6</sub><sup>2-</sup>) en mol</td>
+      </tr>
+      <tr>
+	<th scope="row">État Initial :</th>
+	<td>\(x = \dots\)</td>
+	<td>n<sub>0</sub> = 1,5&times;10<sup>-4</sup></td>
+	<td>n<sub>1</sub> = 3,0&times;10<sup>-4</sup></td>
+	<td>0</td>
+	<td>0</td>
+      </tr>
+      <tr>
+	<th scope="row">En cours de transformation :</th>
+	<td>\(x\)</td>
+	<td>.....</td>
+	<td>.....</td>
+	<td>.....</td>
+	<td>.....</td>
+      </tr>
+      <tr>
+	<th scope="row">État Final :</th>
+	<td>\(x = x_{max}\)</sub></td>
+	<td>.....</td>
+	<td>.....</td>
+	<td>.....</td>
+	<td>.....</td>
+      </tr>
+    </table>
+  </center>
+
+<p>
+  <ul>
+    <li>Hypothèse 1 : si le diiode I<sub>2</sub>  est le réactif limitant alors il n’en reste plus à la fin :
+    \fold{}{Résolution}{ <br/><br/><br/><span class="formulemathematique">\(n_0-x_{max}=0\)</span> &nbsp; donc &nbsp; <span class="formulemathematique">\(x_{max}=n_0=1,5\cdot 10^{-4}\)mol</span><br/><br/><br/>}</li>
+    <li>Hypothèse 2 : si l'ion thiosulfate  S<sub>2</sub>O<sub>3</sub><sup>2-</sup> est le réactif limitant alors il n’en reste plus à la fin :    \fold{}{Résolution}{ <br/><br/><br/><span class="formulemathematique">\(n_1-2x_{max}=0\)</span> &nbsp; donc &nbsp; <span class="formulemathematique">\(x_{max}=\frac{n_1}{2}=\frac{3,0\cdot 10^{-4}}{2}=1,5\cdot 10^{-4}\)mol</span><br/><br/><br/>}</li>
+  </ul>
+</p>
+
+
+<h3>Autre méthode</h3>
+<p>
+  Pour trouver \(x_{max}\) on divise la quantité de matière initiale de chacun des réactifs par son coefficient stoéchiométrique. Si le mélange est stoechiométrique, on obtient à chaque fois la même valeur. Il s'agit de  \(x_{max}\).
+</p>
+
+
+
+<h3>Analyse graphique</h3>
+
+    \def{text stoechiometrique =
+    xrange -200,500
+    yrange -50,500
+    filled roundrect -200,-100,500,500,10,skyblue
+    <!--  échelle horizontale 400 pour 1.5E-4 -->
+    <!-- échelle verticale x 100 -->
+    grid 40,100,grey,5,5,8,yellow
+    <!-- avancement -->
+    linewidth  3
+    arrow 0,0,450,0,8,black
+    mathml 410,-20,110,110, wims(mathmlmath x) (en mol)
+    <!-- quantités de matière -->
+    arrow 0,0,0,490,8,black
+    mathml -100,470,110,110, wims(mathmlmath n) (en mol)
+    <!-- n_I2 -->
+    segment 0,100*1.5,400,0,blue
+    mathml -140,100*1.5,110,110, wims(mathmlmath n(I_2)=1,5&#183;10^{-4})
+    <!-- n_S2O3^2--->
+    segment 0,100*3,400,0,red
+    mathml -175,100*3,110,110, wims(mathmlmath n(S_2O_3^{2-})=3,0&#183;10^{-4})
+    <!-- I-  -->
+    segment 0,0,400,100*3,green
+    mathml 410,100*3,110,110, wims(mathmlmath n(I^{-}))
+    <!-- S4O6^2-  -->
+    segment 0,0,400,100*1.5,magenta
+    mathml 410,100*1.5,110,110, wims(mathmlmath n(S_4O_6^{2-}))
+    dashed
+    segment 400,0,400,450,black
+	    }
+
+	    \canvasdraw{700,550}{\stoechiometrique}
+
+
+
+ <p>    <img src="\filedir/book.jpg" class="icone"/><br/>
+   Ex9p90 : Établir l'état final d'u système <br/>
+   Ex11p91 : Analyser des graphes <br/>
+   Ex15p92 : Décomposition d'un solide par chauffage
+ </p>
+ 
+</div>
+
+<h1 class="cours">Détermination de la concentration d’une espèce chimique colorée </h1>
+<div class="cours">
+  <img src="\filedir/TP.png" class="icone"/>
+  <p>(TP13 + livre p 360)</p>
+
+
+  <h2 class="cours">Rappels : solutions colorées </h2>
+  <mark>Une solution est colorée si elle  absorbe  une partie des radiations de la lumière blanche.</mark>
+  La couleur perçue est la couleur complémentaire de la couleur absorbée. Deux couleurs complémentaires se font face dans le cercle chromatique. (\link{Chapitre4}{Chapitre 4 : La couleur des objets})
+
+
+  <h2 class="cours">Spectre d’absorption </h2>
+  <p>
+    <mark>L’absorbance \(A\) (sans unité) est liée à la proportion de lumière absorbée par une solution colorée.</mark>
+  </p>
+
+
+
+  <div class="wimscenter">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+	    codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
+	    width="800"
+	    height="600">
+      <param name="movie" value="\filedir/spectrophotometre2.swf">
+	<param name="quality" value="high">
+	  <embed src="\filedir/spectrophotometre2.swf" quality="high"
+		 pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"
+		 width="800"
+		 height="600"></embed>
+    </object>
+  </div>
+
+
+  <a target="wims_external" href="http://www.spc.ac-aix-marseille.fr/phy_chi/Menu/Activites_pedagogiques/livre_interactif_chimie/12_TPsuivi_cinetique_spectro/principe_web_web/res/spectrophotometre2.swf">Voir l'animation en plein écran</a>
+  
+
+<p>
+  Un spectrophotomètre mesure l’absorbance \(A\) d’une solution colorée à différentes longueurs d’onde ce qui permet de tracer le <mark>spectre d’absorption</mark>
+   : courbe \(A= f (\lambda)\). <br/>
+	Cette courbe passe par un maximum. On peut alors repérer la longueur d’onde \(\lambda_{max}\) pour laquelle l’absorbance est maximale.
+</p>
+<p>
+<center>
+<img src="\filedir/absorbance.png" width="600" alt="absorbance du permanganate de potassium"/>
+</center>
+</p>
+<p>
+	Exemple : solution de permanganate de potassium :  \(\lambda_{max}=\)  ……………………. ; 
+			  couleur absorbé : …………………………… ; 
+couleur perçue : ……………………………………..
+</p>
+
+  <h2 class="cours">Courbe d’étalonnage et loi de Beer-Lambert </h2>
+
+  <h3>Faire le blanc</h3>
+  <p>
+    Faire le blanc permet de soustraire l’absorbance liée à au solvant et à la cuve. Il suffit d’introduire une cuve remplie de solvant dans le spectrophotomètre et lui régler une absorbance égale à 0.
+  </p>
+  <h3>Courbe d'étalonnage</h3>
+  <p>
+    Pour étudier l’influence de la concentration de la solution sur l’absorbance, il est nécessaire de fixer la longueur d’onde à la valeur de \(\lambda_{max}\) car l’absorbance des mesures y est maximale. Le risque d’erreur sera minimal.
+    Pour \(\lambda_{max}\) fixée,  le graphe \(A = f(C)\) représentant <mark>l’ absorbance en fonction de la concentration</mark>
+    de solutions connues (obtenues à partir d’une échelle de teinte) est nommé courbe d’étalonnage. On obtient une droite ce qui signifie que les 2 grandeurs sont proportionnelles.
+  </p>
+
+  <h3>Loi de Beer-Lambert</h3>
+
+  <p>
+    À longueur d’onde, température et épaisseur de solution données, <mark>l’absorbance \(A\) d’une solution colorée est proportionnelle à la concentration \(C\)</mark>
+    de la solution : 
+  </p>
+  <br/>
+  <p>
+  <center>
+    <span class="formulemathematique">\(A = K \times C\) </span>
+  </center>
+  </p>
+  <p>
+    où :
+    <ul>
+      <li>\(A\) est l’absorbance (sans unité) ;</li>
+      <li>\(C\) est la concentration molaire (en L&middot;mol<sup>-1</sup>) ; </li>
+      <li>\(K\) est un coefficient de proportionnalité (en L&middot;mol<sup>-1</sup>) qui dépend de la <mark>longueur d’onde</mark>
+	, de la <mark>nature de la solution</mark>
+	, de l’<mark>épaisseur</mark>
+	de solution traversée et de la <mark>température</mark>.</li>
+    </ul>
+  </p>
+  <p>
+    Limite de validité :  Cette relation n’est valable que pour des espèces colorées dont la concentration est inférieure 1,0&middot;10<sup>-2</sup> mol&middot;L<sup>-1</sup>.
+  </p>
+
+
+  <h2 class="cours">Dosage : détermination de la concentration d’une solution inconnue </h2>
+  <p>
+    Doser une espèce chimique en solution, c’est déterminer avec précision sa concentration.
+  </p>
+  <center>
+<img src="\filedir/AfonctionC.png" width="200" alt="Courbe d'étalonnage"/>
+  </center>
+
+  <p>
+  Il suffit de mesurer l’absorbance de la solution inconnue (au \(\lambda_{max}\)) et de la reporter sur la droite d’étalonnage. On lit en abscisse la valeur de la concentration correspondante.
+  </p>
+    <img src="\filedir/book.jpg" class="icone"/>
+    <h3>Exercices : s’autoévaluer p 87+ 9,11,15,13,19 p90/91/92</h3>
+</div>
+
+
+

@@ -1,0 +1,163 @@
+\comment{CH 11: Alcanes et Alcools}
+
+
+\fold{CA11}{Compétences attendues}{}
+
+
+<div class="cours">
+  <img src="\filedir/book.jpg" class="icone"/>
+  <p>Correspond au chapitre 11 page 185 du livre</p>
+</div>
+
+
+<h1 class="cours">Les Alcanes et leur nomenclature </h1>
+<div class="cours">
+
+  <img src="\filedir/TP.png" class="icone"/>
+  <p>(TP7)</p>
+  <p>
+    Les alcanes sont des hydrocarbures (composés que de carbone et d’hydrogène) acycliques de formule brute <span class="formulechimique">C<sub>n</sub>H<sub>2n+2</sub></span>
+
+    Les chaînes carbonées peuvent être linéaires, ou ramifiées. Si la chaine est cyclique on obtient la famille des cyclanes dont le plus connu est le cyclohexane (<span class="formulechimique">C<sub>6</sub>H<sub>12</sub></span>). Le nom s'obtient en ajoutant la terminaison « ane » à un préfixe indiquant le nombre de carbone.
+  </p>
+  <h2 class="cours">Pour les alcanes linéaires</h2>
+  <p>
+  Le nom des six premiers est donné dans le tableau suivant :
+  </p>
+    <center>
+      <table class="cours">
+        <tr>
+	  <th scope="col">formule</th>
+	  <th scope="col">nombre de C</th>
+	  <th scope="col">préfixe</th>
+	  <th scope="col">nom </th>
+        </tr>
+	<tr>
+	  <td> CH<sub>4</sub></td>
+	  <td> 1</td>
+	  <td> méth</td>
+	  <td> méthane</td>
+	</tr>
+	<tr>
+	  <td>CH<sub>3</sub>—CH<sub>3</sub></td>
+	  <td>2</td>
+	  <td>éth</td>
+	  <td>éthane</td>
+	</tr>
+	<tr>
+	  <td>CH<sub>3</sub>—CH<sub>2</sub>—CH<sub>3</sub></td>
+	  <td>3</td>
+	  <td>prop</td>
+	  <td>propane</td>
+	</tr>
+	<tr>
+	  <td>CH<sub>3</sub>—CH<sub>2</sub>—CH<sub>2</sub>—CH<sub>3</sub></td>
+	  <td>4</td>
+	  <td>but</td>
+	  <td>butane</td>
+	</tr>
+	<tr>    
+	  <td>CH<sub>3</sub>—CH<sub>2</sub>—CH<sub>2</sub>—CH<sub>2</sub>—CH<sub>3</sub></td>
+	  <td>5</td>
+	  <td>pent</td>
+	  <td>pentane</td>
+	</tr>
+	<tr>
+	  <td>CH<sub>3</sub>—CH<sub>2</sub>—CH<sub>2</sub>—CH<sub>2</sub>—CH<sub>2</sub>—CH<sub>3</sub></td>
+	  <td>6</td>
+	  <td>hex</td>
+	  <td>hexane</td>
+	</tr>
+      </table>
+    </center>
+
+    <h2 class="cours">Cas des alcanes ramifiés</h2>
+    <p>
+      Voir fiche annexe de l’activité
+    </p>
+    <h4>Exemples : </h4>
+    <ul>
+      <li>2-méthylpentane</li>
+      <li>3-éthyl-2-méthylpentane</li>
+    </ul>
+</div>
+
+<h1 class="cours">Les Alcools </h1>
+<div class="cours">
+  La famille des alcools est reconnaissable à la présence du <mark>groupe caractéristique</mark> <span class="formulechimique">– OH</span>, appelé <mark>groupe hydroxyle</mark>, porté par un atome de carbone. Le nom d’un alcool dérive de celui de l’alcane de même chaîne carbonée en remplaçant le « e » final par la terminaison oℓ, précédée si nécessaire de l’indice de position du groupe hydroxyle dans la chaîne carbonée principale. L'indice de position du groupe hydroxyle doit être le plus petit possible.
+  
+  <h4>Exemples :</h4>
+  <ul>
+    <li>butan-2-ol</li>
+    <li>5-méthylhexan-3-ol</li>
+  </ul>
+
+  <p class="mark">L’atome de carbone lié au groupe hydroxyle est dit  atome de carbone fonctionnel. </p>
+
+  <center>
+<img src="\filedir/alcools.jpg" width="50%" alt="alcool primaire secondaire tertiaire"/>
+  </center>
+  
+</div>
+
+<h1 class="cours">Évolution des températures d’ébullition </h1>
+<div class="cours">
+  <center>
+<img src="\filedir/temperatureAlcanesAlcools.jpg" width="40%" alt="température d'ébullition alcanes alcools"/>
+  </center>
+  <h2 class="cours">Dans une même famille de composés organiques </h2>
+  <mark>La température d’ébullition augmente avec la longueur de la chaîne carbonée.</mark>
+  Plus la chaine est longue et plus il y a d’interactions de Van der Waals entre les molécules, et plus il faut fournir de l’énergie pour rompre ces interactions.
+
+  <h2 class="cours">Comparaison Alcanes/ alcools </h2>
+  <mark>La température d’ébullition des alcools est systématiquement plus élevée que celle des alcanes (à nombre de carbone identique).</mark>
+  Les alcools possèdent un groupement <span class="formulechimique"> –  O  –  H</span> susceptible de faire des liaisons hydrogènes entre les molécules. Ces liaisons  sont plus fortes que les interactions de Van der Waals existant entre les alcanes. Il faut fournir de l’énergie pour rompre ces interactions.
+</div>
+
+<h1 class="cours">Miscibilité des alcools avec l’eau </h1>
+<div class="cours">
+La solubilité d’un alcool dans l’eau diminue quand la longueur de la chaîne carbonée augmente.
+Leur groupement <span class="formulechimique">– O – H</span> est susceptible de faire dans des liaisons hydrogène avec la molécule d’eau H2O. 
+La chaine carbonée est apolaire et ne fait pas de liaisons hydrogènes. Il y a compétition entre les deux phénomènes. Quand la chaine devient trop longue, c’est cette partie apolaire qui l’emporte et l’alcool est non miscible à l’eau.
+</div>
+
+<h1 class="cours">La distillation fractionnée (voir TP) </h1>
+<div class="cours">
+  <center>
+    <img src="\filedir/distillationFractionnee.gif"  width="60%"  alt="Distillation fractionnée"/>
+    
+
+  </center>
+
+  
+C’est un procédé de séparation qui permet de séparer les différents constituants d’un mélange de liquides miscibles, possédant des températures d’ébullition différentes (d’au moins 15°C). 
+Elle nécessite l'utilisation d'une colonne de Vigreux (comportant des pointes de verre), qui permet une meilleure séparation des constituants du mélange. Elle est plus efficace qu’une distillation simple.
+La distillation est dite fractionnée lorsque plusieurs séquences « vaporisation et liquéfaction » ont lieu successivement à chaque palier de la colonne de vigreux.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img src="\filedir/book.jpg" class="icone"/>
+  <h3>Exercices : 8 10 12 13 14 17 27 p196/197/198 </h3>
+
+
+</div>
+
+
+
+

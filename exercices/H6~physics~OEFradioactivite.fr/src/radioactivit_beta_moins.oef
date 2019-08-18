@@ -1,0 +1,71 @@
+\title{Radioactivité &beta;<sup>-</sup>}
+\author{Raoul, Hatterer}
+\comment{source : author Benoit Markey}
+\email{hatterer.raoul@gmail.com}
+
+
+
+\computeanswer{no}
+\format{html}
+\precision{10000}
+
+\comment{atomes: X_pere,nom_pere,A_pere,Z_pere,X_fils,nom_fils,A_fils,Z_fils}
+\matrix{atomes=wims(record 1 of tableau_beta_moins)}
+\text{at1=randomrow(\atomes)}
+\text{nom=\at1[2]}
+\text{nom=slib(lang/frapostrophe de wims(lower \nom))}
+
+
+<!-- STYLE CSS -->
+\css{
+<style type="text/css">
+  h1{
+  background-color: white;
+  color: #2584AB; margin: 1% 1%; padding : 1%;}
+  .enonce{
+  background-color: #E7F7FF;
+  color: black; margin: 1% 1%; padding : 1%;}
+  .questions{
+  background-color: #CCF0FF;
+  color: black; margin: 1% 1%; padding : 1%;}
+  .solution{ background-color: #D6E4C1;
+  color : green  ;margin: 0; padding : 1% 5% 5% 5%;}
+  .définition{ background-color: #FFBF7F;
+  color : black  ;margin: 0 10% 0 10%; padding : 1% 1% 1% 1%;}
+  h1.solution{ background-color: #C5E0A2;
+  color: green; margin: 5% 0 1% -5pt; padding : 1%;}
+</style>
+}
+
+\statement{
+<div class="enonce">
+Un des isotopes de l'élément \nom suivant subit une désintégration &beta;<sup>-</sup>, compléter alors l'équation suivante (on respectera l'ordre suivant pour la réponse :
+noyau père \(\rightarrow\) noyau fils + particule &beta;<sup>-</sup>).
+</div>
+</br>
+
+<center><table>
+<tr> <td><table><tr>
+    <td align=right>\at1[3]</td>    <td rowspan="2">\at1[1]</td></tr>
+<tr><td align=right>\at1[4]</td>   </tr> </table></td>
+<td> \(\rightarrow) </td>
+<td> <table><tr>
+    <td align=right>\embed{reply1,2}</td>    <td rowspan="2">\embed{reply3,2}</td></tr>
+<tr><td align=right>\embed{reply2,2}</td>    </tr></table></td>
+    
+<td> + </td>
+<td> <table><tr>
+    <td align=right>\embed{reply4,2}</td>    <td rowspan="2">\embed{reply6,2}</td></tr>
+<tr><td align=right>\embed{reply5,2}</td>    </tr></table></td>
+</tr>
+</table></center></br>
+<i> On trouvera en aide un tableau périodique</i>
+  }
+
+\answer{A_fils}{\at1[7]}{type=numeric}
+\answer{Z_fils}{\at1[8]}{type=numeric}
+\answer{X_fils}{\at1[5]}{type=text}
+\answer{A_ \beta -}{0}{type=numeric}
+\answer{Z_ \beta -}{-1}{type=numeric}
+\answer{particule \beta +}{e}{type=text}
+\help{<center> <img src="\imagedir/tableau_periodique.jpg"></center>}

@@ -1,0 +1,126 @@
+\title{Séries de l'atome d'hydrogène}
+\language{fr}
+\author{Raoul,HATTERER}
+\email{hatterer.med@laposte.net}
+\format{html}
+<!-- STYLE CSS -->
+\css{
+<style type="text/css">
+  h1{
+  background-color: white;
+  color: #2584AB; margin: 1% 1%; padding : 1%;}
+  .enonce{
+  background-color: #E7F7FF;
+  color: black; margin: 1% 1%; padding : 1%;}
+  .questions{
+  background-color: #CCF0FF;
+  color: black; margin: 1% 1%; padding : 1%;}
+  .solution{ background-color: #D6E4C1;
+  color : green  ;margin: 0; padding : 1% 5% 5% 5%;}
+  .définition{ background-color: #FFBF7F;
+  color : black  ;margin: 0 10% 0 10%; padding : 1% 1% 1% 1%;}
+  h1.solution{ background-color: #C5E0A2;
+  color: green; margin: 5% 0 1% -5pt; padding : 1%;}
+</style>
+}
+\computeanswer{no}<!-- l’utilisateur doit lui-même faire les calculs et entrer la valeur finale -->
+
+\comment{http://www.carnetsdescience.xyz/series-de-l-atome-d-hydrogene-lyman-balmer-paschen-brackett-pfund.html}
+
+<!-- VARIABLES -->
+<!-- Constante de Planck -->
+\real{h = 6.63e-34}
+<!-- Célérité de la lumière dans le vide -->
+\real{c = 3.00e8}
+\matrix{energies = -13.606,	-3.402,	-1.512,	-0.850,	-0.544,	-0.378,	-0.278,	-0.213,	-0.168}
+\text{textenergies= -13,606 ;	-3,402 ;	-1,512 ;	-0,850 ;	-0,544 ;	-0,378 ;	-0,278 ;	-0,213 ;	-0,168}
+<!-- L'électron arrive sur une des 3 premières couches électroniques -->
+\integer{nfinal1=randint(1..3) }
+<!-- L'électron est parti d'une couche plus externe -->
+\integer{ninitial1=randint(\nfinal1+1..9)}
+<!-- L'atome à perdu l'énergie suivante -->
+\real{Ephoton1eV=\energies[\ninitial1]-\energies[\nfinal1]}
+\real{Ephoton1J = \Ephoton1eV *1.6*10^(-19)}
+<!-- Energie du photon en  joules avec 3 chiffres significatif : -->
+\text{Ephoton1Junit = slib(text/sigunits \Ephoton1J J,3,, J)}
+\text{Ephoton1Jtext = wims(replace J by  in \Ephoton1Junit)}
+<!-- La longueur d'onde du photon est -->
+\real{lambda1= \h*\c/\Ephoton1J}
+\text{lambda1unit = slib(text/sigunits \lambda1 m,3,, m)}
+<!-- Visible -->
+\text{visible=1}
+\text{visible = \lambda1<400e-9? 2}
+\text{visible = \lambda1>800e-9? 2} 
+<!-- Domaine -->
+\text{domaine = La longueur d'onde est comprise entre 400nm et 800nm donc le rayonnement est  visible.}
+\text{domaine = \lambda1<400e-9? La longueur d'onde est inférieure à 400nm donc le rayonnement n'est pas visible. Il s'agit d'un rayonnement ultra-violet.}
+\text{domaine = \lambda1>800e-9? La longueur d'onde est supérieure à 800nm donc le rayonnement n'est pas visible. Il s'agit d'un rayonnement infra-rouge}
+<!-- Séries -->
+\text{series = Lyman, Balmer, Paschen, Brackett, Pfund}
+
+<!-- Indication -->
+\hint{On notera l'usage du point (à la place de la virgule) et la présence de l'unité (obligatoire après un résultat numérique). Pour les puissances de dix on peut utiliser E ou e.}
+
+
+<!-- Énoncé -->
+\statement{
+<h1>Énoncé</h1>
+<div class="enonce">
+  <h2>Séries de l'atome d'hydrogène</h2>
+  <center>
+    <img src="\imagedir/atomehydrogene.gif"  alt="Diagramme des niveaux d'énergie de latome d'ydrogène avec les séries de Lyman Balmer Paschen Brackett et Pfund"/>
+  </center>
+  Les neufs premiers niveaux d'énergie (en eV) des électrons de l'atome d'hydrogène sont les suivants :   \textenergies.
+  <p>
+    On donne : 1,00 eV = 1,60 &middot; 10<sup>-19</sup>J
+  </p>
+
+
+
+</div>
+
+
+<h1>Questions</h1>
+<div class="questions">
+  Un électron passe du niveau \ninitial1 au niveau \nfinal1. 
+  <ol>
+    <li>Interpréter cette transition et calculer l'énergie (en joule) du photon émis. </li>
+    <li>Qu'est ce que \(h = \h\) J&middot;s ?</li>
+    <li>Qu'est ce que \(c = 3.00\times 10^8\) m&middot;s<sup>-1</sup> ?</li>    
+    <li>Calculer la longueur d'onde du rayonnement émis.</li>
+    <li>Le rayonnement émis est-il visible ? Justifier.</li>
+    <li>De quelle série le rayonnement fait-il partie ?</li>
+    <li>À quoi correspond le niveau d'énergie le plus bas ?</li>
+    <li>À quoi correspond le niveau d'énergie E = 0 eV ?</li>
+  </ol>
+
+
+</div>
+}
+
+\comment{answer}{L'énergie (en eV) du photon : E }{\Ephoton1eV eV}{type=sigunits}
+\comment{answer}{L'énergie (en J) du photon: E }{\Ephoton1J J}{type=sigunits}
+\answer{L'énergie (en J avec C.S.) du photon: E }{\Ephoton1Junit}{type=sigunits}
+\answer{Qu'est-ce que h ?}{h est la constante de Planck | constante de Planck}{type=atext}
+\answer{Qu'est-ce que c ?}{c est la célérité de la lumière dans le vide | célérité de la lumière dans le vide}{type=atext}
+\answer{Longueur d'onde}{\lambda1unit}{type=sigunits}
+\answer{Rayonnement visible ?}{\visible;oui,non}{type=menu}
+\answer{Série ?}{\nfinal1;Lyman,Balmer, Paschen, Brackett, Pfund }{type=menu}
+
+\solution{
+<div class="solution">
+  <p>
+    <ol>
+      <li>L'électron passe du niveau \ninitial1 au niveau \nfinal1. L'atome se désexcite pour retrouver un état plus stable en émettant de l'énergie sous la forme d'un photon d'énergie \(\Delta E = \left|E_{\nfinal1} - E_{\ninitial1}\right| = \left|\energies[\nfinal1] - (\energies[\ninitial1])\right|= \Ephoton1eV\) eV soit \(\Ephoton1eV \times 1.60\cdot 10^{-19}\)=\(\Ephoton1Junit\)</li>
+      <li>La constante de Plank fait le lien entre les deux aspects de la lumière. L'énergie portée par un photon (aspect corpusculaire de la lumière) est proportionnelle à la fréquence de l'onde électromagnétique (aspect ondulatoire de la lumière). La constante de proportionnalité est h.</li>
+      <li>La célérité d'une onde électromagnétique ne dépend pas de la fréquence de l'onde. Par contre, elle dépend du milieu traversé. C'est dans le vide qu'elle est la plus grande.</li>
+      <li>\(E=h\cdot \nu\) avec \(\nu = \frac{c}{\lambda}\) donc la longueur d'onde du rayonnement émis est : <br/> <center>  \(\lambda=\frac{h\cdot c}{\Delta E} =\) <sup>(\(\h\) \(\times \ 3.00 \times 10^8\))</sup>&frasl;<sub>(\(\Ephoton1eV \times 1.60\cdot 10^{-19}\))</sub>\(=\lambda1unit\). </center><br/> Remarque : on évitera de remplacer \(\Delta E\) par sa valeur approchée pour ne pas risquer de commettre une erreur sur la valeur approchée de \(\displaystyle \lambda\).</li>
+      <li>\domaine</li>
+      <li>L'état le moins excité de cette transition électronique étant le niveau n=\nfinal1, il s'agit donc d'un rayonnement appartenant à la série de \series[\nfinal1]. </li>
+      <li>Le niveau d'énergie le plus bas \(E_1 = - 13,6 eV\)  obtenu pour n = 1, correspond au niveau fondamental de l'atome d'hydrogène. C'est l'état le plus stable.</li>
+      <li>Le niveau d'énergie est nul \(E = 0 eV\)  lorsque n tend vers l'infini (l'électron est alors séparé du noyau).</li>
+    </ol>
+  </p>
+</div>
+
+}

@@ -1,0 +1,57 @@
+\for{i = 1 to 30}{\i <br/>}
+
+
+
+
+
+\comment{ ancre pour que le rechargement de la page revienne ici }
+<div id="exemple"></div>
+
+\def{integer N = \parm1 = 1 ? 2 : 1}
+\comment{ N vaut 1 }
+\def{text lien=\N=1 ? Solution:Nouvelle question}
+\comment{ lien vaut solution }
+
+\def{integer p=\N=1 ? random(2..10):\parm2}
+\def{integer q=\N=1 ? random(1..5):\parm3}
+\comment{ p et q sont choisis aléatoirement }
+\def{text liste=\q}
+\for{i=2 to \p}{
+\def{integer r=\i*\q}
+\def{text liste=\liste, \r}
+}
+\comment{ si N=2 la réponse est élaborée ce n'est pas le cas car N=1}
+\def{text reponse=\N=2 ? La solution est \liste: }
+
+\comment{ l'énoncé mais pas la réponse }
+Compte de \q en \q de \q à \r. \reponse
+\link{.}{\lien}{exemple}{parametre1=\N_&parametre2=\p_&parametre3=\q_&parm1=\N&parm2=\p&parm3=\q}
+\comment{ parm1 vaut 1  }
+\comment{ parm2 et parm3 valent p et q }
+
+\comment{ –––––––––––––––––––––––––––––––––––––––––––––––––– }
+\comment{ La page est rechargée }
+\comment{ –––––––––––––––––––––––––––––––––––––––––––––––––– }
+
+other-keyword
+
+<div id="exemple_"></div>
+
+\def{integer N_ = \parametre1 = 1 ? 2 : 1}
+\def{text lien_=\N_=1 ? Solution:Nouvelle question}
+
+
+\def{integer p_=\N_=1 ? random(2..10):\parametre2}
+\def{integer q_=\N_=1 ? random(1..5):\parametre3}
+\def{text liste_=\q_}
+\for{i_=2 to \p_}{
+\def{integer r_=\i_*\q_}
+\def{text liste_=\liste_, \r_}
+}
+\def{text reponse_=\N_=2 ? La solution est \liste_: }
+
+
+Compte de \q_ en \q_ de \q_ à \r_. \reponse_
+\link{.}{\lien_}{exemple_}{parametre1=\N_&parametre2=\p_&parametre3=\q_&parm1=\N&parm2=\p&parm3=\q}
+
+
